@@ -1,0 +1,177 @@
+{
+  "schema_version": 1,
+  "repo": "Vidocq/cervantes",
+  "branch": "main",
+  "commit_sha": "7a50abdbc94fcb173bb854091f851486cf25dcf9",
+  "updated_at": "2026-06-11T14:31:48Z",
+  "produces": [
+    {
+      "groupId": "io.vidocq.cervantes",
+      "artifactId": "cervantes-api",
+      "version": "0.2.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.cervantes",
+      "artifactId": "cervantes-bench",
+      "version": "0.2.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.cervantes",
+      "artifactId": "cervantes-cdi-vauban",
+      "version": "0.2.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.cervantes",
+      "artifactId": "cervantes-core",
+      "version": "0.2.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.cervantes",
+      "artifactId": "cervantes-examples",
+      "version": "0.2.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.cervantes",
+      "artifactId": "cervantes-jaxrs",
+      "version": "0.2.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.cervantes",
+      "artifactId": "cervantes-mp-jwt-api",
+      "version": "0.2.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.cervantes",
+      "artifactId": "cervantes-parent",
+      "version": "0.2.0-SNAPSHOT"
+    }
+  ],
+  "consumes": [
+    {
+      "groupId": "io.vidocq.cassini",
+      "artifactId": "cassini-api",
+      "version": "0.1.0-SNAPSHOT",
+      "scope": "compile",
+      "type": "jar"
+    },
+    {
+      "groupId": "io.vidocq.cassini",
+      "artifactId": "cassini-api",
+      "version": "",
+      "scope": "provided",
+      "type": "jar"
+    },
+    {
+      "groupId": "io.vidocq.cassini",
+      "artifactId": "cassini-chappe",
+      "version": "0.1.0-SNAPSHOT",
+      "scope": "compile",
+      "type": "jar"
+    },
+    {
+      "groupId": "io.vidocq.cassini",
+      "artifactId": "cassini-chappe",
+      "version": "",
+      "scope": "test",
+      "type": "jar"
+    },
+    {
+      "groupId": "io.vidocq.champollion",
+      "artifactId": "champollion-api",
+      "version": "0.1.0-SNAPSHOT",
+      "scope": "compile",
+      "type": "jar"
+    },
+    {
+      "groupId": "io.vidocq.champollion",
+      "artifactId": "champollion-api",
+      "version": "",
+      "scope": "provided",
+      "type": "jar"
+    },
+    {
+      "groupId": "io.vidocq.champollion",
+      "artifactId": "champollion-jsonp",
+      "version": "0.1.0-SNAPSHOT",
+      "scope": "compile",
+      "type": "jar"
+    },
+    {
+      "groupId": "io.vidocq.champollion",
+      "artifactId": "champollion-jsonp",
+      "version": "",
+      "scope": "test",
+      "type": "jar"
+    },
+    {
+      "groupId": "io.vidocq.ravel",
+      "artifactId": "ravel-core",
+      "version": "0.1.0-SNAPSHOT",
+      "scope": "compile",
+      "type": "jar"
+    },
+    {
+      "groupId": "io.vidocq.ravel",
+      "artifactId": "ravel-core",
+      "version": "",
+      "scope": "test",
+      "type": "jar"
+    },
+    {
+      "groupId": "io.vidocq.ravel",
+      "artifactId": "ravel-mp-config-api",
+      "version": "0.1.0-SNAPSHOT",
+      "scope": "compile",
+      "type": "jar"
+    },
+    {
+      "groupId": "io.vidocq.ravel",
+      "artifactId": "ravel-mp-config-api",
+      "version": "",
+      "scope": "provided",
+      "type": "jar"
+    },
+    {
+      "groupId": "io.vidocq.vauban",
+      "artifactId": "vauban-api",
+      "version": "0.2.0-SNAPSHOT",
+      "scope": "compile",
+      "type": "jar"
+    },
+    {
+      "groupId": "io.vidocq.vauban",
+      "artifactId": "vauban-api",
+      "version": "",
+      "scope": "provided",
+      "type": "jar"
+    },
+    {
+      "groupId": "io.vidocq.vauban",
+      "artifactId": "vauban-classloader-spi",
+      "version": "0.2.0-SNAPSHOT",
+      "scope": "compile",
+      "type": "jar"
+    },
+    {
+      "groupId": "io.vidocq.vauban",
+      "artifactId": "vauban-classloader-spi",
+      "version": "",
+      "scope": "test",
+      "type": "jar"
+    },
+    {
+      "groupId": "io.vidocq.vauban",
+      "artifactId": "vauban-core",
+      "version": "0.2.0-SNAPSHOT",
+      "scope": "compile",
+      "type": "jar"
+    },
+    {
+      "groupId": "io.vidocq.vauban",
+      "artifactId": "vauban-core",
+      "version": "",
+      "scope": "test",
+      "type": "jar"
+    }
+  ]
+}

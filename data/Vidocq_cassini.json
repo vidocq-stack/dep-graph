@@ -1,0 +1,160 @@
+{
+  "schema_version": 1,
+  "repo": "Vidocq/cassini",
+  "branch": "main",
+  "commit_sha": "02841b60cb06832263ac5992a809ad1b9439c22f",
+  "updated_at": "2026-06-11T09:16:14Z",
+  "produces": [
+    {
+      "groupId": "io.vidocq.cassini",
+      "artifactId": "cassini-api",
+      "version": "0.2.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.cassini",
+      "artifactId": "cassini-cdi-vauban",
+      "version": "0.2.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.cassini",
+      "artifactId": "cassini-chappe",
+      "version": "0.2.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.cassini",
+      "artifactId": "cassini-client",
+      "version": "0.2.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.cassini",
+      "artifactId": "cassini-core",
+      "version": "0.2.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.cassini",
+      "artifactId": "cassini-examples",
+      "version": "0.2.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.cassini",
+      "artifactId": "cassini-examples-chappe",
+      "version": "0.2.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.cassini",
+      "artifactId": "cassini-examples-jdkhttp",
+      "version": "0.2.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.cassini",
+      "artifactId": "cassini-examples-vauban",
+      "version": "0.2.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.cassini",
+      "artifactId": "cassini-jdk-http",
+      "version": "0.2.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.cassini",
+      "artifactId": "cassini-maven-plugin",
+      "version": "0.2.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.cassini",
+      "artifactId": "cassini-parent",
+      "version": "0.2.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.cassini",
+      "artifactId": "cassini-processor",
+      "version": "0.2.0-SNAPSHOT"
+    }
+  ],
+  "consumes": [
+    {
+      "groupId": "io.vidocq.champollion",
+      "artifactId": "champollion-api",
+      "version": "0.1.0-SNAPSHOT",
+      "scope": "compile",
+      "type": "jar"
+    },
+    {
+      "groupId": "io.vidocq.champollion",
+      "artifactId": "champollion-jsonb",
+      "version": "0.1.0-SNAPSHOT",
+      "scope": "compile",
+      "type": "jar"
+    },
+    {
+      "groupId": "io.vidocq.champollion",
+      "artifactId": "champollion-jsonp",
+      "version": "0.1.0-SNAPSHOT",
+      "scope": "compile",
+      "type": "jar"
+    },
+    {
+      "groupId": "io.vidocq.chappe",
+      "artifactId": "chappe-api",
+      "version": "0.2.0-SNAPSHOT",
+      "scope": "compile",
+      "type": "jar"
+    },
+    {
+      "groupId": "io.vidocq.chappe",
+      "artifactId": "chappe-core",
+      "version": "0.2.0-SNAPSHOT",
+      "scope": "compile",
+      "type": "jar"
+    },
+    {
+      "groupId": "io.vidocq.chappe",
+      "artifactId": "chappe-core",
+      "version": "",
+      "scope": "runtime",
+      "type": "jar"
+    },
+    {
+      "groupId": "io.vidocq.ravel",
+      "artifactId": "ravel-api",
+      "version": "0.1.0-SNAPSHOT",
+      "scope": "compile",
+      "type": "jar"
+    },
+    {
+      "groupId": "io.vidocq.ravel",
+      "artifactId": "ravel-cdi-vauban",
+      "version": "0.1.0-SNAPSHOT",
+      "scope": "compile",
+      "type": "jar"
+    },
+    {
+      "groupId": "io.vidocq.ravel",
+      "artifactId": "ravel-core",
+      "version": "0.1.0-SNAPSHOT",
+      "scope": "compile",
+      "type": "jar"
+    },
+    {
+      "groupId": "io.vidocq.vauban",
+      "artifactId": "vauban-api",
+      "version": "0.2.0-SNAPSHOT",
+      "scope": "compile",
+      "type": "jar"
+    },
+    {
+      "groupId": "io.vidocq.vauban",
+      "artifactId": "vauban-classloader-spi",
+      "version": "${vauban.version}",
+      "scope": "runtime",
+      "type": "jar"
+    },
+    {
+      "groupId": "io.vidocq.vauban",
+      "artifactId": "vauban-core",
+      "version": "0.2.0-SNAPSHOT",
+      "scope": "compile",
+      "type": "jar"
+    }
+  ]
+}

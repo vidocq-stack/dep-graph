@@ -1,0 +1,112 @@
+{
+  "schema_version": 1,
+  "repo": "Vidocq/dirac",
+  "branch": "main",
+  "commit_sha": "d8b7f0a8973a419fbf60240ac1da0cba6e77f77d",
+  "updated_at": "2026-06-11T14:34:45Z",
+  "produces": [
+    {
+      "groupId": "io.vidocq.dirac",
+      "artifactId": "dirac-api",
+      "version": "0.2.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.dirac",
+      "artifactId": "dirac-bench",
+      "version": "0.2.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.dirac",
+      "artifactId": "dirac-cdi-vauban",
+      "version": "0.2.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.dirac",
+      "artifactId": "dirac-cdi-vauban-jpms-it",
+      "version": "0.2.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.dirac",
+      "artifactId": "dirac-core",
+      "version": "0.2.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.dirac",
+      "artifactId": "dirac-examples",
+      "version": "0.2.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.dirac",
+      "artifactId": "dirac-mp-metrics-api",
+      "version": "0.2.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.dirac",
+      "artifactId": "dirac-parent",
+      "version": "0.2.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.dirac",
+      "artifactId": "dirac-rest",
+      "version": "0.2.0-SNAPSHOT"
+    }
+  ],
+  "consumes": [
+    {
+      "groupId": "io.vidocq.ravel",
+      "artifactId": "ravel-core",
+      "version": "0.1.0-SNAPSHOT",
+      "scope": "compile",
+      "type": "jar"
+    },
+    {
+      "groupId": "io.vidocq.vauban",
+      "artifactId": "vauban-api",
+      "version": "0.2.0-SNAPSHOT",
+      "scope": "compile",
+      "type": "jar"
+    },
+    {
+      "groupId": "io.vidocq.vauban",
+      "artifactId": "vauban-api",
+      "version": "${vauban.version}",
+      "scope": "provided",
+      "type": "jar"
+    },
+    {
+      "groupId": "io.vidocq.vauban",
+      "artifactId": "vauban-classloader-spi",
+      "version": "0.2.0-SNAPSHOT",
+      "scope": "compile",
+      "type": "jar"
+    },
+    {
+      "groupId": "io.vidocq.vauban",
+      "artifactId": "vauban-classloader-spi",
+      "version": "${vauban.version}",
+      "scope": "runtime",
+      "type": "jar"
+    },
+    {
+      "groupId": "io.vidocq.vauban",
+      "artifactId": "vauban-classloader-spi",
+      "version": "",
+      "scope": "test",
+      "type": "jar"
+    },
+    {
+      "groupId": "io.vidocq.vauban",
+      "artifactId": "vauban-core",
+      "version": "0.2.0-SNAPSHOT",
+      "scope": "compile",
+      "type": "jar"
+    },
+    {
+      "groupId": "io.vidocq.vauban",
+      "artifactId": "vauban-core",
+      "version": "",
+      "scope": "test",
+      "type": "jar"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "repo": "Vidocq/chappe",
+  "branch": "main",
+  "commit_sha": "030c006bfa2962707e82adab8b4b5af9796e8f32",
+  "updated_at": "2026-06-08T10:53:17Z",
+  "produces": [
+    {
+      "groupId": "io.vidocq.chappe",
+      "artifactId": "chappe-api",
+      "version": "0.2.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.chappe",
+      "artifactId": "chappe-bench",
+      "version": "0.2.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.chappe",
+      "artifactId": "chappe-cli",
+      "version": "0.2.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.chappe",
+      "artifactId": "chappe-conformance",
+      "version": "0.2.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.chappe",
+      "artifactId": "chappe-core",
+      "version": "0.2.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.chappe",
+      "artifactId": "chappe-examples",
+      "version": "0.2.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.chappe",
+      "artifactId": "chappe-http",
+      "version": "0.2.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.chappe",
+      "artifactId": "chappe-parent",
+      "version": "0.2.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.chappe",
+      "artifactId": "chappe-static-index-maven-plugin",
+      "version": "0.2.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.chappe",
+      "artifactId": "chappe-tests",
+      "version": "0.2.0-SNAPSHOT"
+    }
+  ],
+  "consumes": []
+}

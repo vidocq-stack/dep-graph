@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://forge.vidocq.dev/vidocq/GestionProjet/raw/branch/main/data/schema.json",
+  "title": "Vidocq dependency-graph data file",
+  "description": "Format des fichiers data/<owner>_<repo>.json publiés par chaque consommateur.",
+  "type": "object",
+  "required": ["schema_version", "repo", "branch", "commit_sha", "updated_at", "produces", "consumes"],
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {"type": "integer", "const": 1},
+    "repo": {
+      "type": "string",
+      "pattern": "^[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+$",
+      "description": "Slug Forgejo `owner/repo`. Whitelist : doit commencer par `vidocq/`."
+    },
+    "branch": {"type": "string", "minLength": 1},
+    "commit_sha": {"type": "string", "minLength": 1},
+    "updated_at": {
+      "type": "string",
+      "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}T[0-9]{2}:[0-9]{2}:[0-9]{2}Z$"
+    },
+    "produces": {
+      "type": "array",
+      "items": {"$ref": "#/$defs/artifact"}
+    },
+    "consumes": {
+      "type": "array",
+      "items": {"$ref": "#/$defs/dependency"}
+    }
+  },
+  "$defs": {
+    "artifact": {
+      "type": "object",
+      "required": ["groupId", "artifactId", "version"],
+      "additionalProperties": false,
+      "properties": {
+        "groupId": {"type": "string", "pattern": "^io\\.vidocq(\\.[A-Za-z0-9_-]+)*$"},
+        "artifactId": {"type": "string", "minLength": 1},
+        "version": {"type": "string"}
+      }
+    },
+    "dependency": {
+      "type": "object",
+      "required": ["groupId", "artifactId", "version", "scope"],
+      "additionalProperties": false,
+      "properties": {
+        "groupId": {"type": "string", "pattern": "^io\\.vidocq(\\.[A-Za-z0-9_-]+)*$"},
+        "artifactId": {"type": "string", "minLength": 1},
+        "version": {"type": "string"},
+        "scope": {
+          "type": "string",
+          "enum": ["compile", "runtime", "provided", "test", "system", "import", "build"]
+        },
+        "type": {"type": "string"}
+      }
+    }
+  }
+}

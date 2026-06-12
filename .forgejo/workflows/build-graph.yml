@@ -1,0 +1,64 @@
+name: build-inverted-graph
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'data/**'
+      - 'scripts/build_inverted_graph.py'
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.VIDOCQ_BOT_TOKEN }}
+          fetch-depth: 2
+
+      - name: S'assure que python3 est disponible
+        run: |
+          if ! command -v python3 >/dev/null 2>&1; then
+            apt-get update && apt-get install -y --no-install-recommends python3
+          fi
+          python3 --version
+
+      # Évite la boucle si seul graph/inverted.json a changé dans le commit déclencheur.
+      # Si on ne peut pas calculer le diff (premier commit, shallow clone trop court),
+      # on rebuild par sécurité.
+      - name: Sortie anticipée si seul inverted.json a changé
+        id: gate
+        run: |
+          if git rev-parse --verify HEAD^ >/dev/null 2>&1; then
+            CHANGED=$(git diff --name-only HEAD^ HEAD)
+          else
+            echo "Pas de parent accessible — on force le rebuild."
+            CHANGED=""
+          fi
+          echo "Fichiers modifiés :"
+          echo "$CHANGED"
+          if [ -z "$CHANGED" ]; then
+            echo "skip=false" >> "$GITHUB_OUTPUT"
+          elif echo "$CHANGED" | grep -q -v -E '^graph/inverted\.json$'; then
+            echo "skip=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "Seul graph/inverted.json a changé — rien à faire."
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Build inverted graph
+        if: steps.gate.outputs.skip != 'true'
+        run: python3 scripts/build_inverted_graph.py
+
+      - name: Commit if changed
+        if: steps.gate.outputs.skip != 'true'
+        run: |
+          if ! git diff --quiet -- graph/inverted.json; then
+            git config user.name "vidocq-bot"
+            git config user.email "bot@vidocq.dev"
+            git add graph/inverted.json
+            git commit -m "chore(graph): rebuild inverted graph [skip ci]"
+            git push
+          else
+            echo "graph/inverted.json inchangé — pas de commit."
+          fi

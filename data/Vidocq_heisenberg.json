@@ -1,0 +1,135 @@
+{
+  "schema_version": 1,
+  "repo": "Vidocq/heisenberg",
+  "branch": "main",
+  "commit_sha": "045b4f3b8d0b2927c781e836b608a82e53437577",
+  "updated_at": "2026-06-11T14:25:18Z",
+  "produces": [
+    {
+      "groupId": "io.vidocq.heisenberg",
+      "artifactId": "heisenberg-api",
+      "version": "0.1.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.heisenberg",
+      "artifactId": "heisenberg-bench",
+      "version": "0.1.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.heisenberg",
+      "artifactId": "heisenberg-cdi-vauban",
+      "version": "0.1.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.heisenberg",
+      "artifactId": "heisenberg-cdi-vauban-jpms-it",
+      "version": "0.1.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.heisenberg",
+      "artifactId": "heisenberg-core",
+      "version": "0.1.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.heisenberg",
+      "artifactId": "heisenberg-examples",
+      "version": "0.1.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.heisenberg",
+      "artifactId": "heisenberg-mp-ft-api",
+      "version": "0.1.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.heisenberg",
+      "artifactId": "heisenberg-parent",
+      "version": "0.1.0-SNAPSHOT"
+    }
+  ],
+  "consumes": [
+    {
+      "groupId": "io.vidocq.dirac",
+      "artifactId": "dirac-mp-metrics-api",
+      "version": "0.1.0-SNAPSHOT",
+      "scope": "compile",
+      "type": "jar"
+    },
+    {
+      "groupId": "io.vidocq.dirac",
+      "artifactId": "dirac-mp-metrics-api",
+      "version": "",
+      "scope": "provided",
+      "type": "jar"
+    },
+    {
+      "groupId": "io.vidocq.ravel",
+      "artifactId": "ravel-core",
+      "version": "0.1.0-SNAPSHOT",
+      "scope": "compile",
+      "type": "jar"
+    },
+    {
+      "groupId": "io.vidocq.ravel",
+      "artifactId": "ravel-core",
+      "version": "${ravel.version}",
+      "scope": "runtime",
+      "type": "jar"
+    },
+    {
+      "groupId": "io.vidocq.ravel",
+      "artifactId": "ravel-core",
+      "version": "",
+      "scope": "test",
+      "type": "jar"
+    },
+    {
+      "groupId": "io.vidocq.ravel",
+      "artifactId": "ravel-mp-config-api",
+      "version": "0.1.0-SNAPSHOT",
+      "scope": "compile",
+      "type": "jar"
+    },
+    {
+      "groupId": "io.vidocq.vauban",
+      "artifactId": "vauban-api",
+      "version": "${vauban.version}",
+      "scope": "provided",
+      "type": "jar"
+    },
+    {
+      "groupId": "io.vidocq.vauban",
+      "artifactId": "vauban-classloader-spi",
+      "version": "0.2.0-SNAPSHOT",
+      "scope": "compile",
+      "type": "jar"
+    },
+    {
+      "groupId": "io.vidocq.vauban",
+      "artifactId": "vauban-classloader-spi",
+      "version": "${vauban.version}",
+      "scope": "runtime",
+      "type": "jar"
+    },
+    {
+      "groupId": "io.vidocq.vauban",
+      "artifactId": "vauban-classloader-spi",
+      "version": "",
+      "scope": "test",
+      "type": "jar"
+    },
+    {
+      "groupId": "io.vidocq.vauban",
+      "artifactId": "vauban-core",
+      "version": "0.2.0-SNAPSHOT",
+      "scope": "compile",
+      "type": "jar"
+    },
+    {
+      "groupId": "io.vidocq.vauban",
+      "artifactId": "vauban-core",
+      "version": "",
+      "scope": "test",
+      "type": "jar"
+    }
+  ]
+}
