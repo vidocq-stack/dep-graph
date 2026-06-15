@@ -2,8 +2,8 @@
   "schema_version": 1,
   "repo": "Vidocq/dirac",
   "branch": "main",
-  "commit_sha": "d8b7f0a8973a419fbf60240ac1da0cba6e77f77d",
-  "updated_at": "2026-06-11T14:34:45Z",
+  "commit_sha": "18929e9e3db51c6561be3a83177e69f81a3286d7",
+  "updated_at": "2026-06-15T21:15:43Z",
   "produces": [
     {
       "groupId": "io.vidocq.dirac",
@@ -47,11 +47,23 @@
     },
     {
       "groupId": "io.vidocq.dirac",
+      "artifactId": "dirac-processor",
+      "version": "0.2.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.dirac",
       "artifactId": "dirac-rest",
       "version": "0.2.0-SNAPSHOT"
     }
   ],
   "consumes": [
+    {
+      "groupId": "io.vidocq.cassini",
+      "artifactId": "cassini-api",
+      "version": "${cassini.version}",
+      "scope": "provided",
+      "type": "jar"
+    },
     {
       "groupId": "io.vidocq.ravel",
       "artifactId": "ravel-core",
