@@ -2,8 +2,8 @@
   "schema_version": 1,
   "repo": "Vidocq/knock",
   "branch": "main",
-  "commit_sha": "faaf5d60511975d605e1e4347654387ad1b2575d",
-  "updated_at": "2026-06-12T06:06:10Z",
+  "commit_sha": "35081e25d52bcc95926f33b12f7ef14bbb34a0fd",
+  "updated_at": "2026-06-15T21:16:08Z",
   "produces": [
     {
       "groupId": "io.vidocq.knock",
@@ -44,8 +44,15 @@
   "consumes": [
     {
       "groupId": "io.vidocq.cassini",
+      "artifactId": "cassini-api",
+      "version": "${cassini.version}",
+      "scope": "provided",
+      "type": "jar"
+    },
+    {
+      "groupId": "io.vidocq.cassini",
       "artifactId": "cassini-core",
-      "version": "0.1.0-SNAPSHOT",
+      "version": "0.2.0-SNAPSHOT",
       "scope": "compile",
       "type": "jar"
     },
