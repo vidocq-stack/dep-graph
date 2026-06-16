@@ -2,8 +2,8 @@
   "schema_version": 1,
   "repo": "Vidocq/vidocq",
   "branch": "main",
-  "commit_sha": "e7296630cb1ea4874fea7721d747a99af2f8a25c",
-  "updated_at": "2026-06-16T07:25:08Z",
+  "commit_sha": "c5a5d97bb163632e34305d6a31580679560c199b",
+  "updated_at": "2026-06-16T19:08:59Z",
   "produces": [
     {
       "groupId": "io.vidocq.runtime",
@@ -163,6 +163,11 @@
     {
       "groupId": "io.vidocq.runtime.extensions.jakartaee.web",
       "artifactId": "vidocq-runtime-mansart-data-extension-codegen",
+      "version": "0.2.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.runtime.extensions.jakartaee.web",
+      "artifactId": "vidocq-runtime-mansart-pool-datasources-codegen",
       "version": "0.2.0-SNAPSHOT"
     },
     {
