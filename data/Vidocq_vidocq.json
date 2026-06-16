@@ -2,8 +2,8 @@
   "schema_version": 1,
   "repo": "Vidocq/vidocq",
   "branch": "main",
-  "commit_sha": "8c692e4a35250773a61748bfb9d3e457f6934732",
-  "updated_at": "2026-06-11T18:50:26Z",
+  "commit_sha": "e7296630cb1ea4874fea7721d747a99af2f8a25c",
+  "updated_at": "2026-06-16T07:25:08Z",
   "produces": [
     {
       "groupId": "io.vidocq.runtime",
@@ -28,6 +28,26 @@
     {
       "groupId": "io.vidocq.runtime",
       "artifactId": "vidocq-runtime-core-codegen",
+      "version": "0.2.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.runtime",
+      "artifactId": "vidocq-runtime-devservice-keycloak",
+      "version": "0.2.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.runtime",
+      "artifactId": "vidocq-runtime-devservice-postgres",
+      "version": "0.2.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.runtime",
+      "artifactId": "vidocq-runtime-devservices",
+      "version": "0.2.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.runtime",
+      "artifactId": "vidocq-runtime-devservices-spi",
       "version": "0.2.0-SNAPSHOT"
     },
     {
@@ -220,28 +240,28 @@
     {
       "groupId": "io.vidocq.cassini",
       "artifactId": "cassini-api",
-      "version": "0.1.0-SNAPSHOT",
+      "version": "0.2.0-SNAPSHOT",
       "scope": "compile",
       "type": "jar"
     },
     {
       "groupId": "io.vidocq.cassini",
       "artifactId": "cassini-cdi-vauban",
-      "version": "0.1.0-SNAPSHOT",
+      "version": "0.2.0-SNAPSHOT",
       "scope": "compile",
       "type": "jar"
     },
     {
       "groupId": "io.vidocq.cassini",
       "artifactId": "cassini-chappe",
-      "version": "0.1.0-SNAPSHOT",
+      "version": "0.2.0-SNAPSHOT",
       "scope": "compile",
       "type": "jar"
     },
     {
       "groupId": "io.vidocq.cassini",
       "artifactId": "cassini-core",
-      "version": "0.1.0-SNAPSHOT",
+      "version": "0.2.0-SNAPSHOT",
       "scope": "compile",
       "type": "jar"
     },
@@ -353,21 +373,21 @@
     {
       "groupId": "io.vidocq.cyrano",
       "artifactId": "cyrano-api",
-      "version": "0.1.0-SNAPSHOT",
+      "version": "0.2.0-SNAPSHOT",
       "scope": "compile",
       "type": "jar"
     },
     {
       "groupId": "io.vidocq.cyrano",
       "artifactId": "cyrano-cdi-vauban",
-      "version": "0.1.0-SNAPSHOT",
+      "version": "0.2.0-SNAPSHOT",
       "scope": "compile",
       "type": "jar"
     },
     {
       "groupId": "io.vidocq.cyrano",
       "artifactId": "cyrano-core",
-      "version": "0.1.0-SNAPSHOT",
+      "version": "0.2.0-SNAPSHOT",
       "scope": "compile",
       "type": "jar"
     },
