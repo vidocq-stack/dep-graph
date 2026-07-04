@@ -2,83 +2,83 @@
   "schema_version": 1,
   "repo": "Vidocq/humboldt",
   "branch": "main",
-  "commit_sha": "76ce77d3dc30e4589a6fd50ace9249a83c346315",
-  "updated_at": "2026-06-08T10:55:53Z",
+  "commit_sha": "55afff3d0cf40f63a3571373b367a0f6110cd663",
+  "updated_at": "2026-07-04T11:22:38Z",
   "produces": [
     {
       "groupId": "io.vidocq.humboldt",
       "artifactId": "humboldt-api",
-      "version": "0.2.0-SNAPSHOT"
+      "version": "0.3.0-SNAPSHOT"
     },
     {
       "groupId": "io.vidocq.humboldt",
       "artifactId": "humboldt-cdi",
-      "version": "0.2.0-SNAPSHOT"
+      "version": "0.3.0-SNAPSHOT"
     },
     {
       "groupId": "io.vidocq.humboldt",
       "artifactId": "humboldt-context",
-      "version": "0.2.0-SNAPSHOT"
+      "version": "0.3.0-SNAPSHOT"
     },
     {
       "groupId": "io.vidocq.humboldt",
       "artifactId": "humboldt-exporter-otlp-http",
-      "version": "0.2.0-SNAPSHOT"
+      "version": "0.3.0-SNAPSHOT"
     },
     {
       "groupId": "io.vidocq.humboldt",
       "artifactId": "humboldt-otel-api",
-      "version": "0.2.0-SNAPSHOT"
+      "version": "0.3.0-SNAPSHOT"
     },
     {
       "groupId": "io.vidocq.humboldt",
       "artifactId": "humboldt-otel-context",
-      "version": "0.2.0-SNAPSHOT"
+      "version": "0.3.0-SNAPSHOT"
     },
     {
       "groupId": "io.vidocq.humboldt",
       "artifactId": "humboldt-otel-instrumentation-annotations",
-      "version": "0.2.0-SNAPSHOT"
+      "version": "0.3.0-SNAPSHOT"
     },
     {
       "groupId": "io.vidocq.humboldt",
       "artifactId": "humboldt-parent",
-      "version": "0.2.0-SNAPSHOT"
+      "version": "0.3.0-SNAPSHOT"
     },
     {
       "groupId": "io.vidocq.humboldt",
       "artifactId": "humboldt-propagator-w3c",
-      "version": "0.2.0-SNAPSHOT"
+      "version": "0.3.0-SNAPSHOT"
     },
     {
       "groupId": "io.vidocq.humboldt",
       "artifactId": "humboldt-rest",
-      "version": "0.2.0-SNAPSHOT"
+      "version": "0.3.0-SNAPSHOT"
     },
     {
       "groupId": "io.vidocq.humboldt",
       "artifactId": "humboldt-runtime",
-      "version": "0.2.0-SNAPSHOT"
+      "version": "0.3.0-SNAPSHOT"
     },
     {
       "groupId": "io.vidocq.humboldt",
       "artifactId": "humboldt-sdk-common",
-      "version": "0.2.0-SNAPSHOT"
+      "version": "0.3.0-SNAPSHOT"
     },
     {
       "groupId": "io.vidocq.humboldt",
       "artifactId": "humboldt-sdk-log",
-      "version": "0.2.0-SNAPSHOT"
+      "version": "0.3.0-SNAPSHOT"
     },
     {
       "groupId": "io.vidocq.humboldt",
       "artifactId": "humboldt-sdk-metric",
-      "version": "0.2.0-SNAPSHOT"
+      "version": "0.3.0-SNAPSHOT"
     },
     {
       "groupId": "io.vidocq.humboldt",
       "artifactId": "humboldt-sdk-trace",
-      "version": "0.2.0-SNAPSHOT"
+      "version": "0.3.0-SNAPSHOT"
     }
   ],
   "consumes": [
