@@ -2,33 +2,38 @@
   "schema_version": 1,
   "repo": "Vidocq/cyrano",
   "branch": "main",
-  "commit_sha": "544dd8fd30331717c832dc7c62fd814b542c3141",
-  "updated_at": "2026-06-09T19:12:59Z",
+  "commit_sha": "8127d5a99307ba9e8335cde37f189b719f5a83eb",
+  "updated_at": "2026-07-04T12:04:51Z",
   "produces": [
     {
       "groupId": "io.vidocq.cyrano",
       "artifactId": "cyrano-api",
-      "version": "0.2.0-SNAPSHOT"
+      "version": "0.3.0-SNAPSHOT"
     },
     {
       "groupId": "io.vidocq.cyrano",
       "artifactId": "cyrano-cdi-vauban",
-      "version": "0.2.0-SNAPSHOT"
+      "version": "0.3.0-SNAPSHOT"
     },
     {
       "groupId": "io.vidocq.cyrano",
       "artifactId": "cyrano-core",
-      "version": "0.2.0-SNAPSHOT"
+      "version": "0.3.0-SNAPSHOT"
     },
     {
       "groupId": "io.vidocq.cyrano",
       "artifactId": "cyrano-mp-rest-client-api",
-      "version": "0.2.0-SNAPSHOT"
+      "version": "0.3.0-SNAPSHOT"
     },
     {
       "groupId": "io.vidocq.cyrano",
       "artifactId": "cyrano-parent",
-      "version": "0.2.0-SNAPSHOT"
+      "version": "0.3.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.cyrano",
+      "artifactId": "cyrano-processor",
+      "version": "0.3.0-SNAPSHOT"
     }
   ],
   "consumes": [
