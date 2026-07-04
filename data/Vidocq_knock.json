@@ -2,43 +2,43 @@
   "schema_version": 1,
   "repo": "Vidocq/knock",
   "branch": "main",
-  "commit_sha": "a0015d2c8c13ceb1e60d8b6cb526bf3e65988e84",
-  "updated_at": "2026-07-04T08:31:11Z",
+  "commit_sha": "1b54f55e7a30db8a046be4275ee1d7b4358531e2",
+  "updated_at": "2026-07-04T11:10:33Z",
   "produces": [
     {
       "groupId": "io.vidocq.knock",
       "artifactId": "knock-api",
-      "version": "0.2.0-SNAPSHOT"
+      "version": "0.3.0-SNAPSHOT"
     },
     {
       "groupId": "io.vidocq.knock",
       "artifactId": "knock-cdi-vauban",
-      "version": "0.2.0-SNAPSHOT"
+      "version": "0.3.0-SNAPSHOT"
     },
     {
       "groupId": "io.vidocq.knock",
       "artifactId": "knock-core",
-      "version": "0.2.0-SNAPSHOT"
+      "version": "0.3.0-SNAPSHOT"
     },
     {
       "groupId": "io.vidocq.knock",
       "artifactId": "knock-jaxrs",
-      "version": "0.2.0-SNAPSHOT"
+      "version": "0.3.0-SNAPSHOT"
     },
     {
       "groupId": "io.vidocq.knock",
       "artifactId": "knock-mp-health-api",
-      "version": "0.2.0-SNAPSHOT"
+      "version": "0.3.0-SNAPSHOT"
     },
     {
       "groupId": "io.vidocq.knock",
       "artifactId": "knock-parent",
-      "version": "0.2.0-SNAPSHOT"
+      "version": "0.3.0-SNAPSHOT"
     },
     {
       "groupId": "io.vidocq.knock",
       "artifactId": "knock-tck",
-      "version": "0.2.0-SNAPSHOT"
+      "version": "0.3.0-SNAPSHOT"
     }
   ],
   "consumes": [
