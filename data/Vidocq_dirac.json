@@ -2,8 +2,8 @@
   "schema_version": 1,
   "repo": "Vidocq/dirac",
   "branch": "main",
-  "commit_sha": "601f7f4e2aabefe1921d3dbb020190507d7c0a99",
-  "updated_at": "2026-07-04T11:12:55Z",
+  "commit_sha": "669e29b2e1c5e61f691f265d87c7817abdc9fdad",
+  "updated_at": "2026-07-11T15:55:35Z",
   "produces": [
     {
       "groupId": "io.vidocq.dirac",
@@ -67,14 +67,14 @@
     {
       "groupId": "io.vidocq.ravel",
       "artifactId": "ravel-core",
-      "version": "0.1.0-SNAPSHOT",
+      "version": "0.3.0-SNAPSHOT",
       "scope": "compile",
       "type": "jar"
     },
     {
       "groupId": "io.vidocq.vauban",
       "artifactId": "vauban-api",
-      "version": "0.2.0-SNAPSHOT",
+      "version": "0.3.0-SNAPSHOT",
       "scope": "compile",
       "type": "jar"
     },
@@ -88,7 +88,7 @@
     {
       "groupId": "io.vidocq.vauban",
       "artifactId": "vauban-classloader-spi",
-      "version": "0.2.0-SNAPSHOT",
+      "version": "0.3.0-SNAPSHOT",
       "scope": "compile",
       "type": "jar"
     },
@@ -109,7 +109,7 @@
     {
       "groupId": "io.vidocq.vauban",
       "artifactId": "vauban-core",
-      "version": "0.2.0-SNAPSHOT",
+      "version": "0.3.0-SNAPSHOT",
       "scope": "compile",
       "type": "jar"
     },
