@@ -2,8 +2,8 @@
   "schema_version": 1,
   "repo": "Vidocq/foy",
   "branch": "main",
-  "commit_sha": "8cf93be3fb0ea56c43a7f19c46b11e313f8f1f95",
-  "updated_at": "2026-07-04T10:52:07Z",
+  "commit_sha": "ffe60a2c844b167de9a21633aaa5965781eda95d",
+  "updated_at": "2026-07-11T15:55:02Z",
   "produces": [
     {
       "groupId": "io.vidocq.foy",
@@ -35,14 +35,14 @@
     {
       "groupId": "io.vidocq.chappe",
       "artifactId": "chappe-api",
-      "version": "0.2.0-SNAPSHOT",
+      "version": "0.3.0-SNAPSHOT",
       "scope": "compile",
       "type": "jar"
     },
     {
       "groupId": "io.vidocq.chappe",
       "artifactId": "chappe-core",
-      "version": "0.2.0-SNAPSHOT",
+      "version": "0.3.0-SNAPSHOT",
       "scope": "compile",
       "type": "jar"
     },
@@ -56,14 +56,14 @@
     {
       "groupId": "io.vidocq.vauban",
       "artifactId": "vauban-api",
-      "version": "0.2.0-SNAPSHOT",
+      "version": "0.3.0-SNAPSHOT",
       "scope": "compile",
       "type": "jar"
     },
     {
       "groupId": "io.vidocq.vauban",
       "artifactId": "vauban-core",
-      "version": "0.2.0-SNAPSHOT",
+      "version": "0.3.0-SNAPSHOT",
       "scope": "compile",
       "type": "jar"
     }
