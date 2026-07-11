@@ -2,8 +2,8 @@
   "schema_version": 1,
   "repo": "Vidocq/heisenberg",
   "branch": "main",
-  "commit_sha": "989d3f0bc8fa0e8eba637e1c2b7853c2b58617ca",
-  "updated_at": "2026-07-04T11:42:11Z",
+  "commit_sha": "1518c11becf5f730aaa96ccc583a7fe8d65c7e8b",
+  "updated_at": "2026-07-11T15:55:48Z",
   "produces": [
     {
       "groupId": "io.vidocq.heisenberg",
@@ -50,7 +50,7 @@
     {
       "groupId": "io.vidocq.dirac",
       "artifactId": "dirac-mp-metrics-api",
-      "version": "0.1.0-SNAPSHOT",
+      "version": "0.3.0-SNAPSHOT",
       "scope": "compile",
       "type": "jar"
     },
@@ -64,7 +64,7 @@
     {
       "groupId": "io.vidocq.ravel",
       "artifactId": "ravel-core",
-      "version": "0.1.0-SNAPSHOT",
+      "version": "0.3.0-SNAPSHOT",
       "scope": "compile",
       "type": "jar"
     },
@@ -85,7 +85,7 @@
     {
       "groupId": "io.vidocq.ravel",
       "artifactId": "ravel-mp-config-api",
-      "version": "0.1.0-SNAPSHOT",
+      "version": "0.3.0-SNAPSHOT",
       "scope": "compile",
       "type": "jar"
     },
@@ -99,7 +99,7 @@
     {
       "groupId": "io.vidocq.vauban",
       "artifactId": "vauban-classloader-spi",
-      "version": "0.2.0-SNAPSHOT",
+      "version": "0.3.0-SNAPSHOT",
       "scope": "compile",
       "type": "jar"
     },
@@ -120,7 +120,7 @@
     {
       "groupId": "io.vidocq.vauban",
       "artifactId": "vauban-core",
-      "version": "0.2.0-SNAPSHOT",
+      "version": "0.3.0-SNAPSHOT",
       "scope": "compile",
       "type": "jar"
     },
