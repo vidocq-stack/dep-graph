@@ -2,8 +2,8 @@
   "schema_version": 1,
   "repo": "Vidocq/vidocq",
   "branch": "main",
-  "commit_sha": "da16f18146d2f4e3843177669999c435dd05ca31",
-  "updated_at": "2026-07-12T10:37:12Z",
+  "commit_sha": "8f47b90cfbbfe81d9498e2c3eea545a89388269e",
+  "updated_at": "2026-07-12T15:36:01Z",
   "produces": [
     {
       "groupId": "io.vidocq.runtime",
@@ -252,6 +252,11 @@
     },
     {
       "groupId": "io.vidocq.runtime.extensions.microprofile",
+      "artifactId": "vidocq-runtime-heisenberg-fault-tolerance-extension",
+      "version": "0.3.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.runtime.extensions.microprofile",
       "artifactId": "vidocq-runtime-humboldt-telemetry-extension",
       "version": "0.3.0-SNAPSHOT"
     },
@@ -439,6 +444,34 @@
       "groupId": "io.vidocq.grimm",
       "artifactId": "grimm-cdi-vauban",
       "version": "${grimm.version}",
+      "scope": "compile",
+      "type": "jar"
+    },
+    {
+      "groupId": "io.vidocq.heisenberg",
+      "artifactId": "heisenberg-api",
+      "version": "0.3.0-SNAPSHOT",
+      "scope": "compile",
+      "type": "jar"
+    },
+    {
+      "groupId": "io.vidocq.heisenberg",
+      "artifactId": "heisenberg-cdi-vauban",
+      "version": "0.3.0-SNAPSHOT",
+      "scope": "compile",
+      "type": "jar"
+    },
+    {
+      "groupId": "io.vidocq.heisenberg",
+      "artifactId": "heisenberg-core",
+      "version": "0.3.0-SNAPSHOT",
+      "scope": "compile",
+      "type": "jar"
+    },
+    {
+      "groupId": "io.vidocq.heisenberg",
+      "artifactId": "heisenberg-mp-ft-api",
+      "version": "0.3.0-SNAPSHOT",
       "scope": "compile",
       "type": "jar"
     },
