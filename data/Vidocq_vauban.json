@@ -2,8 +2,8 @@
   "schema_version": 1,
   "repo": "Vidocq/vauban",
   "branch": "main",
-  "commit_sha": "55fe3eb18517a931a2f9d219157b6e93c87951c7",
-  "updated_at": "2026-07-12T09:55:10Z",
+  "commit_sha": "bc3b6f1ef16c5e05d0ed20715fd045cb4a855930",
+  "updated_at": "2026-07-13T21:16:25Z",
   "produces": [
     {
       "groupId": "io.vidocq.vauban",
@@ -28,6 +28,11 @@
     {
       "groupId": "io.vidocq.vauban",
       "artifactId": "vauban-api",
+      "version": "0.3.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.vauban",
+      "artifactId": "vauban-atinject-tck-runner",
       "version": "0.3.0-SNAPSHOT"
     },
     {
