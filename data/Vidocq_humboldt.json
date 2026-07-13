@@ -2,8 +2,8 @@
   "schema_version": 1,
   "repo": "Vidocq/humboldt",
   "branch": "main",
-  "commit_sha": "6a9ce49d906e0dba3a751eaf20a6eea85f7e501d",
-  "updated_at": "2026-07-12T09:55:34Z",
+  "commit_sha": "82bccfd4588fca21c6bc3cc6622d8290cab19e08",
+  "updated_at": "2026-07-13T07:18:29Z",
   "produces": [
     {
       "groupId": "io.vidocq.humboldt",
@@ -38,6 +38,11 @@
     {
       "groupId": "io.vidocq.humboldt",
       "artifactId": "humboldt-otel-instrumentation-annotations",
+      "version": "0.3.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.humboldt",
+      "artifactId": "humboldt-otel-interop",
       "version": "0.3.0-SNAPSHOT"
     },
     {
