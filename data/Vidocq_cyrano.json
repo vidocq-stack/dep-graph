@@ -2,8 +2,8 @@
   "schema_version": 1,
   "repo": "Vidocq/cyrano",
   "branch": "main",
-  "commit_sha": "46710b9d770b5a2e84bb73393939f1c9622f11a5",
-  "updated_at": "2026-07-12T09:55:32Z",
+  "commit_sha": "0744df4c6d19040df6662c68f58ea3cdb3b857e5",
+  "updated_at": "2026-07-13T13:21:29Z",
   "produces": [
     {
       "groupId": "io.vidocq.cyrano",
@@ -62,6 +62,13 @@
       "groupId": "io.vidocq.champollion",
       "artifactId": "champollion-jsonp",
       "version": "",
+      "scope": "test",
+      "type": "jar"
+    },
+    {
+      "groupId": "io.vidocq.ravel",
+      "artifactId": "ravel-core",
+      "version": "0.3.0-SNAPSHOT",
       "scope": "test",
       "type": "jar"
     },
