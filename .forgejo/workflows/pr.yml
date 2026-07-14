@@ -1,0 +1,26 @@
+# Pull-request governance gate for repositories without a build pipeline
+# (docs, infra, templates). It verifies that the PR author signed the Vidocq
+# CLA and that every PR commit is GPG-signed and carries a Signed-off-by
+# trailer, via the shared composite action (Vidocq/ci/governance-checks).
+#
+# NOTE: `pull_request` workflows run from the PR branch's version of this
+# file, so a PR based on an older commit (or one that removes this job) will
+# simply not report the context. Branch protection on `main` therefore
+# REQUIRES the "pr-validate / governance-checks (pull_request)" context:
+# such a PR stays unmergeable until it is rebased on a base that has the gate.
+name: pr-validate
+on:
+  pull_request:
+    branches: [main]
+
+jobs:
+  governance-checks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: https://codeberg.org/Vidocq/ci/governance-checks@main
+        with:
+          pr-author: ${{ github.event.pull_request.user.login }}
+          slack-webhook: ${{ secrets.SLACK_WEBHOOK_URL }}
