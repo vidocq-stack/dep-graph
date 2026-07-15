@@ -2,8 +2,8 @@
   "schema_version": 1,
   "repo": "Vidocq/cervantes",
   "branch": "main",
-  "commit_sha": "0a9b5205a37a555ec0192f0f4dcd2164318e7481",
-  "updated_at": "2026-07-11T15:57:17Z",
+  "commit_sha": "d326606c8b687f6487a6dfa3157b80126f1ace06",
+  "updated_at": "2026-07-15T11:15:30Z",
   "produces": [
     {
       "groupId": "io.vidocq.cervantes",
