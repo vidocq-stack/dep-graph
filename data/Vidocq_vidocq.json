@@ -2,8 +2,8 @@
   "schema_version": 1,
   "repo": "Vidocq/vidocq",
   "branch": "main",
-  "commit_sha": "2d849216bf68a834ac0ac75548d42536d26facb0",
-  "updated_at": "2026-07-13T21:23:19Z",
+  "commit_sha": "1e3390d6e22f7beac938d4468672b984d2ab5051",
+  "updated_at": "2026-07-15T12:23:43Z",
   "produces": [
     {
       "groupId": "io.vidocq.runtime",
@@ -211,16 +211,6 @@
       "version": "0.3.0-SNAPSHOT"
     },
     {
-      "groupId": "io.vidocq.runtime.extensions.jpms.repackaged",
-      "artifactId": "vidocq-runtime-extensions-jpms-repackaged",
-      "version": "0.3.0-SNAPSHOT"
-    },
-    {
-      "groupId": "io.vidocq.runtime.extensions.jpms.repackaged",
-      "artifactId": "vidocq-runtime-h2-jpms-repackaged",
-      "version": "0.3.0-SNAPSHOT"
-    },
-    {
       "groupId": "io.vidocq.runtime.extensions.microprofile",
       "artifactId": "vidocq-runtime-cervantes-jwt-extension",
       "version": "0.3.0-SNAPSHOT"
@@ -268,6 +258,16 @@
     {
       "groupId": "io.vidocq.runtime.extensions.microprofile",
       "artifactId": "vidocq-runtime-ravel-config-extension",
+      "version": "0.3.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.runtime.extensions.module.repackaged",
+      "artifactId": "vidocq-runtime-extensions-module-repackaged",
+      "version": "0.3.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.runtime.extensions.module.repackaged",
+      "artifactId": "vidocq-runtime-h2-module-repackaged",
       "version": "0.3.0-SNAPSHOT"
     }
   ],
