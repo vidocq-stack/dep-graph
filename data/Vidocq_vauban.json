@@ -2,8 +2,8 @@
   "schema_version": 1,
   "repo": "Vidocq/vauban",
   "branch": "main",
-  "commit_sha": "bc3b6f1ef16c5e05d0ed20715fd045cb4a855930",
-  "updated_at": "2026-07-13T21:16:25Z",
+  "commit_sha": "d2e3092e2fced8b58ad9765173465292c75bb401",
+  "updated_at": "2026-07-15T11:14:35Z",
   "produces": [
     {
       "groupId": "io.vidocq.vauban",
@@ -57,17 +57,17 @@
     },
     {
       "groupId": "io.vidocq.vauban",
-      "artifactId": "vauban-jpms-it",
-      "version": "0.3.0-SNAPSHOT"
-    },
-    {
-      "groupId": "io.vidocq.vauban",
       "artifactId": "vauban-junit",
       "version": "0.3.0-SNAPSHOT"
     },
     {
       "groupId": "io.vidocq.vauban",
       "artifactId": "vauban-maven-plugin",
+      "version": "0.3.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.vauban",
+      "artifactId": "vauban-module-it",
       "version": "0.3.0-SNAPSHOT"
     },
     {
