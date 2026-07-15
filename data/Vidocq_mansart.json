@@ -2,8 +2,8 @@
   "schema_version": 1,
   "repo": "Vidocq/mansart",
   "branch": "main",
-  "commit_sha": "8f5abc2767eb47543b827bd91a383f8ca4519a30",
-  "updated_at": "2026-07-14T11:13:27Z",
+  "commit_sha": "afba516ccbc39a060f0296ada3011d682493ae79",
+  "updated_at": "2026-07-15T12:23:37Z",
   "produces": [
     {
       "groupId": "io.vidocq.mansart",
@@ -112,7 +112,7 @@
     },
     {
       "groupId": "io.vidocq.mansart",
-      "artifactId": "mansart-transactions-cdi-jpms-it",
+      "artifactId": "mansart-transactions-cdi-module-it",
       "version": "0.3.0-SNAPSHOT"
     },
     {
