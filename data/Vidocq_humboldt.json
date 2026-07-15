@@ -2,8 +2,8 @@
   "schema_version": 1,
   "repo": "Vidocq/humboldt",
   "branch": "main",
-  "commit_sha": "82bccfd4588fca21c6bc3cc6622d8290cab19e08",
-  "updated_at": "2026-07-13T07:18:29Z",
+  "commit_sha": "710969035e25587b5cee73d8c6e0b66695f73aa0",
+  "updated_at": "2026-07-15T11:17:32Z",
   "produces": [
     {
       "groupId": "io.vidocq.humboldt",
