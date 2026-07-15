@@ -2,8 +2,8 @@
   "schema_version": 1,
   "repo": "Vidocq/heisenberg",
   "branch": "main",
-  "commit_sha": "1518c11becf5f730aaa96ccc583a7fe8d65c7e8b",
-  "updated_at": "2026-07-11T15:55:48Z",
+  "commit_sha": "1c189347be2518cdae8862ccf29749454ae441b7",
+  "updated_at": "2026-07-15T11:16:45Z",
   "produces": [
     {
       "groupId": "io.vidocq.heisenberg",
@@ -22,7 +22,7 @@
     },
     {
       "groupId": "io.vidocq.heisenberg",
-      "artifactId": "heisenberg-cdi-vauban-jpms-it",
+      "artifactId": "heisenberg-cdi-vauban-module-it",
       "version": "0.3.0-SNAPSHOT"
     },
     {
