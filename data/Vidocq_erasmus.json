@@ -2,14 +2,90 @@
   "schema_version": 1,
   "repo": "Vidocq/erasmus",
   "branch": "main",
-  "commit_sha": "777d8712f48ef0b1c1399b42f2b093a88a5a3b39",
-  "updated_at": "2026-08-14T21:08:14Z",
+  "commit_sha": "b4c07edf3bc114cf724aca932e0d170549025801",
+  "updated_at": "2026-08-14T21:12:11Z",
   "produces": [
     {
       "groupId": "io.vidocq.erasmus",
+      "artifactId": "erasmus-api",
+      "version": "0.3.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.erasmus",
+      "artifactId": "erasmus-bench",
+      "version": "0.3.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.erasmus",
+      "artifactId": "erasmus-cdi-vauban",
+      "version": "0.3.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.erasmus",
+      "artifactId": "erasmus-codegen-apt",
+      "version": "0.3.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.erasmus",
+      "artifactId": "erasmus-codegen-maven-plugin",
+      "version": "0.3.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.erasmus",
+      "artifactId": "erasmus-core",
+      "version": "0.3.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.erasmus",
+      "artifactId": "erasmus-examples",
+      "version": "0.3.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.erasmus",
+      "artifactId": "erasmus-jaxrs",
+      "version": "0.3.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.erasmus",
       "artifactId": "erasmus-parent",
-      "version": "0.1.0-SNAPSHOT"
+      "version": "0.3.0-SNAPSHOT"
     }
   ],
-  "consumes": []
+  "consumes": [
+    {
+      "groupId": "io.vidocq.cassini",
+      "artifactId": "cassini-core",
+      "version": "0.3.0-SNAPSHOT",
+      "scope": "compile",
+      "type": "jar"
+    },
+    {
+      "groupId": "io.vidocq.champollion",
+      "artifactId": "champollion-jsonp",
+      "version": "0.3.0-SNAPSHOT",
+      "scope": "compile",
+      "type": "jar"
+    },
+    {
+      "groupId": "io.vidocq.vauban",
+      "artifactId": "vauban-api",
+      "version": "0.3.0-SNAPSHOT",
+      "scope": "compile",
+      "type": "jar"
+    },
+    {
+      "groupId": "io.vidocq.vauban",
+      "artifactId": "vauban-classloader-spi",
+      "version": "0.3.0-SNAPSHOT",
+      "scope": "compile",
+      "type": "jar"
+    },
+    {
+      "groupId": "io.vidocq.vauban",
+      "artifactId": "vauban-core",
+      "version": "0.3.0-SNAPSHOT",
+      "scope": "compile",
+      "type": "jar"
+    }
+  ]
 }
