@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "repo": "Vidocq/erasmus",
+  "branch": "main",
+  "commit_sha": "777d8712f48ef0b1c1399b42f2b093a88a5a3b39",
+  "updated_at": "2026-08-14T21:08:14Z",
+  "produces": [
+    {
+      "groupId": "io.vidocq.erasmus",
+      "artifactId": "erasmus-parent",
+      "version": "0.1.0-SNAPSHOT"
+    }
+  ],
+  "consumes": []
+}
