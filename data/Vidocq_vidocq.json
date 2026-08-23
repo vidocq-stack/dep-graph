@@ -2,8 +2,8 @@
   "schema_version": 1,
   "repo": "Vidocq/vidocq",
   "branch": "main",
-  "commit_sha": "18512d5e10e56820e63e23623e95e4c209030bbc",
-  "updated_at": "2026-07-26T21:14:48Z",
+  "commit_sha": "efdd2afccf10a7cb03a85a059ec6a5f80b4f5962",
+  "updated_at": "2026-08-23T10:46:14Z",
   "produces": [
     {
       "groupId": "io.vidocq.runtime",
@@ -298,13 +298,6 @@
       "artifactId": "cassini-core",
       "version": "0.3.0-SNAPSHOT",
       "scope": "compile",
-      "type": "jar"
-    },
-    {
-      "groupId": "io.vidocq.cassini",
-      "artifactId": "cassini-core",
-      "version": "",
-      "scope": "runtime",
       "type": "jar"
     },
     {
@@ -611,6 +604,13 @@
     {
       "groupId": "io.vidocq.vauban",
       "artifactId": "vauban-api",
+      "version": "0.3.0-SNAPSHOT",
+      "scope": "compile",
+      "type": "jar"
+    },
+    {
+      "groupId": "io.vidocq.vauban",
+      "artifactId": "vauban-classloader",
       "version": "0.3.0-SNAPSHOT",
       "scope": "compile",
       "type": "jar"
