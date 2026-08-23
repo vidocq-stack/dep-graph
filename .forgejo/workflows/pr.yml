@@ -20,7 +20,7 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
-      - uses: https://codeberg.org/Vidocq/ci/governance-checks@main
+      - uses: https://codefloe.com/Vidocq/ci/governance-checks@main
         with:
           pr-author: ${{ github.event.pull_request.user.login }}
           slack-webhook: ${{ secrets.SLACK_WEBHOOK_URL }}
