@@ -2,8 +2,8 @@
   "schema_version": 1,
   "repo": "Vidocq/erasmus",
   "branch": "main",
-  "commit_sha": "b4c07edf3bc114cf724aca932e0d170549025801",
-  "updated_at": "2026-08-14T21:12:11Z",
+  "commit_sha": "793a0f7687d6e23cf1810272b92ef2241d275fe3",
+  "updated_at": "2026-08-23T11:54:57Z",
   "produces": [
     {
       "groupId": "io.vidocq.erasmus",
