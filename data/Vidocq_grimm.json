@@ -2,38 +2,38 @@
   "schema_version": 1,
   "repo": "Vidocq/grimm",
   "branch": "main",
-  "commit_sha": "7d3e67f7e728f034f8ccd53441cbbeff81f56a84",
-  "updated_at": "2026-08-23T11:54:44Z",
+  "commit_sha": "5686772bddb718c1d9676f62c6702829b175c4c1",
+  "updated_at": "2026-08-30T20:52:58Z",
   "produces": [
     {
       "groupId": "io.vidocq.grimm",
       "artifactId": "grimm-bench",
-      "version": "0.3.0-SNAPSHOT"
+      "version": "0.4.0-SNAPSHOT"
     },
     {
       "groupId": "io.vidocq.grimm",
       "artifactId": "grimm-cdi-vauban",
-      "version": "0.3.0-SNAPSHOT"
+      "version": "0.4.0-SNAPSHOT"
     },
     {
       "groupId": "io.vidocq.grimm",
       "artifactId": "grimm-core",
-      "version": "0.3.0-SNAPSHOT"
+      "version": "0.4.0-SNAPSHOT"
     },
     {
       "groupId": "io.vidocq.grimm",
       "artifactId": "grimm-examples",
-      "version": "0.3.0-SNAPSHOT"
+      "version": "0.4.0-SNAPSHOT"
     },
     {
       "groupId": "io.vidocq.grimm",
       "artifactId": "grimm-parent",
-      "version": "0.3.0-SNAPSHOT"
+      "version": "0.4.0-SNAPSHOT"
     },
     {
       "groupId": "io.vidocq.grimm",
       "artifactId": "grimm-processor",
-      "version": "0.3.0-SNAPSHOT"
+      "version": "0.4.0-SNAPSHOT"
     }
   ],
   "consumes": [
