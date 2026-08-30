@@ -2,58 +2,58 @@
   "schema_version": 1,
   "repo": "Vidocq/dirac",
   "branch": "main",
-  "commit_sha": "3d5a5b649db9e562ce2ce991f4dd4b9810ac8df5",
-  "updated_at": "2026-08-23T11:55:17Z",
+  "commit_sha": "b3b145756bd0a1b5270bc19bd9774a1ec4d05894",
+  "updated_at": "2026-08-30T20:52:58Z",
   "produces": [
     {
       "groupId": "io.vidocq.dirac",
       "artifactId": "dirac-api",
-      "version": "0.3.0-SNAPSHOT"
+      "version": "0.4.0-SNAPSHOT"
     },
     {
       "groupId": "io.vidocq.dirac",
       "artifactId": "dirac-bench",
-      "version": "0.3.0-SNAPSHOT"
+      "version": "0.4.0-SNAPSHOT"
     },
     {
       "groupId": "io.vidocq.dirac",
       "artifactId": "dirac-cdi-vauban",
-      "version": "0.3.0-SNAPSHOT"
+      "version": "0.4.0-SNAPSHOT"
     },
     {
       "groupId": "io.vidocq.dirac",
       "artifactId": "dirac-cdi-vauban-module-it",
-      "version": "0.3.0-SNAPSHOT"
+      "version": "0.4.0-SNAPSHOT"
     },
     {
       "groupId": "io.vidocq.dirac",
       "artifactId": "dirac-core",
-      "version": "0.3.0-SNAPSHOT"
+      "version": "0.4.0-SNAPSHOT"
     },
     {
       "groupId": "io.vidocq.dirac",
       "artifactId": "dirac-examples",
-      "version": "0.3.0-SNAPSHOT"
+      "version": "0.4.0-SNAPSHOT"
     },
     {
       "groupId": "io.vidocq.dirac",
       "artifactId": "dirac-mp-metrics-api",
-      "version": "0.3.0-SNAPSHOT"
+      "version": "0.4.0-SNAPSHOT"
     },
     {
       "groupId": "io.vidocq.dirac",
       "artifactId": "dirac-parent",
-      "version": "0.3.0-SNAPSHOT"
+      "version": "0.4.0-SNAPSHOT"
     },
     {
       "groupId": "io.vidocq.dirac",
       "artifactId": "dirac-processor",
-      "version": "0.3.0-SNAPSHOT"
+      "version": "0.4.0-SNAPSHOT"
     },
     {
       "groupId": "io.vidocq.dirac",
       "artifactId": "dirac-rest",
-      "version": "0.3.0-SNAPSHOT"
+      "version": "0.4.0-SNAPSHOT"
     }
   ],
   "consumes": [
