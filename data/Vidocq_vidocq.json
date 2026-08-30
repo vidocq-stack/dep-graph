@@ -2,273 +2,273 @@
   "schema_version": 1,
   "repo": "Vidocq/vidocq",
   "branch": "main",
-  "commit_sha": "5a53615712efa534045e017f1cb0997f8734431d",
-  "updated_at": "2026-08-27T21:31:45Z",
+  "commit_sha": "00808f8ec00f6682544e269c077ba8b245db93c7",
+  "updated_at": "2026-08-30T21:25:20Z",
   "produces": [
     {
       "groupId": "io.vidocq.runtime",
       "artifactId": "vidocq-runtime-arquillian",
-      "version": "0.3.0-SNAPSHOT"
+      "version": "0.4.0-SNAPSHOT"
     },
     {
       "groupId": "io.vidocq.runtime",
       "artifactId": "vidocq-runtime-cassini-rest-example",
-      "version": "0.3.0-SNAPSHOT"
+      "version": "0.4.0-SNAPSHOT"
     },
     {
       "groupId": "io.vidocq.runtime",
       "artifactId": "vidocq-runtime-cervantes-jwt-example",
-      "version": "0.3.0-SNAPSHOT"
+      "version": "0.4.0-SNAPSHOT"
     },
     {
       "groupId": "io.vidocq.runtime",
       "artifactId": "vidocq-runtime-cli",
-      "version": "0.3.0-SNAPSHOT"
+      "version": "0.4.0-SNAPSHOT"
     },
     {
       "groupId": "io.vidocq.runtime",
       "artifactId": "vidocq-runtime-codegen-commons",
-      "version": "0.3.0-SNAPSHOT"
+      "version": "0.4.0-SNAPSHOT"
     },
     {
       "groupId": "io.vidocq.runtime",
       "artifactId": "vidocq-runtime-core",
-      "version": "0.3.0-SNAPSHOT"
+      "version": "0.4.0-SNAPSHOT"
     },
     {
       "groupId": "io.vidocq.runtime",
       "artifactId": "vidocq-runtime-core-codegen",
-      "version": "0.3.0-SNAPSHOT"
+      "version": "0.4.0-SNAPSHOT"
     },
     {
       "groupId": "io.vidocq.runtime",
       "artifactId": "vidocq-runtime-devservice-keycloak",
-      "version": "0.3.0-SNAPSHOT"
+      "version": "0.4.0-SNAPSHOT"
     },
     {
       "groupId": "io.vidocq.runtime",
       "artifactId": "vidocq-runtime-devservice-postgres",
-      "version": "0.3.0-SNAPSHOT"
+      "version": "0.4.0-SNAPSHOT"
     },
     {
       "groupId": "io.vidocq.runtime",
       "artifactId": "vidocq-runtime-devservices",
-      "version": "0.3.0-SNAPSHOT"
+      "version": "0.4.0-SNAPSHOT"
     },
     {
       "groupId": "io.vidocq.runtime",
       "artifactId": "vidocq-runtime-devservices-spi",
-      "version": "0.3.0-SNAPSHOT"
+      "version": "0.4.0-SNAPSHOT"
     },
     {
       "groupId": "io.vidocq.runtime",
       "artifactId": "vidocq-runtime-examples",
-      "version": "0.3.0-SNAPSHOT"
+      "version": "0.4.0-SNAPSHOT"
     },
     {
       "groupId": "io.vidocq.runtime",
       "artifactId": "vidocq-runtime-external-rest-lib",
-      "version": "0.3.0-SNAPSHOT"
+      "version": "0.4.0-SNAPSHOT"
     },
     {
       "groupId": "io.vidocq.runtime",
       "artifactId": "vidocq-runtime-integration-tests",
-      "version": "0.3.0-SNAPSHOT"
+      "version": "0.4.0-SNAPSHOT"
     },
     {
       "groupId": "io.vidocq.runtime",
       "artifactId": "vidocq-runtime-it-cassini-rest",
-      "version": "0.3.0-SNAPSHOT"
+      "version": "0.4.0-SNAPSHOT"
     },
     {
       "groupId": "io.vidocq.runtime",
       "artifactId": "vidocq-runtime-it-cervantes-jwt",
-      "version": "0.3.0-SNAPSHOT"
+      "version": "0.4.0-SNAPSHOT"
     },
     {
       "groupId": "io.vidocq.runtime",
       "artifactId": "vidocq-runtime-it-cyrano-jpms",
-      "version": "0.3.0-SNAPSHOT"
+      "version": "0.4.0-SNAPSHOT"
     },
     {
       "groupId": "io.vidocq.runtime",
       "artifactId": "vidocq-runtime-it-grimm-openapi",
-      "version": "0.3.0-SNAPSHOT"
+      "version": "0.4.0-SNAPSHOT"
     },
     {
       "groupId": "io.vidocq.runtime",
       "artifactId": "vidocq-runtime-it-humboldt-cassini",
-      "version": "0.3.0-SNAPSHOT"
+      "version": "0.4.0-SNAPSHOT"
     },
     {
       "groupId": "io.vidocq.runtime",
       "artifactId": "vidocq-runtime-knock-health-example",
-      "version": "0.3.0-SNAPSHOT"
+      "version": "0.4.0-SNAPSHOT"
     },
     {
       "groupId": "io.vidocq.runtime",
       "artifactId": "vidocq-runtime-mansart-h2-example",
-      "version": "0.3.0-SNAPSHOT"
+      "version": "0.4.0-SNAPSHOT"
     },
     {
       "groupId": "io.vidocq.runtime",
       "artifactId": "vidocq-runtime-maven-plugin",
-      "version": "0.3.0-SNAPSHOT"
+      "version": "0.4.0-SNAPSHOT"
     },
     {
       "groupId": "io.vidocq.runtime",
       "artifactId": "vidocq-runtime-parent",
-      "version": "0.3.0-SNAPSHOT"
+      "version": "0.4.0-SNAPSHOT"
     },
     {
       "groupId": "io.vidocq.runtime",
       "artifactId": "vidocq-runtime-petstore-example",
-      "version": "0.3.0-SNAPSHOT"
+      "version": "0.4.0-SNAPSHOT"
     },
     {
       "groupId": "io.vidocq.runtime",
       "artifactId": "vidocq-runtime-spi",
-      "version": "0.3.0-SNAPSHOT"
+      "version": "0.4.0-SNAPSHOT"
     },
     {
       "groupId": "io.vidocq.runtime.extensions",
       "artifactId": "vidocq-runtime-extensions",
-      "version": "0.3.0-SNAPSHOT"
+      "version": "0.4.0-SNAPSHOT"
     },
     {
       "groupId": "io.vidocq.runtime.extensions.essentials",
       "artifactId": "vidocq-runtime-chappe-webserver-extension",
-      "version": "0.3.0-SNAPSHOT"
+      "version": "0.4.0-SNAPSHOT"
     },
     {
       "groupId": "io.vidocq.runtime.extensions.essentials",
       "artifactId": "vidocq-runtime-extensions-essentials",
-      "version": "0.3.0-SNAPSHOT"
+      "version": "0.4.0-SNAPSHOT"
     },
     {
       "groupId": "io.vidocq.runtime.extensions.essentials",
       "artifactId": "vidocq-runtime-flyway-migration-extension",
-      "version": "0.3.0-SNAPSHOT"
+      "version": "0.4.0-SNAPSHOT"
     },
     {
       "groupId": "io.vidocq.runtime.extensions.essentials",
       "artifactId": "vidocq-runtime-liquibase-migration-extension",
-      "version": "0.3.0-SNAPSHOT"
+      "version": "0.4.0-SNAPSHOT"
     },
     {
       "groupId": "io.vidocq.runtime.extensions.essentials",
       "artifactId": "vidocq-runtime-migration-extension",
-      "version": "0.3.0-SNAPSHOT"
+      "version": "0.4.0-SNAPSHOT"
     },
     {
       "groupId": "io.vidocq.runtime.extensions.jakartaee.core",
       "artifactId": "vidocq-runtime-cassini-rest-extension",
-      "version": "0.3.0-SNAPSHOT"
+      "version": "0.4.0-SNAPSHOT"
     },
     {
       "groupId": "io.vidocq.runtime.extensions.jakartaee.core",
       "artifactId": "vidocq-runtime-cassini-rest-extension-codegen",
-      "version": "0.3.0-SNAPSHOT"
+      "version": "0.4.0-SNAPSHOT"
     },
     {
       "groupId": "io.vidocq.runtime.extensions.jakartaee.core",
       "artifactId": "vidocq-runtime-extensions-jakartaee-core",
-      "version": "0.3.0-SNAPSHOT"
+      "version": "0.4.0-SNAPSHOT"
     },
     {
       "groupId": "io.vidocq.runtime.extensions.jakartaee.web",
       "artifactId": "vidocq-runtime-extensions-jakartaee-web",
-      "version": "0.3.0-SNAPSHOT"
+      "version": "0.4.0-SNAPSHOT"
     },
     {
       "groupId": "io.vidocq.runtime.extensions.jakartaee.web",
       "artifactId": "vidocq-runtime-mansart-data-extension",
-      "version": "0.3.0-SNAPSHOT"
+      "version": "0.4.0-SNAPSHOT"
     },
     {
       "groupId": "io.vidocq.runtime.extensions.jakartaee.web",
       "artifactId": "vidocq-runtime-mansart-data-extension-codegen",
-      "version": "0.3.0-SNAPSHOT"
+      "version": "0.4.0-SNAPSHOT"
     },
     {
       "groupId": "io.vidocq.runtime.extensions.jakartaee.web",
       "artifactId": "vidocq-runtime-mansart-pool-datasources-codegen",
-      "version": "0.3.0-SNAPSHOT"
+      "version": "0.4.0-SNAPSHOT"
     },
     {
       "groupId": "io.vidocq.runtime.extensions.jakartaee.web",
       "artifactId": "vidocq-runtime-mansart-pool-extension",
-      "version": "0.3.0-SNAPSHOT"
+      "version": "0.4.0-SNAPSHOT"
     },
     {
       "groupId": "io.vidocq.runtime.extensions.jakartaee.web",
       "artifactId": "vidocq-runtime-mansart-transactions-extension",
-      "version": "0.3.0-SNAPSHOT"
+      "version": "0.4.0-SNAPSHOT"
     },
     {
       "groupId": "io.vidocq.runtime.extensions.jakartaee.web",
       "artifactId": "vidocq-runtime-mansart-transactions-extension-codegen",
-      "version": "0.3.0-SNAPSHOT"
+      "version": "0.4.0-SNAPSHOT"
     },
     {
       "groupId": "io.vidocq.runtime.extensions.microprofile",
       "artifactId": "vidocq-runtime-cervantes-jwt-extension",
-      "version": "0.3.0-SNAPSHOT"
+      "version": "0.4.0-SNAPSHOT"
     },
     {
       "groupId": "io.vidocq.runtime.extensions.microprofile",
       "artifactId": "vidocq-runtime-cyrano-rest-client-extension",
-      "version": "0.3.0-SNAPSHOT"
+      "version": "0.4.0-SNAPSHOT"
     },
     {
       "groupId": "io.vidocq.runtime.extensions.microprofile",
       "artifactId": "vidocq-runtime-dirac-metrics-extension",
-      "version": "0.3.0-SNAPSHOT"
+      "version": "0.4.0-SNAPSHOT"
     },
     {
       "groupId": "io.vidocq.runtime.extensions.microprofile",
       "artifactId": "vidocq-runtime-extensions-microprofile",
-      "version": "0.3.0-SNAPSHOT"
+      "version": "0.4.0-SNAPSHOT"
     },
     {
       "groupId": "io.vidocq.runtime.extensions.microprofile",
       "artifactId": "vidocq-runtime-grimm-openapi-extension",
-      "version": "0.3.0-SNAPSHOT"
+      "version": "0.4.0-SNAPSHOT"
     },
     {
       "groupId": "io.vidocq.runtime.extensions.microprofile",
       "artifactId": "vidocq-runtime-grimm-openapi-ui-extension",
-      "version": "0.3.0-SNAPSHOT"
+      "version": "0.4.0-SNAPSHOT"
     },
     {
       "groupId": "io.vidocq.runtime.extensions.microprofile",
       "artifactId": "vidocq-runtime-heisenberg-fault-tolerance-extension",
-      "version": "0.3.0-SNAPSHOT"
+      "version": "0.4.0-SNAPSHOT"
     },
     {
       "groupId": "io.vidocq.runtime.extensions.microprofile",
       "artifactId": "vidocq-runtime-humboldt-telemetry-extension",
-      "version": "0.3.0-SNAPSHOT"
+      "version": "0.4.0-SNAPSHOT"
     },
     {
       "groupId": "io.vidocq.runtime.extensions.microprofile",
       "artifactId": "vidocq-runtime-knock-health-extension",
-      "version": "0.3.0-SNAPSHOT"
+      "version": "0.4.0-SNAPSHOT"
     },
     {
       "groupId": "io.vidocq.runtime.extensions.microprofile",
       "artifactId": "vidocq-runtime-ravel-config-extension",
-      "version": "0.3.0-SNAPSHOT"
+      "version": "0.4.0-SNAPSHOT"
     },
     {
       "groupId": "io.vidocq.runtime.extensions.module.repackaged",
       "artifactId": "vidocq-runtime-extensions-module-repackaged",
-      "version": "0.3.0-SNAPSHOT"
+      "version": "0.4.0-SNAPSHOT"
     },
     {
       "groupId": "io.vidocq.runtime.extensions.module.repackaged",
       "artifactId": "vidocq-runtime-h2-module-repackaged",
-      "version": "0.3.0-SNAPSHOT"
+      "version": "0.4.0-SNAPSHOT"
     }
   ],
   "consumes": [
