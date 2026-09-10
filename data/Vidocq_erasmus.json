@@ -2,8 +2,8 @@
   "schema_version": 1,
   "repo": "Vidocq/erasmus",
   "branch": "main",
-  "commit_sha": "793a0f7687d6e23cf1810272b92ef2241d275fe3",
-  "updated_at": "2026-08-23T11:54:57Z",
+  "commit_sha": "f4a0a9f1d3f72be38d6b1ecfd62cb39245895769",
+  "updated_at": "2026-09-10T15:08:37Z",
   "produces": [
     {
       "groupId": "io.vidocq.erasmus",
@@ -55,35 +55,35 @@
     {
       "groupId": "io.vidocq.cassini",
       "artifactId": "cassini-core",
-      "version": "0.3.0-SNAPSHOT",
+      "version": "0.4.0-SNAPSHOT",
       "scope": "compile",
       "type": "jar"
     },
     {
       "groupId": "io.vidocq.champollion",
       "artifactId": "champollion-jsonp",
-      "version": "0.3.0-SNAPSHOT",
+      "version": "0.4.0-SNAPSHOT",
       "scope": "compile",
       "type": "jar"
     },
     {
       "groupId": "io.vidocq.vauban",
       "artifactId": "vauban-api",
-      "version": "0.3.0-SNAPSHOT",
+      "version": "0.4.0-SNAPSHOT",
       "scope": "compile",
       "type": "jar"
     },
     {
       "groupId": "io.vidocq.vauban",
       "artifactId": "vauban-classloader-spi",
-      "version": "0.3.0-SNAPSHOT",
+      "version": "0.4.0-SNAPSHOT",
       "scope": "compile",
       "type": "jar"
     },
     {
       "groupId": "io.vidocq.vauban",
       "artifactId": "vauban-core",
-      "version": "0.3.0-SNAPSHOT",
+      "version": "0.4.0-SNAPSHOT",
       "scope": "compile",
       "type": "jar"
     }
