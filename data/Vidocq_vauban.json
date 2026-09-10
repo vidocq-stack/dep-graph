@@ -2,8 +2,8 @@
   "schema_version": 1,
   "repo": "Vidocq/vauban",
   "branch": "main",
-  "commit_sha": "e1e6d016ae803e774cfbe918446333f79a71d72e",
-  "updated_at": "2026-08-30T20:08:30Z",
+  "commit_sha": "0c534730dafa64157ee6dfbd8326df474af71d06",
+  "updated_at": "2026-09-10T14:17:46Z",
   "produces": [
     {
       "groupId": "io.vidocq.vauban",
@@ -83,6 +83,21 @@
     {
       "groupId": "io.vidocq.vauban",
       "artifactId": "vauban-processor",
+      "version": "0.4.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.vauban",
+      "artifactId": "vauban-producer-it-bean-b",
+      "version": "0.4.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.vauban",
+      "artifactId": "vauban-producer-it-lib-a",
+      "version": "0.4.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.vauban",
+      "artifactId": "vauban-producer-module-it",
       "version": "0.4.0-SNAPSHOT"
     },
     {
