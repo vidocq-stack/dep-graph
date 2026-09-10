@@ -2,8 +2,8 @@
   "schema_version": 1,
   "repo": "Vidocq/vidocq",
   "branch": "main",
-  "commit_sha": "cb4dce2b2e49a7287e726fb43b3bcb400f2f323d",
-  "updated_at": "2026-08-31T19:23:54Z",
+  "commit_sha": "c94462d9062b9889f62bac5c6008c7e6e991f235",
+  "updated_at": "2026-09-10T15:26:00Z",
   "produces": [
     {
       "groupId": "io.vidocq.runtime",
@@ -275,28 +275,28 @@
     {
       "groupId": "io.vidocq.cassini",
       "artifactId": "cassini-api",
-      "version": "0.3.0-SNAPSHOT",
+      "version": "0.4.0-SNAPSHOT",
       "scope": "compile",
       "type": "jar"
     },
     {
       "groupId": "io.vidocq.cassini",
       "artifactId": "cassini-cdi-vauban",
-      "version": "0.3.0-SNAPSHOT",
+      "version": "0.4.0-SNAPSHOT",
       "scope": "compile",
       "type": "jar"
     },
     {
       "groupId": "io.vidocq.cassini",
       "artifactId": "cassini-chappe",
-      "version": "0.3.0-SNAPSHOT",
+      "version": "0.4.0-SNAPSHOT",
       "scope": "compile",
       "type": "jar"
     },
     {
       "groupId": "io.vidocq.cassini",
       "artifactId": "cassini-core",
-      "version": "0.3.0-SNAPSHOT",
+      "version": "0.4.0-SNAPSHOT",
       "scope": "compile",
       "type": "jar"
     },
@@ -317,35 +317,35 @@
     {
       "groupId": "io.vidocq.cervantes",
       "artifactId": "cervantes-api",
-      "version": "0.3.0-SNAPSHOT",
+      "version": "0.4.0-SNAPSHOT",
       "scope": "compile",
       "type": "jar"
     },
     {
       "groupId": "io.vidocq.cervantes",
       "artifactId": "cervantes-cdi-vauban",
-      "version": "0.3.0-SNAPSHOT",
+      "version": "0.4.0-SNAPSHOT",
       "scope": "compile",
       "type": "jar"
     },
     {
       "groupId": "io.vidocq.cervantes",
       "artifactId": "cervantes-core",
-      "version": "0.3.0-SNAPSHOT",
+      "version": "0.4.0-SNAPSHOT",
       "scope": "compile",
       "type": "jar"
     },
     {
       "groupId": "io.vidocq.cervantes",
       "artifactId": "cervantes-jaxrs",
-      "version": "0.3.0-SNAPSHOT",
+      "version": "0.4.0-SNAPSHOT",
       "scope": "compile",
       "type": "jar"
     },
     {
       "groupId": "io.vidocq.cervantes",
       "artifactId": "cervantes-mp-jwt-api",
-      "version": "0.3.0-SNAPSHOT",
+      "version": "0.4.0-SNAPSHOT",
       "scope": "compile",
       "type": "jar"
     },
@@ -373,14 +373,14 @@
     {
       "groupId": "io.vidocq.chappe",
       "artifactId": "chappe-api",
-      "version": "0.3.0-SNAPSHOT",
+      "version": "0.4.0-SNAPSHOT",
       "scope": "compile",
       "type": "jar"
     },
     {
       "groupId": "io.vidocq.chappe",
       "artifactId": "chappe-core",
-      "version": "0.3.0-SNAPSHOT",
+      "version": "0.4.0-SNAPSHOT",
       "scope": "compile",
       "type": "jar"
     },
@@ -394,28 +394,28 @@
     {
       "groupId": "io.vidocq.chappe",
       "artifactId": "chappe-http",
-      "version": "0.3.0-SNAPSHOT",
+      "version": "0.4.0-SNAPSHOT",
       "scope": "compile",
       "type": "jar"
     },
     {
       "groupId": "io.vidocq.cyrano",
       "artifactId": "cyrano-api",
-      "version": "0.3.0-SNAPSHOT",
+      "version": "0.4.0-SNAPSHOT",
       "scope": "compile",
       "type": "jar"
     },
     {
       "groupId": "io.vidocq.cyrano",
       "artifactId": "cyrano-cdi-vauban",
-      "version": "0.3.0-SNAPSHOT",
+      "version": "0.4.0-SNAPSHOT",
       "scope": "compile",
       "type": "jar"
     },
     {
       "groupId": "io.vidocq.cyrano",
       "artifactId": "cyrano-core",
-      "version": "0.3.0-SNAPSHOT",
+      "version": "0.4.0-SNAPSHOT",
       "scope": "compile",
       "type": "jar"
     },
@@ -443,35 +443,35 @@
     {
       "groupId": "io.vidocq.heisenberg",
       "artifactId": "heisenberg-api",
-      "version": "0.3.0-SNAPSHOT",
+      "version": "0.4.0-SNAPSHOT",
       "scope": "compile",
       "type": "jar"
     },
     {
       "groupId": "io.vidocq.heisenberg",
       "artifactId": "heisenberg-cdi-vauban",
-      "version": "0.3.0-SNAPSHOT",
+      "version": "0.4.0-SNAPSHOT",
       "scope": "compile",
       "type": "jar"
     },
     {
       "groupId": "io.vidocq.heisenberg",
       "artifactId": "heisenberg-core",
-      "version": "0.3.0-SNAPSHOT",
+      "version": "0.4.0-SNAPSHOT",
       "scope": "compile",
       "type": "jar"
     },
     {
       "groupId": "io.vidocq.heisenberg",
       "artifactId": "heisenberg-mp-ft-api",
-      "version": "0.3.0-SNAPSHOT",
+      "version": "0.4.0-SNAPSHOT",
       "scope": "compile",
       "type": "jar"
     },
     {
       "groupId": "io.vidocq.humboldt",
       "artifactId": "humboldt-cdi",
-      "version": "0.3.0-SNAPSHOT",
+      "version": "0.4.0-SNAPSHOT",
       "scope": "compile",
       "type": "jar"
     },
@@ -485,21 +485,21 @@
     {
       "groupId": "io.vidocq.humboldt",
       "artifactId": "humboldt-rest",
-      "version": "0.3.0-SNAPSHOT",
+      "version": "0.4.0-SNAPSHOT",
       "scope": "compile",
       "type": "jar"
     },
     {
       "groupId": "io.vidocq.humboldt",
       "artifactId": "humboldt-runtime",
-      "version": "0.3.0-SNAPSHOT",
+      "version": "0.4.0-SNAPSHOT",
       "scope": "compile",
       "type": "jar"
     },
     {
       "groupId": "io.vidocq.humboldt",
       "artifactId": "humboldt-sdk-trace",
-      "version": "0.3.0-SNAPSHOT",
+      "version": "0.4.0-SNAPSHOT",
       "scope": "compile",
       "type": "jar"
     },
@@ -576,21 +576,21 @@
     {
       "groupId": "io.vidocq.ravel",
       "artifactId": "ravel-api",
-      "version": "0.3.0-SNAPSHOT",
+      "version": "0.4.0-SNAPSHOT",
       "scope": "compile",
       "type": "jar"
     },
     {
       "groupId": "io.vidocq.ravel",
       "artifactId": "ravel-cdi-vauban",
-      "version": "0.3.0-SNAPSHOT",
+      "version": "0.4.0-SNAPSHOT",
       "scope": "compile",
       "type": "jar"
     },
     {
       "groupId": "io.vidocq.ravel",
       "artifactId": "ravel-core",
-      "version": "0.3.0-SNAPSHOT",
+      "version": "0.4.0-SNAPSHOT",
       "scope": "compile",
       "type": "jar"
     },
@@ -604,21 +604,21 @@
     {
       "groupId": "io.vidocq.vauban",
       "artifactId": "vauban-api",
-      "version": "0.3.0-SNAPSHOT",
+      "version": "0.4.0-SNAPSHOT",
       "scope": "compile",
       "type": "jar"
     },
     {
       "groupId": "io.vidocq.vauban",
       "artifactId": "vauban-classloader",
-      "version": "0.3.0-SNAPSHOT",
+      "version": "0.4.0-SNAPSHOT",
       "scope": "compile",
       "type": "jar"
     },
     {
       "groupId": "io.vidocq.vauban",
       "artifactId": "vauban-classloader-spi",
-      "version": "0.3.0-SNAPSHOT",
+      "version": "0.4.0-SNAPSHOT",
       "scope": "compile",
       "type": "jar"
     },
@@ -632,14 +632,14 @@
     {
       "groupId": "io.vidocq.vauban",
       "artifactId": "vauban-core",
-      "version": "0.3.0-SNAPSHOT",
+      "version": "0.4.0-SNAPSHOT",
       "scope": "compile",
       "type": "jar"
     },
     {
       "groupId": "io.vidocq.vauban",
       "artifactId": "vauban-indexer",
-      "version": "0.3.0-SNAPSHOT",
+      "version": "0.4.0-SNAPSHOT",
       "scope": "compile",
       "type": "jar"
     },
