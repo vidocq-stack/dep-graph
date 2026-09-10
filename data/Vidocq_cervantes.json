@@ -2,8 +2,8 @@
   "schema_version": 1,
   "repo": "Vidocq/cervantes",
   "branch": "main",
-  "commit_sha": "f94a4eec51fdeec9bf67b380f115cb20188635a7",
-  "updated_at": "2026-08-30T20:53:01Z",
+  "commit_sha": "964796f69c86e6da4374edc6d1600e42558a76d2",
+  "updated_at": "2026-09-10T15:12:37Z",
   "produces": [
     {
       "groupId": "io.vidocq.cervantes",
@@ -50,7 +50,7 @@
     {
       "groupId": "io.vidocq.cassini",
       "artifactId": "cassini-api",
-      "version": "0.3.0-SNAPSHOT",
+      "version": "0.4.0-SNAPSHOT",
       "scope": "compile",
       "type": "jar"
     },
@@ -64,7 +64,7 @@
     {
       "groupId": "io.vidocq.cassini",
       "artifactId": "cassini-chappe",
-      "version": "0.3.0-SNAPSHOT",
+      "version": "0.4.0-SNAPSHOT",
       "scope": "compile",
       "type": "jar"
     },
@@ -78,7 +78,7 @@
     {
       "groupId": "io.vidocq.champollion",
       "artifactId": "champollion-api",
-      "version": "0.3.0-SNAPSHOT",
+      "version": "0.4.0-SNAPSHOT",
       "scope": "compile",
       "type": "jar"
     },
@@ -92,7 +92,7 @@
     {
       "groupId": "io.vidocq.champollion",
       "artifactId": "champollion-jsonp",
-      "version": "0.3.0-SNAPSHOT",
+      "version": "0.4.0-SNAPSHOT",
       "scope": "compile",
       "type": "jar"
     },
@@ -106,7 +106,7 @@
     {
       "groupId": "io.vidocq.ravel",
       "artifactId": "ravel-core",
-      "version": "0.3.0-SNAPSHOT",
+      "version": "0.4.0-SNAPSHOT",
       "scope": "compile",
       "type": "jar"
     },
@@ -120,7 +120,7 @@
     {
       "groupId": "io.vidocq.ravel",
       "artifactId": "ravel-mp-config-api",
-      "version": "0.3.0-SNAPSHOT",
+      "version": "0.4.0-SNAPSHOT",
       "scope": "compile",
       "type": "jar"
     },
@@ -134,7 +134,7 @@
     {
       "groupId": "io.vidocq.vauban",
       "artifactId": "vauban-api",
-      "version": "0.3.0-SNAPSHOT",
+      "version": "0.4.0-SNAPSHOT",
       "scope": "compile",
       "type": "jar"
     },
@@ -148,7 +148,7 @@
     {
       "groupId": "io.vidocq.vauban",
       "artifactId": "vauban-classloader-spi",
-      "version": "0.3.0-SNAPSHOT",
+      "version": "0.4.0-SNAPSHOT",
       "scope": "compile",
       "type": "jar"
     },
@@ -162,7 +162,7 @@
     {
       "groupId": "io.vidocq.vauban",
       "artifactId": "vauban-core",
-      "version": "0.3.0-SNAPSHOT",
+      "version": "0.4.0-SNAPSHOT",
       "scope": "compile",
       "type": "jar"
     },
