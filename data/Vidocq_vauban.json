@@ -2,8 +2,8 @@
   "schema_version": 1,
   "repo": "Vidocq/vauban",
   "branch": "main",
-  "commit_sha": "481062b279d634150c0efefe287b6876cb75b9f2",
-  "updated_at": "2026-09-11T21:11:10Z",
+  "commit_sha": "3ae28e53fce1738617995c9e0e1bcca0c5ee00aa",
+  "updated_at": "2026-09-13T08:37:02Z",
   "produces": [
     {
       "groupId": "io.vidocq.vauban",
@@ -18,6 +18,21 @@
     {
       "groupId": "io.vidocq.vauban",
       "artifactId": "example-cdi1015-lib",
+      "version": "0.4.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.vauban",
+      "artifactId": "example-enhanced-app",
+      "version": "0.4.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.vauban",
+      "artifactId": "example-legacy-app",
+      "version": "0.4.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.vauban",
+      "artifactId": "example-legacy-lib",
       "version": "0.4.0-SNAPSHOT"
     },
     {
