@@ -2,8 +2,8 @@
   "schema_version": 1,
   "repo": "Vidocq/vauban",
   "branch": "main",
-  "commit_sha": "8cf31a9a62daf3094556f9b681d5028be8fe4023",
-  "updated_at": "2026-09-14T14:32:13Z",
+  "commit_sha": "4242b6cb43bc6db174b6c766561f534fcaefb848",
+  "updated_at": "2026-09-14T14:41:09Z",
   "produces": [
     {
       "groupId": "io.vidocq.vauban",
@@ -138,11 +138,6 @@
     {
       "groupId": "io.vidocq.vauban",
       "artifactId": "vauban-tck-runner",
-      "version": "0.4.0-SNAPSHOT"
-    },
-    {
-      "groupId": "io.vidocq.vauban",
-      "artifactId": "vauban-test-suite",
       "version": "0.4.0-SNAPSHOT"
     },
     {
