@@ -2,8 +2,8 @@
   "schema_version": 1,
   "repo": "Vidocq/vidocq",
   "branch": "main",
-  "commit_sha": "4996ffb627507dfb4a0c6acbfa7db8cc631925c1",
-  "updated_at": "2026-09-17T20:44:18Z",
+  "commit_sha": "d3eb68395bdd969386a9c28477c11f56266dafe8",
+  "updated_at": "2026-09-19T16:32:38Z",
   "produces": [
     {
       "groupId": "io.vidocq.runtime",
@@ -38,6 +38,11 @@
     {
       "groupId": "io.vidocq.runtime",
       "artifactId": "vidocq-runtime-core-codegen",
+      "version": "0.4.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.runtime",
+      "artifactId": "vidocq-runtime-devconsole-spi",
       "version": "0.4.0-SNAPSHOT"
     },
     {
@@ -138,6 +143,11 @@
     {
       "groupId": "io.vidocq.runtime.extensions.essentials",
       "artifactId": "vidocq-runtime-chappe-webserver-extension",
+      "version": "0.4.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.runtime.extensions.essentials",
+      "artifactId": "vidocq-runtime-devconsole-extension",
       "version": "0.4.0-SNAPSHOT"
     },
     {
@@ -627,6 +637,13 @@
       "artifactId": "vauban-classloader-spi",
       "version": "",
       "scope": "runtime",
+      "type": "jar"
+    },
+    {
+      "groupId": "io.vidocq.vauban",
+      "artifactId": "vauban-classloader-spi",
+      "version": "",
+      "scope": "test",
       "type": "jar"
     },
     {
