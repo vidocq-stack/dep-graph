@@ -2,8 +2,8 @@
   "schema_version": 1,
   "repo": "Vidocq/vidocq",
   "branch": "main",
-  "commit_sha": "d3eb68395bdd969386a9c28477c11f56266dafe8",
-  "updated_at": "2026-09-19T16:32:38Z",
+  "commit_sha": "073e9041263f307147821302582d129406536b8e",
+  "updated_at": "2026-09-19T22:15:21Z",
   "produces": [
     {
       "groupId": "io.vidocq.runtime",
@@ -107,6 +107,11 @@
     },
     {
       "groupId": "io.vidocq.runtime",
+      "artifactId": "vidocq-runtime-it-langchain4j-cdi-mcp",
+      "version": "0.4.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.runtime",
       "artifactId": "vidocq-runtime-knock-health-example",
       "version": "0.4.0-SNAPSHOT"
     },
@@ -158,6 +163,11 @@
     {
       "groupId": "io.vidocq.runtime.extensions.essentials",
       "artifactId": "vidocq-runtime-flyway-migration-extension",
+      "version": "0.4.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.runtime.extensions.essentials",
+      "artifactId": "vidocq-runtime-langchain4j-cdi-mcp-extension",
       "version": "0.4.0-SNAPSHOT"
     },
     {
@@ -294,6 +304,13 @@
       "artifactId": "cassini-cdi-vauban",
       "version": "0.4.0-SNAPSHOT",
       "scope": "compile",
+      "type": "jar"
+    },
+    {
+      "groupId": "io.vidocq.cassini",
+      "artifactId": "cassini-cdi-vauban",
+      "version": "",
+      "scope": "provided",
       "type": "jar"
     },
     {
