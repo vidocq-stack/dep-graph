@@ -2,8 +2,8 @@
   "schema_version": 1,
   "repo": "Vidocq/vidocq",
   "branch": "main",
-  "commit_sha": "5790ad004a7e9842e39dfbb24f9656e82746c491",
-  "updated_at": "2026-09-19T22:28:58Z",
+  "commit_sha": "3e35bad5328efefadb7a8a192a1035041e923220",
+  "updated_at": "2026-09-20T09:03:57Z",
   "produces": [
     {
       "groupId": "io.vidocq.runtime",
@@ -596,6 +596,13 @@
     {
       "groupId": "io.vidocq.mansart",
       "artifactId": "mansart-transactions-cdi",
+      "version": "${mansart.version}",
+      "scope": "compile",
+      "type": "jar"
+    },
+    {
+      "groupId": "io.vidocq.mansart",
+      "artifactId": "mansart-transactions-jdbc",
       "version": "${mansart.version}",
       "scope": "compile",
       "type": "jar"
