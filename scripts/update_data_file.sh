@@ -8,7 +8,7 @@ set -euo pipefail
 REPO=""
 DATA_JSON=""
 TOKEN=""
-GRAPH_REPO_URL="${GRAPH_REPO_URL:-https://codeberg.org/Vidocq/dep-graph.git}"
+GRAPH_REPO_URL="${GRAPH_REPO_URL:-https://codefloe.com/Vidocq/dep-graph.git}"
 GRAPH_BRANCH="${GRAPH_BRANCH:-main}"
 MAX_RETRIES=5
 
