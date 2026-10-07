@@ -2,8 +2,8 @@
   "schema_version": 1,
   "repo": "Vidocq/grimm",
   "branch": "main",
-  "commit_sha": "f6f37db0aa0497f7f45a83289958e6e6957b7f62",
-  "updated_at": "2026-10-01T13:18:41Z",
+  "commit_sha": "548f83f9a0deaf3c938896d791154a1b43f7f422",
+  "updated_at": "2026-10-07T14:57:37Z",
   "produces": [
     {
       "groupId": "io.vidocq.grimm",
