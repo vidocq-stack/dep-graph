@@ -2,8 +2,8 @@
   "schema_version": 1,
   "repo": "Vidocq/humboldt",
   "branch": "main",
-  "commit_sha": "cdd8901350aa394b3d3481f87d0576b536c1dcfe",
-  "updated_at": "2026-10-07T18:45:19Z",
+  "commit_sha": "a2a7b557772f57912bc97cafd569d0b3586fd272",
+  "updated_at": "2026-10-07T19:05:32Z",
   "produces": [
     {
       "groupId": "io.vidocq.humboldt",
@@ -87,6 +87,13 @@
     }
   ],
   "consumes": [
+    {
+      "groupId": "io.vidocq.cyrano",
+      "artifactId": "cyrano-mp-rest-client-api",
+      "version": "0.4.0-SNAPSHOT",
+      "scope": "provided",
+      "type": "jar"
+    },
     {
       "groupId": "io.vidocq.vauban",
       "artifactId": "vauban-api",
