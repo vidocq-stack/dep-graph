@@ -2,8 +2,8 @@
   "schema_version": 1,
   "repo": "Vidocq/cyrano",
   "branch": "main",
-  "commit_sha": "be73623f6d7f89d9a378e8372f62a3b4bb36292a",
-  "updated_at": "2026-09-16T08:30:02Z",
+  "commit_sha": "111718ca20204c2dcb96a947e6a39a6470fedb6b",
+  "updated_at": "2026-10-07T18:38:04Z",
   "produces": [
     {
       "groupId": "io.vidocq.cyrano",
