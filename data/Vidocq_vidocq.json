@@ -2,8 +2,8 @@
   "schema_version": 1,
   "repo": "Vidocq/vidocq",
   "branch": "main",
-  "commit_sha": "715306d63106e902ed81ea5faa17f26830b3f8a4",
-  "updated_at": "2026-10-08T08:58:17Z",
+  "commit_sha": "db2f3955b47f6d5b62e6470893af385630c1a6d5",
+  "updated_at": "2026-10-08T12:40:22Z",
   "produces": [
     {
       "groupId": "io.vidocq.runtime",
@@ -38,6 +38,11 @@
     {
       "groupId": "io.vidocq.runtime",
       "artifactId": "vidocq-runtime-core-codegen",
+      "version": "0.4.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.runtime",
+      "artifactId": "vidocq-runtime-cyrano-rest-client-example",
       "version": "0.4.0-SNAPSHOT"
     },
     {
@@ -287,6 +292,11 @@
     },
     {
       "groupId": "io.vidocq.runtime.extensions.microprofile",
+      "artifactId": "vidocq-runtime-cyrano-rest-client-extension-codegen",
+      "version": "0.4.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.runtime.extensions.microprofile",
       "artifactId": "vidocq-runtime-dirac-metrics-extension",
       "version": "0.4.0-SNAPSHOT"
     },
@@ -503,6 +513,13 @@
       "groupId": "io.vidocq.cyrano",
       "artifactId": "cyrano-core",
       "version": "0.4.0-SNAPSHOT",
+      "scope": "compile",
+      "type": "jar"
+    },
+    {
+      "groupId": "io.vidocq.cyrano",
+      "artifactId": "cyrano-processor",
+      "version": "${cyrano.version}",
       "scope": "compile",
       "type": "jar"
     },
