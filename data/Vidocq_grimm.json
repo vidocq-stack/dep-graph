@@ -2,8 +2,8 @@
   "schema_version": 1,
   "repo": "Vidocq/grimm",
   "branch": "main",
-  "commit_sha": "f85321255b891369efe191bb4932fa4d58fcff09",
-  "updated_at": "2026-10-07T17:56:48Z",
+  "commit_sha": "2aa246a0d1d713fe8d0ecd32f51b09205fc3b010",
+  "updated_at": "2026-10-08T08:48:55Z",
   "produces": [
     {
       "groupId": "io.vidocq.grimm",
@@ -70,6 +70,13 @@
       "artifactId": "ravel-mp-config-api",
       "version": "",
       "scope": "provided",
+      "type": "jar"
+    },
+    {
+      "groupId": "io.vidocq.ravel",
+      "artifactId": "ravel-mp-config-api",
+      "version": "",
+      "scope": "test",
       "type": "jar"
     },
     {
