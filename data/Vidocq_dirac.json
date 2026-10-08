@@ -2,8 +2,8 @@
   "schema_version": 1,
   "repo": "Vidocq/dirac",
   "branch": "main",
-  "commit_sha": "bef5afd060a42d40fb83dff43f5bc5c575206670",
-  "updated_at": "2026-10-08T05:00:29Z",
+  "commit_sha": "4fed1e85adc2e4f80d86eb6a9acbecd2b68a53cb",
+  "updated_at": "2026-10-08T08:58:12Z",
   "produces": [
     {
       "groupId": "io.vidocq.dirac",
