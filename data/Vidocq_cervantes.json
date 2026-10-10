@@ -2,8 +2,8 @@
   "schema_version": 1,
   "repo": "Vidocq/cervantes",
   "branch": "main",
-  "commit_sha": "980733b725bf94e1f83143eea6e084c2fba4b35e",
-  "updated_at": "2026-10-08T08:57:59Z",
+  "commit_sha": "a8baf92c3955c3f9b7647b9ec2124c448cbfd4fc",
+  "updated_at": "2026-10-10T15:05:14Z",
   "produces": [
     {
       "groupId": "io.vidocq.cervantes",
@@ -28,6 +28,21 @@
     {
       "groupId": "io.vidocq.cervantes",
       "artifactId": "cervantes-examples",
+      "version": "0.4.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.cervantes",
+      "artifactId": "cervantes-it-openliberty",
+      "version": "0.4.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.cervantes",
+      "artifactId": "cervantes-it-other-containers",
+      "version": "0.4.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.cervantes",
+      "artifactId": "cervantes-it-weld",
       "version": "0.4.0-SNAPSHOT"
     },
     {
@@ -136,13 +151,6 @@
       "artifactId": "vauban-api",
       "version": "0.4.0-SNAPSHOT",
       "scope": "compile",
-      "type": "jar"
-    },
-    {
-      "groupId": "io.vidocq.vauban",
-      "artifactId": "vauban-api",
-      "version": "",
-      "scope": "provided",
       "type": "jar"
     },
     {
