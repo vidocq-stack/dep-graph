@@ -2,8 +2,8 @@
   "schema_version": 1,
   "repo": "Vidocq/humboldt",
   "branch": "main",
-  "commit_sha": "1dcfc6d4a25644ae71578b9a920042d7bba59c27",
-  "updated_at": "2026-10-08T09:07:11Z",
+  "commit_sha": "885c682e4ca2cfdcccd9289c901d60273c250e2f",
+  "updated_at": "2026-10-10T15:54:02Z",
   "produces": [
     {
       "groupId": "io.vidocq.humboldt",
@@ -23,6 +23,21 @@
     {
       "groupId": "io.vidocq.humboldt",
       "artifactId": "humboldt-exporter-otlp-http",
+      "version": "0.4.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.humboldt",
+      "artifactId": "humboldt-it-openliberty",
+      "version": "0.4.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.humboldt",
+      "artifactId": "humboldt-it-other-containers",
+      "version": "0.4.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.humboldt",
+      "artifactId": "humboldt-it-weld",
       "version": "0.4.0-SNAPSHOT"
     },
     {
@@ -92,6 +107,13 @@
       "artifactId": "cyrano-mp-rest-client-api",
       "version": "0.4.0-SNAPSHOT",
       "scope": "provided",
+      "type": "jar"
+    },
+    {
+      "groupId": "io.vidocq.vauban",
+      "artifactId": "vauban-api",
+      "version": "${vauban.version}",
+      "scope": "compile",
       "type": "jar"
     },
     {
