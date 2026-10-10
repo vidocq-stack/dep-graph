@@ -2,8 +2,8 @@
   "schema_version": 1,
   "repo": "Vidocq/heisenberg",
   "branch": "main",
-  "commit_sha": "74a98a7515ab84106d958793dc99a9af353250af",
-  "updated_at": "2026-10-08T11:59:51Z",
+  "commit_sha": "838748c543c9bbd920c8d36885dcd04bb7a08c96",
+  "updated_at": "2026-10-10T14:29:20Z",
   "produces": [
     {
       "groupId": "io.vidocq.heisenberg",
@@ -33,6 +33,21 @@
     {
       "groupId": "io.vidocq.heisenberg",
       "artifactId": "heisenberg-examples",
+      "version": "0.4.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.heisenberg",
+      "artifactId": "heisenberg-it-openliberty",
+      "version": "0.4.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.heisenberg",
+      "artifactId": "heisenberg-it-other-containers",
+      "version": "0.4.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.heisenberg",
+      "artifactId": "heisenberg-it-weld",
       "version": "0.4.0-SNAPSHOT"
     },
     {
@@ -93,7 +108,7 @@
       "groupId": "io.vidocq.vauban",
       "artifactId": "vauban-api",
       "version": "${vauban.version}",
-      "scope": "provided",
+      "scope": "compile",
       "type": "jar"
     },
     {
