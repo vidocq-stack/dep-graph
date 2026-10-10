@@ -2,8 +2,8 @@
   "schema_version": 1,
   "repo": "Vidocq/cyrano",
   "branch": "main",
-  "commit_sha": "5bc8859ad957c97f93305552b11c99f83e011673",
-  "updated_at": "2026-10-08T14:00:20Z",
+  "commit_sha": "4d45a39bb4019f87162ca470e728f3f937ab7d75",
+  "updated_at": "2026-10-10T17:34:22Z",
   "produces": [
     {
       "groupId": "io.vidocq.cyrano",
@@ -18,6 +18,21 @@
     {
       "groupId": "io.vidocq.cyrano",
       "artifactId": "cyrano-core",
+      "version": "0.4.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.cyrano",
+      "artifactId": "cyrano-it-openliberty",
+      "version": "0.4.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.cyrano",
+      "artifactId": "cyrano-it-other-containers",
+      "version": "0.4.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.cyrano",
+      "artifactId": "cyrano-it-weld",
       "version": "0.4.0-SNAPSHOT"
     },
     {
