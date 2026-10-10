@@ -2,8 +2,8 @@
   "schema_version": 1,
   "repo": "Vidocq/foy",
   "branch": "main",
-  "commit_sha": "5644a681d2dd5f9f97c48f827e4a9c9e1e924ab0",
-  "updated_at": "2026-10-09T09:36:18Z",
+  "commit_sha": "091cdfea8f08d898b4113760d8e797a73fbda9d8",
+  "updated_at": "2026-10-10T17:57:14Z",
   "produces": [
     {
       "groupId": "io.vidocq.foy",
@@ -23,6 +23,16 @@
     {
       "groupId": "io.vidocq.foy",
       "artifactId": "foy-core",
+      "version": "0.4.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.foy",
+      "artifactId": "foy-it-other-containers",
+      "version": "0.4.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.foy",
+      "artifactId": "foy-it-weld",
       "version": "0.4.0-SNAPSHOT"
     },
     {
