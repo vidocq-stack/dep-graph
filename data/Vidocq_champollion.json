@@ -2,8 +2,8 @@
   "schema_version": 1,
   "repo": "Vidocq/champollion",
   "branch": "main",
-  "commit_sha": "933d9cb1b6f198f6cb8c6bbcc287d0edf278e2d2",
-  "updated_at": "2026-08-30T20:08:06Z",
+  "commit_sha": "fca185c6d7275a9d2d5ecae8c24f0f9b2f766262",
+  "updated_at": "2026-10-10T16:16:10Z",
   "produces": [
     {
       "groupId": "io.vidocq.champollion",
@@ -28,6 +28,21 @@
     {
       "groupId": "io.vidocq.champollion",
       "artifactId": "champollion-examples",
+      "version": "0.4.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.champollion",
+      "artifactId": "champollion-it-openliberty",
+      "version": "0.4.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.champollion",
+      "artifactId": "champollion-it-other-containers",
+      "version": "0.4.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.champollion",
+      "artifactId": "champollion-it-weld",
       "version": "0.4.0-SNAPSHOT"
     },
     {
