@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "repo": "Vidocq/tassis",
+  "branch": "main",
+  "commit_sha": "8890497af8687b0587e50f408f07048bcd47d63c",
+  "updated_at": "2026-10-10T09:23:04Z",
+  "produces": [
+    {
+      "groupId": "io.vidocq.tassis",
+      "artifactId": "tassis-api",
+      "version": "0.4.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.tassis",
+      "artifactId": "tassis-bench",
+      "version": "0.4.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.tassis",
+      "artifactId": "tassis-cdi-vauban",
+      "version": "0.4.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.tassis",
+      "artifactId": "tassis-core",
+      "version": "0.4.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.tassis",
+      "artifactId": "tassis-examples",
+      "version": "0.4.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.tassis",
+      "artifactId": "tassis-parent",
+      "version": "0.4.0-SNAPSHOT"
+    }
+  ],
+  "consumes": []
+}
