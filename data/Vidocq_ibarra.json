@@ -2,8 +2,8 @@
   "schema_version": 1,
   "repo": "Vidocq/ibarra",
   "branch": "main",
-  "commit_sha": "09ce5c59bf56c93db170e35768acebebe26a3271",
-  "updated_at": "2026-10-10T19:48:16Z",
+  "commit_sha": "44fd59b5500e6130b535573433389c477d67e6a2",
+  "updated_at": "2026-10-10T20:37:50Z",
   "produces": [
     {
       "groupId": "io.vidocq.ibarra",
@@ -18,6 +18,11 @@
     {
       "groupId": "io.vidocq.ibarra",
       "artifactId": "ibarra-core",
+      "version": "0.4.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.ibarra",
+      "artifactId": "ibarra-maven-plugin",
       "version": "0.4.0-SNAPSHOT"
     },
     {
