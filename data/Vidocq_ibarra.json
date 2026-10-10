@@ -2,9 +2,14 @@
   "schema_version": 1,
   "repo": "Vidocq/ibarra",
   "branch": "main",
-  "commit_sha": "d1bfc9f7049faf7b685151437b6068cc5085f20d",
-  "updated_at": "2026-10-10T19:48:10Z",
+  "commit_sha": "09ce5c59bf56c93db170e35768acebebe26a3271",
+  "updated_at": "2026-10-10T19:48:16Z",
   "produces": [
+    {
+      "groupId": "io.vidocq.ibarra",
+      "artifactId": "ibarra-api",
+      "version": "0.4.0-SNAPSHOT"
+    },
     {
       "groupId": "io.vidocq.ibarra",
       "artifactId": "ibarra-compiler",
