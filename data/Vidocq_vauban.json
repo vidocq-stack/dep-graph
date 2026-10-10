@@ -2,8 +2,8 @@
   "schema_version": 1,
   "repo": "Vidocq/vauban",
   "branch": "main",
-  "commit_sha": "1421fe8264d571e477a2e28b06632fe4e2b38416",
-  "updated_at": "2026-10-08T11:34:37Z",
+  "commit_sha": "7c508d1b677aaf1e43e94393197fc5d70a633db1",
+  "updated_at": "2026-10-10T21:02:52Z",
   "produces": [
     {
       "groupId": "io.vidocq.vauban",
@@ -143,6 +143,11 @@
     {
       "groupId": "io.vidocq.vauban",
       "artifactId": "vauban-weaver",
+      "version": "0.4.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.vauban",
+      "artifactId": "vauban-webcontexts",
       "version": "0.4.0-SNAPSHOT"
     }
   ],
