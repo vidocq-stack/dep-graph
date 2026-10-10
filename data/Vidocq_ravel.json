@@ -2,8 +2,8 @@
   "schema_version": 1,
   "repo": "Vidocq/ravel",
   "branch": "main",
-  "commit_sha": "dd493966041d11b6b7ea96f7812388a78d71feaa",
-  "updated_at": "2026-10-08T08:59:04Z",
+  "commit_sha": "5cfe3d1e187b301b20f30f8c6edfca9426d441c5",
+  "updated_at": "2026-10-10T16:30:53Z",
   "produces": [
     {
       "groupId": "io.vidocq.ravel",
@@ -23,6 +23,21 @@
     {
       "groupId": "io.vidocq.ravel",
       "artifactId": "ravel-core",
+      "version": "0.4.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.ravel",
+      "artifactId": "ravel-it-openliberty",
+      "version": "0.4.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.ravel",
+      "artifactId": "ravel-it-other-containers",
+      "version": "0.4.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.ravel",
+      "artifactId": "ravel-it-weld",
       "version": "0.4.0-SNAPSHOT"
     },
     {
