@@ -2,9 +2,14 @@
   "schema_version": 1,
   "repo": "Vidocq/peano",
   "branch": "main",
-  "commit_sha": "1c6e80eb39f81429a51da6c4f5379820c06c5a2a",
-  "updated_at": "2026-10-10T19:40:56Z",
+  "commit_sha": "60672a599f411e3c2369742e5ca78b1013d12b43",
+  "updated_at": "2026-10-10T20:18:20Z",
   "produces": [
+    {
+      "groupId": "io.vidocq.peano",
+      "artifactId": "peano-api",
+      "version": "0.4.0-SNAPSHOT"
+    },
     {
       "groupId": "io.vidocq.peano",
       "artifactId": "peano-core",
