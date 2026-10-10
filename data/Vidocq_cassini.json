@@ -2,8 +2,8 @@
   "schema_version": 1,
   "repo": "Vidocq/cassini",
   "branch": "main",
-  "commit_sha": "e3081234538bbfaed0de262bf2cfae10837d0533",
-  "updated_at": "2026-10-10T17:33:37Z",
+  "commit_sha": "a594a084586294144d276123258bbef61cc70bad",
+  "updated_at": "2026-10-10T20:02:18Z",
   "produces": [
     {
       "groupId": "io.vidocq.cassini",
@@ -108,9 +108,23 @@
     },
     {
       "groupId": "io.vidocq.champollion",
+      "artifactId": "champollion-jsonb",
+      "version": "",
+      "scope": "test",
+      "type": "jar"
+    },
+    {
+      "groupId": "io.vidocq.champollion",
       "artifactId": "champollion-jsonp",
       "version": "0.4.0-SNAPSHOT",
       "scope": "compile",
+      "type": "jar"
+    },
+    {
+      "groupId": "io.vidocq.champollion",
+      "artifactId": "champollion-jsonp",
+      "version": "",
+      "scope": "test",
       "type": "jar"
     },
     {
