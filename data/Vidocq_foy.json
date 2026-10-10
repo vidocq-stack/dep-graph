@@ -2,8 +2,8 @@
   "schema_version": 1,
   "repo": "Vidocq/foy",
   "branch": "main",
-  "commit_sha": "a75e6ad48c47e9c0778d739d71617f8ef5b4b7c3",
-  "updated_at": "2026-10-10T18:13:02Z",
+  "commit_sha": "221ee7cbccd7ac927306e783f1351684397deb83",
+  "updated_at": "2026-10-10T21:19:10Z",
   "produces": [
     {
       "groupId": "io.vidocq.foy",
@@ -32,7 +32,22 @@
     },
     {
       "groupId": "io.vidocq.foy",
+      "artifactId": "foy-it-session-scenarios",
+      "version": "0.4.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.foy",
+      "artifactId": "foy-it-vauban-session",
+      "version": "0.4.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.foy",
       "artifactId": "foy-it-weld",
+      "version": "0.4.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.foy",
+      "artifactId": "foy-it-weld-servlet",
       "version": "0.4.0-SNAPSHOT"
     },
     {
@@ -87,6 +102,13 @@
       "artifactId": "vauban-processor",
       "version": "${vauban.version}",
       "scope": "test",
+      "type": "jar"
+    },
+    {
+      "groupId": "io.vidocq.vauban",
+      "artifactId": "vauban-webcontexts",
+      "version": "${vauban.version}",
+      "scope": "compile",
       "type": "jar"
     }
   ]
