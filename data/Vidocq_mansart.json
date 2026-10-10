@@ -2,8 +2,8 @@
   "schema_version": 1,
   "repo": "Vidocq/mansart",
   "branch": "main",
-  "commit_sha": "e86924b214ee812586f0ba0224c803b5388f0546",
-  "updated_at": "2026-10-10T08:54:10Z",
+  "commit_sha": "80c6d840319c96458ea12eb2c61f2e0973b80716",
+  "updated_at": "2026-10-10T15:15:50Z",
   "produces": [
     {
       "groupId": "io.vidocq.mansart",
@@ -68,6 +68,56 @@
     {
       "groupId": "io.vidocq.mansart",
       "artifactId": "mansart-jpa",
+      "version": "0.4.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.mansart",
+      "artifactId": "mansart-jpa-cdi",
+      "version": "0.4.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.mansart",
+      "artifactId": "mansart-jpa-cdi-module-it",
+      "version": "0.4.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.mansart",
+      "artifactId": "mansart-jpa-core",
+      "version": "0.4.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.mansart",
+      "artifactId": "mansart-jpa-dialect-h2",
+      "version": "0.4.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.mansart",
+      "artifactId": "mansart-jpa-dialect-postgresql",
+      "version": "0.4.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.mansart",
+      "artifactId": "mansart-jpa-dialect-spi",
+      "version": "0.4.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.mansart",
+      "artifactId": "mansart-jpa-dialects",
+      "version": "0.4.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.mansart",
+      "artifactId": "mansart-jpa-module-it",
+      "version": "0.4.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.mansart",
+      "artifactId": "mansart-jpa-processor",
+      "version": "0.4.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.mansart",
+      "artifactId": "mansart-jpa-processor-module-it",
       "version": "0.4.0-SNAPSHOT"
     },
     {
