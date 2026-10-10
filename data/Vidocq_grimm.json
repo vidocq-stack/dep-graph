@@ -2,8 +2,8 @@
   "schema_version": 1,
   "repo": "Vidocq/grimm",
   "branch": "main",
-  "commit_sha": "2aa246a0d1d713fe8d0ecd32f51b09205fc3b010",
-  "updated_at": "2026-10-08T08:48:55Z",
+  "commit_sha": "591ddcad274c6453578ade9c58aa9dce9d2a9811",
+  "updated_at": "2026-10-10T17:04:14Z",
   "produces": [
     {
       "groupId": "io.vidocq.grimm",
@@ -23,6 +23,21 @@
     {
       "groupId": "io.vidocq.grimm",
       "artifactId": "grimm-examples",
+      "version": "0.4.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.grimm",
+      "artifactId": "grimm-it-openliberty",
+      "version": "0.4.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.grimm",
+      "artifactId": "grimm-it-other-containers",
+      "version": "0.4.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.grimm",
+      "artifactId": "grimm-it-weld",
       "version": "0.4.0-SNAPSHOT"
     },
     {
@@ -60,6 +75,13 @@
     },
     {
       "groupId": "io.vidocq.ravel",
+      "artifactId": "ravel-core",
+      "version": "0.4.0-SNAPSHOT",
+      "scope": "test",
+      "type": "jar"
+    },
+    {
+      "groupId": "io.vidocq.ravel",
       "artifactId": "ravel-mp-config-api",
       "version": "0.4.0-SNAPSHOT",
       "scope": "compile",
@@ -83,7 +105,7 @@
       "groupId": "io.vidocq.vauban",
       "artifactId": "vauban-api",
       "version": "0.4.0-SNAPSHOT",
-      "scope": "provided",
+      "scope": "compile",
       "type": "jar"
     },
     {
