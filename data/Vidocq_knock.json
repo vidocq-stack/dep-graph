@@ -2,8 +2,8 @@
   "schema_version": 1,
   "repo": "Vidocq/knock",
   "branch": "main",
-  "commit_sha": "1643c7024a61da492133b1027e362d0fd8731015",
-  "updated_at": "2026-10-08T08:55:11Z",
+  "commit_sha": "f3235abfeef8e5394c1dde5ba6070ee862624a58",
+  "updated_at": "2026-10-10T13:29:10Z",
   "produces": [
     {
       "groupId": "io.vidocq.knock",
@@ -18,6 +18,21 @@
     {
       "groupId": "io.vidocq.knock",
       "artifactId": "knock-core",
+      "version": "0.4.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.knock",
+      "artifactId": "knock-it-openliberty",
+      "version": "0.4.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.knock",
+      "artifactId": "knock-it-other-containers",
+      "version": "0.4.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.knock",
+      "artifactId": "knock-it-weld",
       "version": "0.4.0-SNAPSHOT"
     },
     {
@@ -77,13 +92,6 @@
       "artifactId": "vauban-api",
       "version": "0.4.0-SNAPSHOT",
       "scope": "compile",
-      "type": "jar"
-    },
-    {
-      "groupId": "io.vidocq.vauban",
-      "artifactId": "vauban-api",
-      "version": "",
-      "scope": "provided",
       "type": "jar"
     },
     {
