@@ -2,8 +2,8 @@
   "schema_version": 1,
   "repo": "Vidocq/vidocq",
   "branch": "main",
-  "commit_sha": "fdfa98942af4ac6a597710774a854ca0f9a8aed5",
-  "updated_at": "2026-10-11T13:56:49Z",
+  "commit_sha": "bc512c776dc8b2940cc10b6766b1a5644bd87c4a",
+  "updated_at": "2026-10-11T15:02:12Z",
   "produces": [
     {
       "groupId": "io.vidocq.runtime",
@@ -238,6 +238,16 @@
     {
       "groupId": "io.vidocq.runtime.extensions.jakartaee.core",
       "artifactId": "vidocq-runtime-extensions-jakartaee-core",
+      "version": "0.4.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.runtime.extensions.jakartaee.core",
+      "artifactId": "vidocq-runtime-peano-el-extension",
+      "version": "0.4.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.runtime.extensions.jakartaee.core",
+      "artifactId": "vidocq-runtime-peano-el-extension-codegen",
       "version": "0.4.0-SNAPSHOT"
     },
     {
@@ -746,6 +756,34 @@
       "artifactId": "mansart-transactions-jdbc",
       "version": "${mansart.version}",
       "scope": "compile",
+      "type": "jar"
+    },
+    {
+      "groupId": "io.vidocq.peano",
+      "artifactId": "peano-core",
+      "version": "0.4.0-SNAPSHOT",
+      "scope": "compile",
+      "type": "jar"
+    },
+    {
+      "groupId": "io.vidocq.peano",
+      "artifactId": "peano-core",
+      "version": "",
+      "scope": "test",
+      "type": "jar"
+    },
+    {
+      "groupId": "io.vidocq.peano",
+      "artifactId": "peano-processor",
+      "version": "${peano.version}",
+      "scope": "compile",
+      "type": "jar"
+    },
+    {
+      "groupId": "io.vidocq.peano",
+      "artifactId": "peano-processor",
+      "version": "${peano.version}",
+      "scope": "test",
       "type": "jar"
     },
     {
