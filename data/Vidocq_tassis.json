@@ -2,8 +2,8 @@
   "schema_version": 1,
   "repo": "Vidocq/tassis",
   "branch": "main",
-  "commit_sha": "e27200e176e0b9c76ad50b0469fe5ae49a1a0037",
-  "updated_at": "2026-10-11T08:25:53Z",
+  "commit_sha": "d9b8c6fafb816fd3ac0f6dfd1442c553a1819586",
+  "updated_at": "2026-10-11T15:02:51Z",
   "produces": [
     {
       "groupId": "io.vidocq.tassis",
