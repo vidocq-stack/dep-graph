@@ -2,8 +2,8 @@
   "schema_version": 1,
   "repo": "Vidocq/mansart",
   "branch": "main",
-  "commit_sha": "c91d72c41b45e97c08678a8adb56ae6f5e704d80",
-  "updated_at": "2026-10-11T12:04:03Z",
+  "commit_sha": "22de9785b63889303ef67334262c4b928aad9361",
+  "updated_at": "2026-10-11T21:24:45Z",
   "produces": [
     {
       "groupId": "io.vidocq.mansart",
@@ -63,61 +63,6 @@
     {
       "groupId": "io.vidocq.mansart",
       "artifactId": "mansart-jakarta-data",
-      "version": "0.4.0-SNAPSHOT"
-    },
-    {
-      "groupId": "io.vidocq.mansart",
-      "artifactId": "mansart-jpa",
-      "version": "0.4.0-SNAPSHOT"
-    },
-    {
-      "groupId": "io.vidocq.mansart",
-      "artifactId": "mansart-jpa-cdi",
-      "version": "0.4.0-SNAPSHOT"
-    },
-    {
-      "groupId": "io.vidocq.mansart",
-      "artifactId": "mansart-jpa-cdi-module-it",
-      "version": "0.4.0-SNAPSHOT"
-    },
-    {
-      "groupId": "io.vidocq.mansart",
-      "artifactId": "mansart-jpa-core",
-      "version": "0.4.0-SNAPSHOT"
-    },
-    {
-      "groupId": "io.vidocq.mansart",
-      "artifactId": "mansart-jpa-dialect-h2",
-      "version": "0.4.0-SNAPSHOT"
-    },
-    {
-      "groupId": "io.vidocq.mansart",
-      "artifactId": "mansart-jpa-dialect-postgresql",
-      "version": "0.4.0-SNAPSHOT"
-    },
-    {
-      "groupId": "io.vidocq.mansart",
-      "artifactId": "mansart-jpa-dialect-spi",
-      "version": "0.4.0-SNAPSHOT"
-    },
-    {
-      "groupId": "io.vidocq.mansart",
-      "artifactId": "mansart-jpa-dialects",
-      "version": "0.4.0-SNAPSHOT"
-    },
-    {
-      "groupId": "io.vidocq.mansart",
-      "artifactId": "mansart-jpa-module-it",
-      "version": "0.4.0-SNAPSHOT"
-    },
-    {
-      "groupId": "io.vidocq.mansart",
-      "artifactId": "mansart-jpa-processor",
-      "version": "0.4.0-SNAPSHOT"
-    },
-    {
-      "groupId": "io.vidocq.mansart",
-      "artifactId": "mansart-jpa-processor-module-it",
       "version": "0.4.0-SNAPSHOT"
     },
     {
@@ -183,21 +128,6 @@
     {
       "groupId": "io.vidocq.mansart",
       "artifactId": "mansart-transactions-tests",
-      "version": "0.4.0-SNAPSHOT"
-    },
-    {
-      "groupId": "io.vidocq.mansart",
-      "artifactId": "mansart-validation",
-      "version": "0.4.0-SNAPSHOT"
-    },
-    {
-      "groupId": "io.vidocq.mansart",
-      "artifactId": "mansart-validation-core",
-      "version": "0.4.0-SNAPSHOT"
-    },
-    {
-      "groupId": "io.vidocq.mansart",
-      "artifactId": "mansart-validation-core-module-it",
       "version": "0.4.0-SNAPSHOT"
     }
   ],
