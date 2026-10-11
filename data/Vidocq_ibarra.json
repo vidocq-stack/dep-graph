@@ -2,8 +2,8 @@
   "schema_version": 1,
   "repo": "Vidocq/ibarra",
   "branch": "main",
-  "commit_sha": "44fd59b5500e6130b535573433389c477d67e6a2",
-  "updated_at": "2026-10-10T20:37:50Z",
+  "commit_sha": "96c478575602498cb8bd21f1d36801209106f00a",
+  "updated_at": "2026-10-11T09:58:29Z",
   "produces": [
     {
       "groupId": "io.vidocq.ibarra",
@@ -22,6 +22,11 @@
     },
     {
       "groupId": "io.vidocq.ibarra",
+      "artifactId": "ibarra-foy",
+      "version": "0.4.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.ibarra",
       "artifactId": "ibarra-maven-plugin",
       "version": "0.4.0-SNAPSHOT"
     },
@@ -33,10 +38,31 @@
   ],
   "consumes": [
     {
+      "groupId": "io.vidocq.chappe",
+      "artifactId": "chappe-core",
+      "version": "${chappe.version}",
+      "scope": "test",
+      "type": "jar"
+    },
+    {
+      "groupId": "io.vidocq.foy",
+      "artifactId": "foy-api",
+      "version": "0.4.0-SNAPSHOT",
+      "scope": "compile",
+      "type": "jar"
+    },
+    {
       "groupId": "io.vidocq.foy",
       "artifactId": "foy-core",
       "version": "0.4.0-SNAPSHOT",
       "scope": "compile",
+      "type": "jar"
+    },
+    {
+      "groupId": "io.vidocq.foy",
+      "artifactId": "foy-core",
+      "version": "",
+      "scope": "test",
       "type": "jar"
     },
     {
