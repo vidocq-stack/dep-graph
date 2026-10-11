@@ -2,8 +2,8 @@
   "schema_version": 1,
   "repo": "Vidocq/ibarra",
   "branch": "main",
-  "commit_sha": "45301f2daf9510838c3c65364df9b2e6246a0b69",
-  "updated_at": "2026-10-11T11:00:49Z",
+  "commit_sha": "ae2741967c65354107d6b0e5b616bce9ff790062",
+  "updated_at": "2026-10-11T17:05:55Z",
   "produces": [
     {
       "groupId": "io.vidocq.ibarra",
@@ -63,6 +63,20 @@
       "artifactId": "foy-core",
       "version": "",
       "scope": "test",
+      "type": "jar"
+    },
+    {
+      "groupId": "io.vidocq.peano",
+      "artifactId": "peano-api",
+      "version": "0.4.0-SNAPSHOT",
+      "scope": "compile",
+      "type": "jar"
+    },
+    {
+      "groupId": "io.vidocq.peano",
+      "artifactId": "peano-compiler",
+      "version": "0.4.0-SNAPSHOT",
+      "scope": "compile",
       "type": "jar"
     },
     {
