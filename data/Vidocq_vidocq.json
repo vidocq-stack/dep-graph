@@ -2,8 +2,8 @@
   "schema_version": 1,
   "repo": "Vidocq/vidocq",
   "branch": "main",
-  "commit_sha": "5450a7294072b511f339013a210b69a40581c43d",
-  "updated_at": "2026-10-10T19:29:49Z",
+  "commit_sha": "473031c76cb2a58e549605d35c1d6afd8ebbdc57",
+  "updated_at": "2026-10-11T10:22:34Z",
   "produces": [
     {
       "groupId": "io.vidocq.runtime",
@@ -113,6 +113,11 @@
     {
       "groupId": "io.vidocq.runtime",
       "artifactId": "vidocq-runtime-it-cyrano-jpms",
+      "version": "0.4.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.runtime",
+      "artifactId": "vidocq-runtime-it-foy-servlet",
       "version": "0.4.0-SNAPSHOT"
     },
     {
@@ -238,6 +243,16 @@
     {
       "groupId": "io.vidocq.runtime.extensions.jakartaee.web",
       "artifactId": "vidocq-runtime-extensions-jakartaee-web",
+      "version": "0.4.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.runtime.extensions.jakartaee.web",
+      "artifactId": "vidocq-runtime-foy-servlet-extension",
+      "version": "0.4.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.runtime.extensions.jakartaee.web",
+      "artifactId": "vidocq-runtime-foy-servlet-extension-codegen",
       "version": "0.4.0-SNAPSHOT"
     },
     {
@@ -538,6 +553,48 @@
       "type": "jar"
     },
     {
+      "groupId": "io.vidocq.foy",
+      "artifactId": "foy-api",
+      "version": "0.4.0-SNAPSHOT",
+      "scope": "compile",
+      "type": "jar"
+    },
+    {
+      "groupId": "io.vidocq.foy",
+      "artifactId": "foy-cdi-vauban",
+      "version": "0.4.0-SNAPSHOT",
+      "scope": "compile",
+      "type": "jar"
+    },
+    {
+      "groupId": "io.vidocq.foy",
+      "artifactId": "foy-cdi-vauban",
+      "version": "",
+      "scope": "runtime",
+      "type": "jar"
+    },
+    {
+      "groupId": "io.vidocq.foy",
+      "artifactId": "foy-chappe",
+      "version": "0.4.0-SNAPSHOT",
+      "scope": "compile",
+      "type": "jar"
+    },
+    {
+      "groupId": "io.vidocq.foy",
+      "artifactId": "foy-core",
+      "version": "0.4.0-SNAPSHOT",
+      "scope": "compile",
+      "type": "jar"
+    },
+    {
+      "groupId": "io.vidocq.foy",
+      "artifactId": "foy-processor",
+      "version": "0.4.0-SNAPSHOT",
+      "scope": "compile",
+      "type": "jar"
+    },
+    {
       "groupId": "io.vidocq.grimm",
       "artifactId": "grimm-cdi-vauban",
       "version": "${grimm.version}",
@@ -772,6 +829,13 @@
       "groupId": "io.vidocq.vauban",
       "artifactId": "vauban-processor",
       "version": "${vauban.version}",
+      "scope": "compile",
+      "type": "jar"
+    },
+    {
+      "groupId": "io.vidocq.vauban",
+      "artifactId": "vauban-webcontexts",
+      "version": "0.4.0-SNAPSHOT",
       "scope": "compile",
       "type": "jar"
     }
