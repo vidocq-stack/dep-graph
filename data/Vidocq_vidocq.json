@@ -2,8 +2,8 @@
   "schema_version": 1,
   "repo": "Vidocq/vidocq",
   "branch": "main",
-  "commit_sha": "473031c76cb2a58e549605d35c1d6afd8ebbdc57",
-  "updated_at": "2026-10-11T10:22:34Z",
+  "commit_sha": "fdfa98942af4ac6a597710774a854ca0f9a8aed5",
+  "updated_at": "2026-10-11T13:56:49Z",
   "produces": [
     {
       "groupId": "io.vidocq.runtime",
@@ -381,6 +381,13 @@
       "groupId": "io.vidocq.cassini",
       "artifactId": "cassini-api",
       "version": "0.4.0-SNAPSHOT",
+      "scope": "compile",
+      "type": "jar"
+    },
+    {
+      "groupId": "io.vidocq.cassini",
+      "artifactId": "cassini-cdi",
+      "version": "${cassini.version}",
       "scope": "compile",
       "type": "jar"
     },
