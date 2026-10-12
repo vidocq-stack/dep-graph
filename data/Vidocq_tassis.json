@@ -2,8 +2,8 @@
   "schema_version": 1,
   "repo": "Vidocq/tassis",
   "branch": "main",
-  "commit_sha": "05b16d4163aea6a7f7df4abedc3139fcfa3f424d",
-  "updated_at": "2026-10-12T05:35:19Z",
+  "commit_sha": "bef456e66445f4c91583346699c12ae2fd99f521",
+  "updated_at": "2026-10-12T09:53:49Z",
   "produces": [
     {
       "groupId": "io.vidocq.tassis",
@@ -13,11 +13,6 @@
     {
       "groupId": "io.vidocq.tassis",
       "artifactId": "tassis-api",
-      "version": "0.4.0-SNAPSHOT"
-    },
-    {
-      "groupId": "io.vidocq.tassis",
-      "artifactId": "tassis-bench",
       "version": "0.4.0-SNAPSHOT"
     },
     {
