@@ -2,8 +2,8 @@
   "schema_version": 1,
   "repo": "Vidocq/vidocq",
   "branch": "main",
-  "commit_sha": "92c054bb98a28efe67787d98991bb64f85b39def",
-  "updated_at": "2026-10-11T18:22:26Z",
+  "commit_sha": "863cf094bbf1f643845d9427296227ecbaa821e3",
+  "updated_at": "2026-10-12T13:58:32Z",
   "produces": [
     {
       "groupId": "io.vidocq.runtime",
@@ -93,6 +93,11 @@
     {
       "groupId": "io.vidocq.runtime",
       "artifactId": "vidocq-runtime-external-rest-lib",
+      "version": "0.4.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.runtime",
+      "artifactId": "vidocq-runtime-foy-servlet-example",
       "version": "0.4.0-SNAPSHOT"
     },
     {
