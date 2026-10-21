@@ -2,8 +2,8 @@
   "schema_version": 1,
   "repo": "Vidocq/vauban",
   "branch": "main",
-  "commit_sha": "7c508d1b677aaf1e43e94393197fc5d70a633db1",
-  "updated_at": "2026-10-10T21:02:52Z",
+  "commit_sha": "2bf468b7c9c617b084b05f3472a32f2ad3c7a86f",
+  "updated_at": "2026-10-21T14:15:34Z",
   "produces": [
     {
       "groupId": "io.vidocq.vauban",
