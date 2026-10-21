@@ -2,8 +2,8 @@
   "schema_version": 1,
   "repo": "Vidocq/peano",
   "branch": "main",
-  "commit_sha": "2a61e30c212a95cd6fdf59816fff902962804455",
-  "updated_at": "2026-10-11T14:56:07Z",
+  "commit_sha": "edab67f62604e26213c65d0561ba5f440080497a",
+  "updated_at": "2026-10-21T13:48:01Z",
   "produces": [
     {
       "groupId": "io.vidocq.peano",
