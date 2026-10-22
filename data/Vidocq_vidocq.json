@@ -2,8 +2,8 @@
   "schema_version": 1,
   "repo": "Vidocq/vidocq",
   "branch": "main",
-  "commit_sha": "db14653f7a812ec2a3de19e1e9b8f4ea6eae6d74",
-  "updated_at": "2026-10-22T18:39:59Z",
+  "commit_sha": "ce494e46373601a83abb0fe8b33deb39e2cdae01",
+  "updated_at": "2026-10-22T20:22:55Z",
   "produces": [
     {
       "groupId": "io.vidocq.runtime",
@@ -143,6 +143,11 @@
     {
       "groupId": "io.vidocq.runtime",
       "artifactId": "vidocq-runtime-it-langchain4j-cdi-mcp",
+      "version": "0.4.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.runtime",
+      "artifactId": "vidocq-runtime-it-naming",
       "version": "0.4.0-SNAPSHOT"
     },
     {
@@ -323,6 +328,11 @@
     {
       "groupId": "io.vidocq.runtime.extensions.jakartaee.web",
       "artifactId": "vidocq-runtime-mansart-transactions-extension-codegen",
+      "version": "0.4.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.runtime.extensions.jakartaee.web",
+      "artifactId": "vidocq-runtime-naming-extension",
       "version": "0.4.0-SNAPSHOT"
     },
     {
@@ -915,6 +925,13 @@
       "groupId": "io.vidocq.vauban",
       "artifactId": "vauban-maven-plugin",
       "version": "${vauban.version}",
+      "scope": "compile",
+      "type": "jar"
+    },
+    {
+      "groupId": "io.vidocq.vauban",
+      "artifactId": "vauban-naming",
+      "version": "0.4.0-SNAPSHOT",
       "scope": "compile",
       "type": "jar"
     },
