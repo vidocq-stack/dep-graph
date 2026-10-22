@@ -2,8 +2,8 @@
   "schema_version": 1,
   "repo": "Vidocq/foy",
   "branch": "main",
-  "commit_sha": "b48a6f8e4139964a173bdec11771555b1d93ea73",
-  "updated_at": "2026-10-22T12:37:53Z",
+  "commit_sha": "74b40dd036dab13cdfacac5656fe16bd93ac4c57",
+  "updated_at": "2026-10-22T13:20:55Z",
   "produces": [
     {
       "groupId": "io.vidocq.foy",
@@ -64,6 +64,11 @@
       "groupId": "io.vidocq.foy",
       "artifactId": "foy-processor",
       "version": "0.4.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.foy",
+      "artifactId": "foy-zap-target",
+      "version": "0.4.0-SNAPSHOT"
     }
   ],
   "consumes": [
@@ -79,6 +84,13 @@
       "artifactId": "chappe-core",
       "version": "0.4.0-SNAPSHOT",
       "scope": "compile",
+      "type": "jar"
+    },
+    {
+      "groupId": "io.vidocq.chappe",
+      "artifactId": "chappe-core",
+      "version": "",
+      "scope": "runtime",
       "type": "jar"
     },
     {
