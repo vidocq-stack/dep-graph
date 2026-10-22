@@ -2,8 +2,8 @@
   "schema_version": 1,
   "repo": "Vidocq/bodoni",
   "branch": "main",
-  "commit_sha": "cd71232202836597d5a2a6e40fd0b1f1b730f59e",
-  "updated_at": "2026-10-22T14:39:05Z",
+  "commit_sha": "e0b93ea809c04b680549149bb95496efba0b8a49",
+  "updated_at": "2026-10-22T17:57:14Z",
   "produces": [
     {
       "groupId": "io.vidocq.bodoni",
@@ -14,7 +14,34 @@
       "groupId": "io.vidocq.bodoni",
       "artifactId": "bodoni-parent",
       "version": "0.4.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.bodoni",
+      "artifactId": "bodoni-peano",
+      "version": "0.4.0-SNAPSHOT"
     }
   ],
-  "consumes": []
+  "consumes": [
+    {
+      "groupId": "io.vidocq.peano",
+      "artifactId": "peano-api",
+      "version": "0.4.0-SNAPSHOT",
+      "scope": "compile",
+      "type": "jar"
+    },
+    {
+      "groupId": "io.vidocq.peano",
+      "artifactId": "peano-core",
+      "version": "0.4.0-SNAPSHOT",
+      "scope": "compile",
+      "type": "jar"
+    },
+    {
+      "groupId": "io.vidocq.peano",
+      "artifactId": "peano-core",
+      "version": "",
+      "scope": "test",
+      "type": "jar"
+    }
+  ]
 }
