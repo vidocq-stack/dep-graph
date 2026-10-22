@@ -2,12 +2,17 @@
   "schema_version": 1,
   "repo": "Vidocq/foy",
   "branch": "main",
-  "commit_sha": "3d409a491adaae7ab3f301edb13f631264ab899d",
-  "updated_at": "2026-10-22T12:18:14Z",
+  "commit_sha": "b48a6f8e4139964a173bdec11771555b1d93ea73",
+  "updated_at": "2026-10-22T12:37:53Z",
   "produces": [
     {
       "groupId": "io.vidocq.foy",
       "artifactId": "foy-api",
+      "version": "0.4.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.foy",
+      "artifactId": "foy-architecture-tests",
       "version": "0.4.0-SNAPSHOT"
     },
     {
