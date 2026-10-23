@@ -2,8 +2,8 @@
   "schema_version": 1,
   "repo": "Vidocq/foy",
   "branch": "main",
-  "commit_sha": "74b40dd036dab13cdfacac5656fe16bd93ac4c57",
-  "updated_at": "2026-10-22T13:20:55Z",
+  "commit_sha": "67f6334cfc2368bea75ff9a850992b2d78765008",
+  "updated_at": "2026-10-23T17:11:52Z",
   "produces": [
     {
       "groupId": "io.vidocq.foy",
