@@ -2,12 +2,17 @@
   "schema_version": 1,
   "repo": "Vidocq/ibarra",
   "branch": "main",
-  "commit_sha": "53f9414e2223978d722a7e38c75496561d41a157",
-  "updated_at": "2026-10-21T14:15:22Z",
+  "commit_sha": "d39e3c7fb46f65690fc1eecaeab68e7d5ebdde17",
+  "updated_at": "2026-10-23T20:21:46Z",
   "produces": [
     {
       "groupId": "io.vidocq.ibarra",
       "artifactId": "ibarra-api",
+      "version": "0.4.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.ibarra",
+      "artifactId": "ibarra-arquillian",
       "version": "0.4.0-SNAPSHOT"
     },
     {
@@ -37,6 +42,13 @@
     }
   ],
   "consumes": [
+    {
+      "groupId": "io.vidocq.chappe",
+      "artifactId": "chappe-core",
+      "version": "${chappe.version}",
+      "scope": "compile",
+      "type": "jar"
+    },
     {
       "groupId": "io.vidocq.chappe",
       "artifactId": "chappe-core",
