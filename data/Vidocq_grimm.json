@@ -2,8 +2,8 @@
   "schema_version": 1,
   "repo": "Vidocq/grimm",
   "branch": "main",
-  "commit_sha": "6da08271adc55dac95c1d1e715899ceea6a20764",
-  "updated_at": "2026-10-21T13:47:59Z",
+  "commit_sha": "08e2dda4c9dcea714de5368cc03d53199bb3c690",
+  "updated_at": "2026-10-24T21:50:56Z",
   "produces": [
     {
       "groupId": "io.vidocq.grimm",
@@ -55,28 +55,28 @@
     {
       "groupId": "io.vidocq.cassini",
       "artifactId": "cassini-chappe",
-      "version": "0.4.0-SNAPSHOT",
+      "version": "${cassini.version}",
       "scope": "test",
       "type": "jar"
     },
     {
       "groupId": "io.vidocq.chappe",
       "artifactId": "chappe-api",
-      "version": "0.4.0-SNAPSHOT",
+      "version": "${chappe.version}",
       "scope": "test",
       "type": "jar"
     },
     {
       "groupId": "io.vidocq.chappe",
       "artifactId": "chappe-core",
-      "version": "0.4.0-SNAPSHOT",
+      "version": "${chappe.version}",
       "scope": "test",
       "type": "jar"
     },
     {
       "groupId": "io.vidocq.ravel",
       "artifactId": "ravel-core",
-      "version": "0.4.0-SNAPSHOT",
+      "version": "${ravel.version}",
       "scope": "test",
       "type": "jar"
     },
@@ -104,14 +104,14 @@
     {
       "groupId": "io.vidocq.vauban",
       "artifactId": "vauban-api",
-      "version": "0.4.0-SNAPSHOT",
+      "version": "${vauban.version}",
       "scope": "compile",
       "type": "jar"
     },
     {
       "groupId": "io.vidocq.vauban",
       "artifactId": "vauban-core",
-      "version": "0.4.0-SNAPSHOT",
+      "version": "${vauban.version}",
       "scope": "test",
       "type": "jar"
     }
