@@ -2,8 +2,8 @@
   "schema_version": 1,
   "repo": "Vidocq/cyrano",
   "branch": "main",
-  "commit_sha": "2b1b858198728858ee8bc3833cbb74d795b8acec",
-  "updated_at": "2026-10-21T15:23:25Z",
+  "commit_sha": "c33af1fad0a04501e2ccdda15a0a089d874919d3",
+  "updated_at": "2026-10-24T21:57:58Z",
   "produces": [
     {
       "groupId": "io.vidocq.cyrano",
@@ -83,14 +83,14 @@
     {
       "groupId": "io.vidocq.ravel",
       "artifactId": "ravel-core",
-      "version": "0.4.0-SNAPSHOT",
+      "version": "${ravel.version}",
       "scope": "test",
       "type": "jar"
     },
     {
       "groupId": "io.vidocq.vauban",
       "artifactId": "vauban-api",
-      "version": "0.4.0-SNAPSHOT",
+      "version": "${vauban.version}",
       "scope": "provided",
       "type": "jar"
     },
