@@ -1645,6 +1645,14 @@
       "consumed_by": [],
       "produced_by": "Vidocq/vidocq"
     },
+    "io.vidocq.runtime:vidocq-runtime-bom": {
+      "consumed_by": [],
+      "produced_by": "Vidocq/vidocq"
+    },
+    "io.vidocq.runtime:vidocq-runtime-build": {
+      "consumed_by": [],
+      "produced_by": "Vidocq/vidocq"
+    },
     "io.vidocq.runtime:vidocq-runtime-cassini-rest-example": {
       "consumed_by": [],
       "produced_by": "Vidocq/vidocq"
@@ -2240,6 +2248,6 @@
       "produced_by": "Vidocq/verne"
     }
   },
-  "generated_at": "2026-10-24T21:57:59Z",
+  "generated_at": "2026-10-24T22:27:27Z",
   "schema_version": 1
 }
