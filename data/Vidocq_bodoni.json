@@ -2,8 +2,8 @@
   "schema_version": 1,
   "repo": "Vidocq/bodoni",
   "branch": "main",
-  "commit_sha": "88760e83873bb2f00727f2f1cce7a0a18bbd94b8",
-  "updated_at": "2026-10-23T17:43:26Z",
+  "commit_sha": "a6e1315fe663da6c9f401d4b880a493c29322ff6",
+  "updated_at": "2026-10-24T00:52:19Z",
   "produces": [
     {
       "groupId": "io.vidocq.bodoni",
