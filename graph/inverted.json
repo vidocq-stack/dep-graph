@@ -4,6 +4,14 @@
       "consumed_by": [],
       "produced_by": "Vidocq/bodoni"
     },
+    "io.vidocq.bodoni:bodoni-it-openliberty": {
+      "consumed_by": [],
+      "produced_by": "Vidocq/bodoni"
+    },
+    "io.vidocq.bodoni:bodoni-it-other-containers": {
+      "consumed_by": [],
+      "produced_by": "Vidocq/bodoni"
+    },
     "io.vidocq.bodoni:bodoni-parent": {
       "consumed_by": [],
       "produced_by": "Vidocq/bodoni"
@@ -2232,6 +2240,6 @@
       "produced_by": "Vidocq/verne"
     }
   },
-  "generated_at": "2026-10-24T19:54:00Z",
+  "generated_at": "2026-10-24T21:43:17Z",
   "schema_version": 1
 }

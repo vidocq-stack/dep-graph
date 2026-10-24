@@ -2,12 +2,22 @@
   "schema_version": 1,
   "repo": "Vidocq/bodoni",
   "branch": "main",
-  "commit_sha": "a6e1315fe663da6c9f401d4b880a493c29322ff6",
-  "updated_at": "2026-10-24T00:52:19Z",
+  "commit_sha": "ae3a7e0d26b2e95a72e3c886cfc3f4a24c7c73c6",
+  "updated_at": "2026-10-24T21:43:17Z",
   "produces": [
     {
       "groupId": "io.vidocq.bodoni",
       "artifactId": "bodoni-core",
+      "version": "0.4.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.bodoni",
+      "artifactId": "bodoni-it-openliberty",
+      "version": "0.4.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.bodoni",
+      "artifactId": "bodoni-it-other-containers",
       "version": "0.4.0-SNAPSHOT"
     },
     {
