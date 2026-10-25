@@ -2,8 +2,8 @@
   "schema_version": 1,
   "repo": "Vidocq/mansart",
   "branch": "main",
-  "commit_sha": "646094d7f00b68543874a72e5b91b01b4fe9ef36",
-  "updated_at": "2026-10-21T13:49:56Z",
+  "commit_sha": "67cbb353135a9f83a502dbefe4d32cfcb089019a",
+  "updated_at": "2026-10-25T16:35:19Z",
   "produces": [
     {
       "groupId": "io.vidocq.mansart",
@@ -172,6 +172,13 @@
       "artifactId": "vauban-junit",
       "version": "0.4.0-SNAPSHOT",
       "scope": "test",
+      "type": "jar"
+    },
+    {
+      "groupId": "io.vidocq.vauban",
+      "artifactId": "vauban-processor",
+      "version": "0.4.0-SNAPSHOT",
+      "scope": "build",
       "type": "jar"
     }
   ]
