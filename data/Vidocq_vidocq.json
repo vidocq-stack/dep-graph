@@ -2,8 +2,8 @@
   "schema_version": 1,
   "repo": "Vidocq/vidocq",
   "branch": "main",
-  "commit_sha": "48ebab7b257c2cdc957e0f60b899a2396903ea35",
-  "updated_at": "2026-10-25T14:38:46Z",
+  "commit_sha": "ccfe223d45f2bdce79f0dfe9a6321f94d0464acf",
+  "updated_at": "2026-10-25T18:52:49Z",
   "produces": [
     {
       "groupId": "io.vidocq.runtime",
@@ -952,6 +952,13 @@
       "version": "0.4.0-SNAPSHOT",
       "scope": "compile",
       "type": "jar"
+    },
+    {
+      "groupId": "io.vidocq.vauban",
+      "artifactId": "vauban-maven-plugin",
+      "version": "0.4.0-SNAPSHOT",
+      "scope": "build",
+      "type": "maven-plugin"
     },
     {
       "groupId": "io.vidocq.vauban",
