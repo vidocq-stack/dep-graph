@@ -2208,6 +2208,10 @@
           "scope": "test"
         },
         {
+          "repo": "Vidocq/grimm",
+          "scope": "build"
+        },
+        {
           "repo": "Vidocq/vidocq",
           "scope": "compile"
         }
@@ -2256,6 +2260,6 @@
       "produced_by": "Vidocq/verne"
     }
   },
-  "generated_at": "2026-10-25T14:38:46Z",
+  "generated_at": "2026-10-25T16:30:25Z",
   "schema_version": 1
 }
