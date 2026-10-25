@@ -2,8 +2,8 @@
   "schema_version": 1,
   "repo": "Vidocq/vidocq",
   "branch": "main",
-  "commit_sha": "7bac2b5d8029a4325da20e33471ca731755abbe4",
-  "updated_at": "2026-10-25T21:00:10Z",
+  "commit_sha": "5610c81f6a6d394ce437035793389f7d5c59119f",
+  "updated_at": "2026-10-25T23:05:03Z",
   "produces": [
     {
       "groupId": "io.vidocq.runtime",
