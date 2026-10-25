@@ -1773,6 +1773,10 @@
       "consumed_by": [],
       "produced_by": "Vidocq/vidocq"
     },
+    "io.vidocq.runtime:vidocq-runtime-junit": {
+      "consumed_by": [],
+      "produced_by": "Vidocq/vidocq"
+    },
     "io.vidocq.runtime:vidocq-runtime-knock-health-example": {
       "consumed_by": [],
       "produced_by": "Vidocq/vidocq"
@@ -2252,6 +2256,6 @@
       "produced_by": "Vidocq/verne"
     }
   },
-  "generated_at": "2026-10-25T02:38:21Z",
+  "generated_at": "2026-10-25T09:08:50Z",
   "schema_version": 1
 }

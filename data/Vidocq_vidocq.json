@@ -2,8 +2,8 @@
   "schema_version": 1,
   "repo": "Vidocq/vidocq",
   "branch": "main",
-  "commit_sha": "49dc98a01c6929e80b639146c04caac022393f03",
-  "updated_at": "2026-10-25T02:38:20Z",
+  "commit_sha": "5655c06ed624a351c500d94fa09f64c473835fad",
+  "updated_at": "2026-10-25T09:08:50Z",
   "produces": [
     {
       "groupId": "io.vidocq.runtime",
@@ -163,6 +163,11 @@
     {
       "groupId": "io.vidocq.runtime",
       "artifactId": "vidocq-runtime-it-ravel-config",
+      "version": "0.4.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.runtime",
+      "artifactId": "vidocq-runtime-junit",
       "version": "0.4.0-SNAPSHOT"
     },
     {
