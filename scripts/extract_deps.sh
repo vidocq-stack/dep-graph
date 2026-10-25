@@ -188,6 +188,47 @@ def is_vidocq(group):
         return False
     return group == GROUP_PREFIX or group.startswith(GROUP_PREFIX + ".")
 
+def add_dep(all_deps, props, ns, node, scope, dtype):
+    """Record node (a <dependency>, <plugin> or annotation processor <path>) when it is io.vidocq."""
+    dg = resolve(text(node, "groupId", ns), props)
+    da = text(node, "artifactId", ns)
+    dv = resolve(text(node, "version", ns), props)
+    if is_vidocq(dg) and da:
+        all_deps.append({"groupId": dg, "artifactId": da, "version": dv or "", "scope": scope, "type": dtype})
+
+def child(elem, tag, ns):
+    if elem is None:
+        return None
+    return elem.find(f"m:{tag}", ns) if ns else elem.find(tag)
+
+def scan_plugins(plugins_node, ns, props, all_deps):
+    """A plugin pulls in itself, its own <dependencies> and the annotation processor paths of its
+    configuration (top-level or in an execution): all three reach the build, so all three count."""
+    for plugin in find_all(plugins_node, "plugin", ns):
+        add_dep(all_deps, props, ns, plugin, "build", "maven-plugin")
+        for dep in find_all(child(plugin, "dependencies", ns), "dependency", ns):
+            add_dep(all_deps, props, ns, dep, "build", text(dep, "type", ns) or "jar")
+        configs = [child(plugin, "configuration", ns)]
+        configs += [child(e, "configuration", ns) for e in find_all(child(plugin, "executions", ns), "execution", ns)]
+        for config in configs:
+            for path in find_all(child(config, "annotationProcessorPaths", ns), "path", ns):
+                add_dep(all_deps, props, ns, path, "build", "jar")
+
+def scan_container(container, ns, props, all_deps):
+    """Dependencies, managed dependencies and plugins (both <plugins> and <pluginManagement>) of the
+    project or of one of its profiles."""
+    for dep in find_all(child(container, "dependencies", ns), "dependency", ns):
+        add_dep(all_deps, props, ns, dep, text(dep, "scope", ns) or "compile", text(dep, "type", ns) or "jar")
+    managed = child(child(container, "dependencyManagement", ns), "dependencies", ns)
+    for dep in find_all(managed, "dependency", ns):
+        add_dep(all_deps, props, ns, dep, text(dep, "scope", ns) or "compile", text(dep, "type", ns) or "jar")
+    for build_tag in ("build", "reporting"):
+        b = child(container, build_tag, ns)
+        if b is None:
+            continue
+        scan_plugins(child(b, "plugins", ns), ns, props, all_deps)
+        scan_plugins(child(child(b, "pluginManagement", ns), "plugins", ns), ns, props, all_deps)
+
 # 1. Trouver le pom racine
 root_pom = PROJECT_ROOT / "pom.xml"
 if not root_pom.is_file():
@@ -218,53 +259,12 @@ for pom in poms:
     v_r = resolve(v, props)
     if is_vidocq(g_r):
         produces.append({"groupId": g_r, "artifactId": a, "version": v_r or ""})
-    # Dépendances : <dependencies>/<dependency> au top-level + dans <dependencyManagement>
-    for container in ("dependencies", "dependencyManagement"):
-        node = root.find(f"m:{container}", ns) if ns else root.find(container)
-        if node is None:
-            continue
-        if container == "dependencyManagement":
-            node = node.find("m:dependencies", ns) if ns else node.find("dependencies")
-            if node is None:
-                continue
-        for dep in find_all(node, "dependency", ns):
-            dg = resolve(text(dep, "groupId", ns), props)
-            da = text(dep, "artifactId", ns)
-            dv = resolve(text(dep, "version", ns), props)
-            ds = text(dep, "scope", ns) or "compile"
-            dt = text(dep, "type", ns) or "jar"
-            if is_vidocq(dg) and da:
-                all_deps.append({
-                    "groupId": dg,
-                    "artifactId": da,
-                    "version": dv or "",
-                    "scope": ds,
-                    "type": dt,
-                })
-    # Plugins Vidocq déclarés dans <build>/<plugins>
-    for build_tag in ("build", "reporting"):
-        b = root.find(f"m:{build_tag}", ns) if ns else root.find(build_tag)
-        if b is None:
-            continue
-        plugins_node = b.find("m:plugins", ns) if ns else b.find("plugins")
-        if plugins_node is None:
-            pm = b.find("m:pluginManagement", ns) if ns else b.find("pluginManagement")
-            if pm is not None:
-                plugins_node = pm.find("m:plugins", ns) if ns else pm.find("plugins")
-        if plugins_node is None:
-            continue
-        for plugin in find_all(plugins_node, "plugin", ns):
-            pg2 = resolve(text(plugin, "groupId", ns), props)
-            pa2 = text(plugin, "artifactId", ns)
-            pv2 = resolve(text(plugin, "version", ns), props)
-            if is_vidocq(pg2) and pa2:
-                all_deps.append({
-                    "groupId": pg2,
-                    "artifactId": pa2,
-                    "version": pv2 or "",
-                    "scope": "build",
-                    "type": "maven-plugin",
-                })
+    # The project itself and each of its profiles can declare dependencies and plugins.
+    containers = [root]
+    profiles = root.find("m:profiles", ns) if ns else root.find("profiles")
+    containers += find_all(profiles, "profile", ns)
+    for container in containers:
+        scan_container(container, ns, props, all_deps)
 
 # Déduplication des produces (même module peut apparaître via plusieurs poms)
 prod_keys = set()
