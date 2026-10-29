@@ -2,8 +2,8 @@
   "schema_version": 1,
   "repo": "Vidocq/cyrano",
   "branch": "main",
-  "commit_sha": "c33af1fad0a04501e2ccdda15a0a089d874919d3",
-  "updated_at": "2026-10-24T21:57:58Z",
+  "commit_sha": "a5239761cde2b4dcb72d2895ae1d78619c51993f",
+  "updated_at": "2026-10-29T02:38:48Z",
   "produces": [
     {
       "groupId": "io.vidocq.cyrano",
@@ -120,6 +120,13 @@
       "artifactId": "vauban-core",
       "version": "",
       "scope": "test",
+      "type": "jar"
+    },
+    {
+      "groupId": "io.vidocq.vauban",
+      "artifactId": "vauban-processor",
+      "version": "${vauban.version}",
+      "scope": "build",
       "type": "jar"
     }
   ]
