@@ -2228,6 +2228,10 @@
           "scope": "build"
         },
         {
+          "repo": "Vidocq/humboldt",
+          "scope": "build"
+        },
+        {
           "repo": "Vidocq/mansart",
           "scope": "build"
         },
@@ -2280,6 +2284,6 @@
       "produced_by": "Vidocq/verne"
     }
   },
-  "generated_at": "2026-10-29T10:33:11Z",
+  "generated_at": "2026-10-29T10:55:42Z",
   "schema_version": 1
 }

@@ -2,8 +2,8 @@
   "schema_version": 1,
   "repo": "Vidocq/humboldt",
   "branch": "main",
-  "commit_sha": "7c62ff2ad08b365d00ecfc5570058ee227e21414",
-  "updated_at": "2026-10-21T14:15:26Z",
+  "commit_sha": "cf3bcdeccaa2801b5a4a2b5ac7310787a846d0b2",
+  "updated_at": "2026-10-29T10:55:42Z",
   "produces": [
     {
       "groupId": "io.vidocq.humboldt",
@@ -121,6 +121,13 @@
       "artifactId": "vauban-api",
       "version": "${vauban.version}",
       "scope": "provided",
+      "type": "jar"
+    },
+    {
+      "groupId": "io.vidocq.vauban",
+      "artifactId": "vauban-processor",
+      "version": "${vauban.version}",
+      "scope": "build",
       "type": "jar"
     }
   ]
