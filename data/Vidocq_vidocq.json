@@ -2,8 +2,8 @@
   "schema_version": 1,
   "repo": "Vidocq/vidocq",
   "branch": "main",
-  "commit_sha": "d29dbf350fb7dc4454599721e6f7f47b4a16bf26",
-  "updated_at": "2026-10-30T10:27:03Z",
+  "commit_sha": "e9dc4e60b9d6707d3b25c90edd4770472aca4f28",
+  "updated_at": "2026-10-30T13:41:56Z",
   "produces": [
     {
       "groupId": "io.vidocq.runtime",
@@ -63,6 +63,11 @@
     {
       "groupId": "io.vidocq.runtime",
       "artifactId": "vidocq-runtime-devservice-keycloak",
+      "version": "0.4.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.runtime",
+      "artifactId": "vidocq-runtime-devservice-otel",
       "version": "0.4.0-SNAPSHOT"
     },
     {

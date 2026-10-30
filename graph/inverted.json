@@ -1727,6 +1727,10 @@
       "consumed_by": [],
       "produced_by": "Vidocq/vidocq"
     },
+    "io.vidocq.runtime:vidocq-runtime-devservice-otel": {
+      "consumed_by": [],
+      "produced_by": "Vidocq/vidocq"
+    },
     "io.vidocq.runtime:vidocq-runtime-devservice-postgres": {
       "consumed_by": [],
       "produced_by": "Vidocq/vidocq"
@@ -2318,6 +2322,6 @@
       "produced_by": "Vidocq/verne"
     }
   },
-  "generated_at": "2026-10-30T13:09:29Z",
+  "generated_at": "2026-10-30T13:41:57Z",
   "schema_version": 1
 }
