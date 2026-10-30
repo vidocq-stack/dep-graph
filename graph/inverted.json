@@ -39,6 +39,10 @@
           "scope": "provided"
         },
         {
+          "repo": "Vidocq/humboldt",
+          "scope": "provided"
+        },
+        {
           "repo": "Vidocq/knock",
           "scope": "provided"
         },
@@ -162,6 +166,10 @@
       "consumed_by": [
         {
           "repo": "Vidocq/grimm",
+          "scope": "build"
+        },
+        {
+          "repo": "Vidocq/humboldt",
           "scope": "build"
         },
         {
@@ -2322,6 +2330,6 @@
       "produced_by": "Vidocq/verne"
     }
   },
-  "generated_at": "2026-10-30T13:41:57Z",
+  "generated_at": "2026-10-30T15:08:11Z",
   "schema_version": 1
 }

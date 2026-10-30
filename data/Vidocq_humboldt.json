@@ -2,8 +2,8 @@
   "schema_version": 1,
   "repo": "Vidocq/humboldt",
   "branch": "main",
-  "commit_sha": "cf3bcdeccaa2801b5a4a2b5ac7310787a846d0b2",
-  "updated_at": "2026-10-29T10:55:42Z",
+  "commit_sha": "414911af17e2622f3eade3af2de75e3fcbf1eabc",
+  "updated_at": "2026-10-30T15:08:10Z",
   "produces": [
     {
       "groupId": "io.vidocq.humboldt",
@@ -102,6 +102,20 @@
     }
   ],
   "consumes": [
+    {
+      "groupId": "io.vidocq.cassini",
+      "artifactId": "cassini-api",
+      "version": "${cassini.version}",
+      "scope": "provided",
+      "type": "jar"
+    },
+    {
+      "groupId": "io.vidocq.cassini",
+      "artifactId": "cassini-processor",
+      "version": "${cassini.version}",
+      "scope": "build",
+      "type": "jar"
+    },
     {
       "groupId": "io.vidocq.cyrano",
       "artifactId": "cyrano-mp-rest-client-api",
