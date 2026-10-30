@@ -606,7 +606,12 @@
       "produced_by": "Vidocq/dirac"
     },
     "io.vidocq.dirac:dirac-processor": {
-      "consumed_by": [],
+      "consumed_by": [
+        {
+          "repo": "Vidocq/vidocq",
+          "scope": "compile"
+        }
+      ],
       "produced_by": "Vidocq/dirac"
     },
     "io.vidocq.dirac:dirac-rest": {
@@ -789,7 +794,12 @@
       "produced_by": "Vidocq/grimm"
     },
     "io.vidocq.grimm:grimm-processor": {
-      "consumed_by": [],
+      "consumed_by": [
+        {
+          "repo": "Vidocq/vidocq",
+          "scope": "compile"
+        }
+      ],
       "produced_by": "Vidocq/grimm"
     },
     "io.vidocq.heisenberg:heisenberg-api": {
@@ -1605,6 +1615,10 @@
       "consumed_by": [],
       "produced_by": "Vidocq/vidocq"
     },
+    "io.vidocq.runtime.extensions.microprofile:vidocq-runtime-dirac-metrics-extension-codegen": {
+      "consumed_by": [],
+      "produced_by": "Vidocq/vidocq"
+    },
     "io.vidocq.runtime.extensions.microprofile:vidocq-runtime-dirac-metrics-extension-dev": {
       "consumed_by": [],
       "produced_by": "Vidocq/vidocq"
@@ -1614,6 +1628,10 @@
       "produced_by": "Vidocq/vidocq"
     },
     "io.vidocq.runtime.extensions.microprofile:vidocq-runtime-grimm-openapi-extension": {
+      "consumed_by": [],
+      "produced_by": "Vidocq/vidocq"
+    },
+    "io.vidocq.runtime.extensions.microprofile:vidocq-runtime-grimm-openapi-extension-codegen": {
       "consumed_by": [],
       "produced_by": "Vidocq/vidocq"
     },
@@ -2292,6 +2310,6 @@
       "produced_by": "Vidocq/verne"
     }
   },
-  "generated_at": "2026-10-30T09:58:03Z",
+  "generated_at": "2026-10-30T10:27:04Z",
   "schema_version": 1
 }
