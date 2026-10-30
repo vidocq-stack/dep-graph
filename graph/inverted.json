@@ -35,6 +35,10 @@
           "scope": "provided"
         },
         {
+          "repo": "Vidocq/grimm",
+          "scope": "provided"
+        },
+        {
           "repo": "Vidocq/knock",
           "scope": "provided"
         },
@@ -156,6 +160,10 @@
     },
     "io.vidocq.cassini:cassini-processor": {
       "consumed_by": [
+        {
+          "repo": "Vidocq/grimm",
+          "scope": "build"
+        },
         {
           "repo": "Vidocq/vidocq",
           "scope": "compile"
@@ -2284,6 +2292,6 @@
       "produced_by": "Vidocq/verne"
     }
   },
-  "generated_at": "2026-10-29T11:02:25Z",
+  "generated_at": "2026-10-30T09:58:03Z",
   "schema_version": 1
 }
