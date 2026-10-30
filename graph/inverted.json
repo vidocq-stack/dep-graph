@@ -1620,6 +1620,10 @@
       "consumed_by": [],
       "produced_by": "Vidocq/vidocq"
     },
+    "io.vidocq.runtime.extensions.microprofile:vidocq-runtime-cervantes-jwt-extension-codegen": {
+      "consumed_by": [],
+      "produced_by": "Vidocq/vidocq"
+    },
     "io.vidocq.runtime.extensions.microprofile:vidocq-runtime-cyrano-rest-client-extension": {
       "consumed_by": [],
       "produced_by": "Vidocq/vidocq"
@@ -2339,6 +2343,6 @@
       "produced_by": "Vidocq/verne"
     }
   },
-  "generated_at": "2026-10-30T16:20:29Z",
+  "generated_at": "2026-10-30T20:39:30Z",
   "schema_version": 1
 }

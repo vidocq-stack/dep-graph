@@ -2,8 +2,8 @@
   "schema_version": 1,
   "repo": "Vidocq/vidocq",
   "branch": "main",
-  "commit_sha": "abc4051c19d69a4f1ed87fe609ea40cecd8b96ef",
-  "updated_at": "2026-10-30T15:31:43Z",
+  "commit_sha": "070881f2333709b64607d236efc1f0f6b878d1fa",
+  "updated_at": "2026-10-30T20:39:29Z",
   "produces": [
     {
       "groupId": "io.vidocq.runtime",
@@ -368,6 +368,11 @@
     {
       "groupId": "io.vidocq.runtime.extensions.microprofile",
       "artifactId": "vidocq-runtime-cervantes-jwt-extension",
+      "version": "0.4.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.runtime.extensions.microprofile",
+      "artifactId": "vidocq-runtime-cervantes-jwt-extension-codegen",
       "version": "0.4.0-SNAPSHOT"
     },
     {
