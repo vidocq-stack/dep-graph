@@ -2,8 +2,8 @@
   "schema_version": 1,
   "repo": "Vidocq/vidocq",
   "branch": "main",
-  "commit_sha": "e9dc4e60b9d6707d3b25c90edd4770472aca4f28",
-  "updated_at": "2026-10-30T13:41:56Z",
+  "commit_sha": "abc4051c19d69a4f1ed87fe609ea40cecd8b96ef",
+  "updated_at": "2026-10-30T15:31:43Z",
   "produces": [
     {
       "groupId": "io.vidocq.runtime",
@@ -422,6 +422,11 @@
     },
     {
       "groupId": "io.vidocq.runtime.extensions.microprofile",
+      "artifactId": "vidocq-runtime-heisenberg-fault-tolerance-extension-codegen",
+      "version": "0.4.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.runtime.extensions.microprofile",
       "artifactId": "vidocq-runtime-humboldt-telemetry-extension",
       "version": "0.4.0-SNAPSHOT"
     },
@@ -734,6 +739,13 @@
       "groupId": "io.vidocq.heisenberg",
       "artifactId": "heisenberg-mp-ft-api",
       "version": "0.4.0-SNAPSHOT",
+      "scope": "compile",
+      "type": "jar"
+    },
+    {
+      "groupId": "io.vidocq.heisenberg",
+      "artifactId": "heisenberg-processor",
+      "version": "${heisenberg.version}",
       "scope": "compile",
       "type": "jar"
     },

@@ -875,7 +875,12 @@
       "produced_by": "Vidocq/heisenberg"
     },
     "io.vidocq.heisenberg:heisenberg-processor": {
-      "consumed_by": [],
+      "consumed_by": [
+        {
+          "repo": "Vidocq/vidocq",
+          "scope": "compile"
+        }
+      ],
       "produced_by": "Vidocq/heisenberg"
     },
     "io.vidocq.humboldt:humboldt-api": {
@@ -1655,6 +1660,10 @@
       "consumed_by": [],
       "produced_by": "Vidocq/vidocq"
     },
+    "io.vidocq.runtime.extensions.microprofile:vidocq-runtime-heisenberg-fault-tolerance-extension-codegen": {
+      "consumed_by": [],
+      "produced_by": "Vidocq/vidocq"
+    },
     "io.vidocq.runtime.extensions.microprofile:vidocq-runtime-humboldt-telemetry-extension": {
       "consumed_by": [],
       "produced_by": "Vidocq/vidocq"
@@ -2330,6 +2339,6 @@
       "produced_by": "Vidocq/verne"
     }
   },
-  "generated_at": "2026-10-30T15:08:11Z",
+  "generated_at": "2026-10-30T15:31:44Z",
   "schema_version": 1
 }
