@@ -1100,13 +1100,22 @@
       "consumed_by": [
         {
           "repo": "Vidocq/vidocq",
+          "scope": "compile"
+        },
+        {
+          "repo": "Vidocq/vidocq",
           "scope": "runtime"
         }
       ],
       "produced_by": "Vidocq/mansart"
     },
     "io.vidocq.mansart:mansart-data-dialect-postgresql": {
-      "consumed_by": [],
+      "consumed_by": [
+        {
+          "repo": "Vidocq/vidocq",
+          "scope": "compile"
+        }
+      ],
       "produced_by": "Vidocq/mansart"
     },
     "io.vidocq.mansart:mansart-data-dialect-spi": {
@@ -2343,6 +2352,6 @@
       "produced_by": "Vidocq/verne"
     }
   },
-  "generated_at": "2026-10-30T20:39:30Z",
+  "generated_at": "2026-10-30T20:56:01Z",
   "schema_version": 1
 }

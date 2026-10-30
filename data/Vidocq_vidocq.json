@@ -2,8 +2,8 @@
   "schema_version": 1,
   "repo": "Vidocq/vidocq",
   "branch": "main",
-  "commit_sha": "070881f2333709b64607d236efc1f0f6b878d1fa",
-  "updated_at": "2026-10-30T20:39:29Z",
+  "commit_sha": "a92a724442cfefddfa5c6e3ac444fbfa12bb111f",
+  "updated_at": "2026-10-30T20:56:00Z",
   "produces": [
     {
       "groupId": "io.vidocq.runtime",
@@ -849,7 +849,21 @@
       "groupId": "io.vidocq.mansart",
       "artifactId": "mansart-data-dialect-h2",
       "version": "${mansart.version}",
+      "scope": "compile",
+      "type": "jar"
+    },
+    {
+      "groupId": "io.vidocq.mansart",
+      "artifactId": "mansart-data-dialect-h2",
+      "version": "${mansart.version}",
       "scope": "runtime",
+      "type": "jar"
+    },
+    {
+      "groupId": "io.vidocq.mansart",
+      "artifactId": "mansart-data-dialect-postgresql",
+      "version": "${mansart.version}",
+      "scope": "compile",
       "type": "jar"
     },
     {
