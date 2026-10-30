@@ -866,6 +866,10 @@
       "consumed_by": [],
       "produced_by": "Vidocq/heisenberg"
     },
+    "io.vidocq.heisenberg:heisenberg-processor": {
+      "consumed_by": [],
+      "produced_by": "Vidocq/heisenberg"
+    },
     "io.vidocq.humboldt:humboldt-api": {
       "consumed_by": [],
       "produced_by": "Vidocq/humboldt"
@@ -2254,6 +2258,10 @@
           "scope": "build"
         },
         {
+          "repo": "Vidocq/heisenberg",
+          "scope": "build"
+        },
+        {
           "repo": "Vidocq/humboldt",
           "scope": "build"
         },
@@ -2310,6 +2318,6 @@
       "produced_by": "Vidocq/verne"
     }
   },
-  "generated_at": "2026-10-30T10:27:04Z",
+  "generated_at": "2026-10-30T13:09:29Z",
   "schema_version": 1
 }

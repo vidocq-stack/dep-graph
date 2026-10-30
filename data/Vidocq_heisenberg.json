@@ -2,8 +2,8 @@
   "schema_version": 1,
   "repo": "Vidocq/heisenberg",
   "branch": "main",
-  "commit_sha": "183cf130642216ab2b41718da1c432c80b91829b",
-  "updated_at": "2026-10-21T13:50:57Z",
+  "commit_sha": "6ba7c451f6dc2a3dbba56f46ac48a244d188f03d",
+  "updated_at": "2026-10-30T13:09:29Z",
   "produces": [
     {
       "groupId": "io.vidocq.heisenberg",
@@ -58,6 +58,11 @@
     {
       "groupId": "io.vidocq.heisenberg",
       "artifactId": "heisenberg-parent",
+      "version": "0.4.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.heisenberg",
+      "artifactId": "heisenberg-processor",
       "version": "0.4.0-SNAPSHOT"
     }
   ],
@@ -144,6 +149,13 @@
       "artifactId": "vauban-core",
       "version": "",
       "scope": "provided",
+      "type": "jar"
+    },
+    {
+      "groupId": "io.vidocq.vauban",
+      "artifactId": "vauban-processor",
+      "version": "${vauban.version}",
+      "scope": "build",
       "type": "jar"
     }
   ]
