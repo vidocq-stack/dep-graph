@@ -917,11 +917,21 @@
       "produced_by": "Vidocq/humboldt"
     },
     "io.vidocq.humboldt:humboldt-otel-api": {
-      "consumed_by": [],
+      "consumed_by": [
+        {
+          "repo": "Vidocq/vidocq",
+          "scope": "compile"
+        }
+      ],
       "produced_by": "Vidocq/humboldt"
     },
     "io.vidocq.humboldt:humboldt-otel-context": {
-      "consumed_by": [],
+      "consumed_by": [
+        {
+          "repo": "Vidocq/vidocq",
+          "scope": "compile"
+        }
+      ],
       "produced_by": "Vidocq/humboldt"
     },
     "io.vidocq.humboldt:humboldt-otel-instrumentation-annotations": {
@@ -980,6 +990,10 @@
         {
           "repo": "Vidocq/vidocq",
           "scope": "compile"
+        },
+        {
+          "repo": "Vidocq/vidocq",
+          "scope": "test"
         }
       ],
       "produced_by": "Vidocq/humboldt"
@@ -1606,6 +1620,10 @@
       "produced_by": "Vidocq/vidocq"
     },
     "io.vidocq.runtime.extensions.jakartaee.web:vidocq-runtime-mansart-pool-extension-dev": {
+      "consumed_by": [],
+      "produced_by": "Vidocq/vidocq"
+    },
+    "io.vidocq.runtime.extensions.jakartaee.web:vidocq-runtime-mansart-pool-telemetry-extension": {
       "consumed_by": [],
       "produced_by": "Vidocq/vidocq"
     },
@@ -2352,6 +2370,6 @@
       "produced_by": "Vidocq/verne"
     }
   },
-  "generated_at": "2026-10-30T22:04:21Z",
+  "generated_at": "2026-10-31T00:46:00Z",
   "schema_version": 1
 }

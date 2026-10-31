@@ -2,8 +2,8 @@
   "schema_version": 1,
   "repo": "Vidocq/vidocq",
   "branch": "main",
-  "commit_sha": "c50109ef2b46e1afd7a3433896da7019c54c95f9",
-  "updated_at": "2026-10-30T22:04:21Z",
+  "commit_sha": "e64966ff1d473feb0e7963348f2f2a41be7fcc8c",
+  "updated_at": "2026-10-31T00:45:59Z",
   "produces": [
     {
       "groupId": "io.vidocq.runtime",
@@ -343,6 +343,11 @@
     {
       "groupId": "io.vidocq.runtime.extensions.jakartaee.web",
       "artifactId": "vidocq-runtime-mansart-pool-extension-dev",
+      "version": "0.4.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.runtime.extensions.jakartaee.web",
+      "artifactId": "vidocq-runtime-mansart-pool-telemetry-extension",
       "version": "0.4.0-SNAPSHOT"
     },
     {
@@ -763,6 +768,20 @@
     },
     {
       "groupId": "io.vidocq.humboldt",
+      "artifactId": "humboldt-otel-api",
+      "version": "${humboldt.version}",
+      "scope": "compile",
+      "type": "jar"
+    },
+    {
+      "groupId": "io.vidocq.humboldt",
+      "artifactId": "humboldt-otel-context",
+      "version": "${humboldt.version}",
+      "scope": "compile",
+      "type": "jar"
+    },
+    {
+      "groupId": "io.vidocq.humboldt",
       "artifactId": "humboldt-otel-interop",
       "version": "${humboldt.version}",
       "scope": "compile",
@@ -787,6 +806,13 @@
       "artifactId": "humboldt-sdk-trace",
       "version": "0.4.0-SNAPSHOT",
       "scope": "compile",
+      "type": "jar"
+    },
+    {
+      "groupId": "io.vidocq.humboldt",
+      "artifactId": "humboldt-sdk-trace",
+      "version": "",
+      "scope": "test",
       "type": "jar"
     },
     {
