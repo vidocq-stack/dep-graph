@@ -335,6 +335,10 @@
       ],
       "produced_by": "Vidocq/champollion"
     },
+    "io.vidocq.champollion:champollion-jsonb-cdi": {
+      "consumed_by": [],
+      "produced_by": "Vidocq/champollion"
+    },
     "io.vidocq.champollion:champollion-jsonp": {
       "consumed_by": [
         {
@@ -2391,6 +2395,6 @@
       "produced_by": "Vidocq/verne"
     }
   },
-  "generated_at": "2026-11-01T16:04:49Z",
+  "generated_at": "2026-11-01T18:27:38Z",
   "schema_version": 1
 }
