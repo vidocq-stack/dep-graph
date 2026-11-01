@@ -1174,6 +1174,18 @@
       "consumed_by": [],
       "produced_by": "Vidocq/mansart"
     },
+    "io.vidocq.mansart:mansart-it-openliberty": {
+      "consumed_by": [],
+      "produced_by": "Vidocq/mansart"
+    },
+    "io.vidocq.mansart:mansart-it-other-containers": {
+      "consumed_by": [],
+      "produced_by": "Vidocq/mansart"
+    },
+    "io.vidocq.mansart:mansart-it-weld": {
+      "consumed_by": [],
+      "produced_by": "Vidocq/mansart"
+    },
     "io.vidocq.mansart:mansart-jakarta-data": {
       "consumed_by": [],
       "produced_by": "Vidocq/mansart"
@@ -2011,7 +2023,7 @@
         },
         {
           "repo": "Vidocq/mansart",
-          "scope": "provided"
+          "scope": "compile"
         },
         {
           "repo": "Vidocq/ravel",
@@ -2370,6 +2382,6 @@
       "produced_by": "Vidocq/verne"
     }
   },
-  "generated_at": "2026-11-01T11:04:34Z",
+  "generated_at": "2026-11-01T11:16:14Z",
   "schema_version": 1
 }

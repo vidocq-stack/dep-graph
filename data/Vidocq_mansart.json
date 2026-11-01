@@ -2,8 +2,8 @@
   "schema_version": 1,
   "repo": "Vidocq/mansart",
   "branch": "main",
-  "commit_sha": "b01fb7b4c5debb97d9b40ccc203be5fc71440eff",
-  "updated_at": "2026-10-30T16:20:29Z",
+  "commit_sha": "64646848fe26035018d46f00da76fd4d17428652",
+  "updated_at": "2026-11-01T11:16:14Z",
   "produces": [
     {
       "groupId": "io.vidocq.mansart",
@@ -58,6 +58,21 @@
     {
       "groupId": "io.vidocq.mansart",
       "artifactId": "mansart-data-tests",
+      "version": "0.4.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.mansart",
+      "artifactId": "mansart-it-openliberty",
+      "version": "0.4.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.mansart",
+      "artifactId": "mansart-it-other-containers",
+      "version": "0.4.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.mansart",
+      "artifactId": "mansart-it-weld",
       "version": "0.4.0-SNAPSHOT"
     },
     {
@@ -136,7 +151,7 @@
       "groupId": "io.vidocq.vauban",
       "artifactId": "vauban-api",
       "version": "0.4.0-SNAPSHOT",
-      "scope": "provided",
+      "scope": "compile",
       "type": "jar"
     },
     {
