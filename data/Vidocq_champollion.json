@@ -2,8 +2,8 @@
   "schema_version": 1,
   "repo": "Vidocq/champollion",
   "branch": "main",
-  "commit_sha": "0c9f7f26fd2ef55a87843060e0681bff7bab337d",
-  "updated_at": "2026-11-01T18:27:38Z",
+  "commit_sha": "75a98bb39624626624d2a310885795c97203d1b0",
+  "updated_at": "2026-11-01T19:54:35Z",
   "produces": [
     {
       "groupId": "io.vidocq.champollion",
@@ -81,5 +81,20 @@
       "version": "0.4.0-SNAPSHOT"
     }
   ],
-  "consumes": []
+  "consumes": [
+    {
+      "groupId": "io.vidocq.vauban",
+      "artifactId": "vauban-api",
+      "version": "0.4.0-SNAPSHOT",
+      "scope": "compile",
+      "type": "jar"
+    },
+    {
+      "groupId": "io.vidocq.vauban",
+      "artifactId": "vauban-processor",
+      "version": "0.4.0-SNAPSHOT",
+      "scope": "build",
+      "type": "jar"
+    }
+  ]
 }
