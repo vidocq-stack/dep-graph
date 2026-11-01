@@ -2,8 +2,8 @@
   "schema_version": 1,
   "repo": "Vidocq/vidocq",
   "branch": "main",
-  "commit_sha": "af80fa519d1733cab22f8fef4194840a64b7c12d",
-  "updated_at": "2026-11-01T12:02:39Z",
+  "commit_sha": "ad01b59d5944885db48c3a106c5837006d2a7213",
+  "updated_at": "2026-11-01T12:28:55Z",
   "produces": [
     {
       "groupId": "io.vidocq.runtime",
@@ -566,6 +566,20 @@
     {
       "groupId": "io.vidocq.champollion",
       "artifactId": "champollion-api",
+      "version": "${champollion.version}",
+      "scope": "compile",
+      "type": "jar"
+    },
+    {
+      "groupId": "io.vidocq.champollion",
+      "artifactId": "champollion-codegen-apt",
+      "version": "${champollion.version}",
+      "scope": "compile",
+      "type": "jar"
+    },
+    {
+      "groupId": "io.vidocq.champollion",
+      "artifactId": "champollion-jsonb",
       "version": "${champollion.version}",
       "scope": "compile",
       "type": "jar"
