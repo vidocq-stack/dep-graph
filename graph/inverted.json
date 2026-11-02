@@ -1362,6 +1362,10 @@
         {
           "repo": "Vidocq/ibarra",
           "scope": "compile"
+        },
+        {
+          "repo": "Vidocq/vidocq",
+          "scope": "compile"
         }
       ],
       "produced_by": "Vidocq/peano"
@@ -2425,6 +2429,6 @@
       "produced_by": "Vidocq/verne"
     }
   },
-  "generated_at": "2026-11-02T02:11:08Z",
+  "generated_at": "2026-11-02T02:25:29Z",
   "schema_version": 1
 }
