@@ -1523,6 +1523,10 @@
           "scope": "provided"
         },
         {
+          "repo": "Vidocq/cyrano",
+          "scope": "compile"
+        },
+        {
           "repo": "Vidocq/grimm",
           "scope": "compile"
         },
@@ -2416,6 +2420,6 @@
       "produced_by": "Vidocq/verne"
     }
   },
-  "generated_at": "2026-11-02T01:14:44Z",
+  "generated_at": "2026-11-02T01:47:45Z",
   "schema_version": 1
 }
