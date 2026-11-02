@@ -2,8 +2,8 @@
   "schema_version": 1,
   "repo": "Vidocq/ravel",
   "branch": "main",
-  "commit_sha": "7aea4a96fbf1248f59eb401433f0993615698e82",
-  "updated_at": "2026-11-02T01:06:50Z",
+  "commit_sha": "3cc30fb685575ec4b7f724a3533d56b0ebff29a3",
+  "updated_at": "2026-11-02T15:01:08Z",
   "produces": [
     {
       "groupId": "io.vidocq.ravel",
