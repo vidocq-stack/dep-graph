@@ -165,6 +165,10 @@
     "io.vidocq.cassini:cassini-processor": {
       "consumed_by": [
         {
+          "repo": "Vidocq/cervantes",
+          "scope": "build"
+        },
+        {
           "repo": "Vidocq/grimm",
           "scope": "build"
         },
@@ -2349,6 +2353,10 @@
           "scope": "build"
         },
         {
+          "repo": "Vidocq/cervantes",
+          "scope": "build"
+        },
+        {
           "repo": "Vidocq/champollion",
           "scope": "build"
         },
@@ -2429,6 +2437,6 @@
       "produced_by": "Vidocq/verne"
     }
   },
-  "generated_at": "2026-11-02T02:25:29Z",
+  "generated_at": "2026-11-02T02:40:10Z",
   "schema_version": 1
 }
