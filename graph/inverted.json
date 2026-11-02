@@ -2366,6 +2366,10 @@
         },
         {
           "repo": "Vidocq/foy",
+          "scope": "build"
+        },
+        {
+          "repo": "Vidocq/foy",
           "scope": "test"
         },
         {
@@ -2437,6 +2441,6 @@
       "produced_by": "Vidocq/verne"
     }
   },
-  "generated_at": "2026-11-02T14:33:45Z",
+  "generated_at": "2026-11-02T14:56:05Z",
   "schema_version": 1
 }
