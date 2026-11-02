@@ -177,6 +177,10 @@
           "scope": "build"
         },
         {
+          "repo": "Vidocq/knock",
+          "scope": "build"
+        },
+        {
           "repo": "Vidocq/vidocq",
           "scope": "compile"
         }
@@ -2385,6 +2389,10 @@
           "scope": "build"
         },
         {
+          "repo": "Vidocq/knock",
+          "scope": "build"
+        },
+        {
           "repo": "Vidocq/mansart",
           "scope": "build"
         },
@@ -2441,6 +2449,6 @@
       "produced_by": "Vidocq/verne"
     }
   },
-  "generated_at": "2026-11-02T14:56:05Z",
+  "generated_at": "2026-11-02T14:58:42Z",
   "schema_version": 1
 }
