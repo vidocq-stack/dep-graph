@@ -1549,6 +1549,10 @@
       "consumed_by": [],
       "produced_by": "Vidocq/ravel"
     },
+    "io.vidocq.ravel:ravel-processor": {
+      "consumed_by": [],
+      "produced_by": "Vidocq/ravel"
+    },
     "io.vidocq.runtime.extensions.essentials:vidocq-runtime-chappe-webserver-extension": {
       "consumed_by": [],
       "produced_by": "Vidocq/vidocq"
@@ -2360,6 +2364,10 @@
           "scope": "build"
         },
         {
+          "repo": "Vidocq/ravel",
+          "scope": "build"
+        },
+        {
           "repo": "Vidocq/vidocq",
           "scope": "compile"
         }
@@ -2408,6 +2416,6 @@
       "produced_by": "Vidocq/verne"
     }
   },
-  "generated_at": "2026-11-01T22:31:31Z",
+  "generated_at": "2026-11-02T01:06:50Z",
   "schema_version": 1
 }

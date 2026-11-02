@@ -2,8 +2,8 @@
   "schema_version": 1,
   "repo": "Vidocq/ravel",
   "branch": "main",
-  "commit_sha": "7fe879be4c4b76b199a587453e3be5d887b8978a",
-  "updated_at": "2026-10-21T14:15:24Z",
+  "commit_sha": "7aea4a96fbf1248f59eb401433f0993615698e82",
+  "updated_at": "2026-11-02T01:06:50Z",
   "produces": [
     {
       "groupId": "io.vidocq.ravel",
@@ -49,6 +49,11 @@
       "groupId": "io.vidocq.ravel",
       "artifactId": "ravel-parent",
       "version": "0.4.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.ravel",
+      "artifactId": "ravel-processor",
+      "version": "0.4.0-SNAPSHOT"
     }
   ],
   "consumes": [
@@ -71,6 +76,13 @@
       "artifactId": "vauban-core",
       "version": "${vauban.version}",
       "scope": "test",
+      "type": "jar"
+    },
+    {
+      "groupId": "io.vidocq.vauban",
+      "artifactId": "vauban-processor",
+      "version": "${vauban.version}",
+      "scope": "build",
       "type": "jar"
     }
   ]
