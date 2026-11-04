@@ -1582,6 +1582,15 @@
       "consumed_by": [],
       "produced_by": "Vidocq/vidocq"
     },
+    "io.vidocq.runtime.extensions.essentials:vidocq-runtime-crac-extension": {
+      "consumed_by": [
+        {
+          "repo": "Vidocq/vidocq",
+          "scope": "compile"
+        }
+      ],
+      "produced_by": null
+    },
     "io.vidocq.runtime.extensions.essentials:vidocq-runtime-devconsole-extension": {
       "consumed_by": [],
       "produced_by": "Vidocq/vidocq"
@@ -2457,6 +2466,6 @@
       "produced_by": "Vidocq/verne"
     }
   },
-  "generated_at": "2026-11-02T21:12:57Z",
+  "generated_at": "2026-11-04T23:47:12Z",
   "schema_version": 1
 }
