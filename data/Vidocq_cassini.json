@@ -2,8 +2,8 @@
   "schema_version": 1,
   "repo": "Vidocq/cassini",
   "branch": "main",
-  "commit_sha": "f288a85e928cca31fda31d9a8d9ffc87e63a490e",
-  "updated_at": "2026-11-02T15:09:54Z",
+  "commit_sha": "707287c91727571f424a5aeb2901e9ffdace2b45",
+  "updated_at": "2026-11-07T17:07:34Z",
   "produces": [
     {
       "groupId": "io.vidocq.cassini",
@@ -58,6 +58,11 @@
     {
       "groupId": "io.vidocq.cassini",
       "artifactId": "cassini-it-other-containers",
+      "version": "0.4.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.cassini",
+      "artifactId": "cassini-it-vauban",
       "version": "0.4.0-SNAPSHOT"
     },
     {

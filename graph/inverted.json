@@ -141,6 +141,10 @@
       "consumed_by": [],
       "produced_by": "Vidocq/cassini"
     },
+    "io.vidocq.cassini:cassini-it-vauban": {
+      "consumed_by": [],
+      "produced_by": "Vidocq/cassini"
+    },
     "io.vidocq.cassini:cassini-it-weld": {
       "consumed_by": [],
       "produced_by": "Vidocq/cassini"
@@ -2466,6 +2470,6 @@
       "produced_by": "Vidocq/verne"
     }
   },
-  "generated_at": "2026-11-05T00:30:55Z",
+  "generated_at": "2026-11-07T17:07:35Z",
   "schema_version": 1
 }
