@@ -1847,6 +1847,10 @@
       "consumed_by": [],
       "produced_by": "Vidocq/vidocq"
     },
+    "io.vidocq.runtime:vidocq-runtime-architecture-tests": {
+      "consumed_by": [],
+      "produced_by": "Vidocq/vidocq"
+    },
     "io.vidocq.runtime:vidocq-runtime-arquillian": {
       "consumed_by": [],
       "produced_by": "Vidocq/vidocq"
@@ -2582,11 +2586,15 @@
         {
           "repo": "Vidocq/vauban",
           "scope": "test"
+        },
+        {
+          "repo": "Vidocq/vidocq",
+          "scope": "test"
         }
       ],
       "produced_by": null
     }
   },
-  "generated_at": "2026-11-08T23:40:47Z",
+  "generated_at": "2026-11-08T23:42:17Z",
   "schema_version": 1
 }

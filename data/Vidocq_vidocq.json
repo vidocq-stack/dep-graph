@@ -2,9 +2,14 @@
   "schema_version": 1,
   "repo": "Vidocq/vidocq",
   "branch": "main",
-  "commit_sha": "680eca4a85235a252a88110df21754b154c3e79a",
-  "updated_at": "2026-11-07T19:09:11Z",
+  "commit_sha": "1698121e86bbfe6679d7d2837ca5ba92689e7038",
+  "updated_at": "2026-11-08T23:42:17Z",
   "produces": [
+    {
+      "groupId": "io.vidocq.runtime",
+      "artifactId": "vidocq-runtime-architecture-tests",
+      "version": "0.4.0-SNAPSHOT"
+    },
     {
       "groupId": "io.vidocq.runtime",
       "artifactId": "vidocq-runtime-arquillian",
@@ -472,6 +477,13 @@
     }
   ],
   "consumes": [
+    {
+      "groupId": "io.vidocq",
+      "artifactId": "vidocq-archrules",
+      "version": "0.4.0-SNAPSHOT",
+      "scope": "test",
+      "type": "jar"
+    },
     {
       "groupId": "io.vidocq.cassini",
       "artifactId": "cassini-api",
