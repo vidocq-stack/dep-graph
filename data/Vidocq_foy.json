@@ -2,8 +2,8 @@
   "schema_version": 1,
   "repo": "Vidocq/foy",
   "branch": "main",
-  "commit_sha": "420b99a84fa9cb7d92388f4c443f7b57479185cf",
-  "updated_at": "2026-11-02T14:56:05Z",
+  "commit_sha": "e4c88cbeb921b7a5b8c9641695f03737c33cd961",
+  "updated_at": "2026-11-08T18:40:08Z",
   "produces": [
     {
       "groupId": "io.vidocq.foy",
@@ -72,6 +72,13 @@
     }
   ],
   "consumes": [
+    {
+      "groupId": "io.vidocq",
+      "artifactId": "vidocq-archrules",
+      "version": "0.4.0-SNAPSHOT",
+      "scope": "test",
+      "type": "jar"
+    },
     {
       "groupId": "io.vidocq.chappe",
       "artifactId": "chappe-api",

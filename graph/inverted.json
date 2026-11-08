@@ -2468,8 +2468,17 @@
     "io.vidocq.verne:verne-parent": {
       "consumed_by": [],
       "produced_by": "Vidocq/verne"
+    },
+    "io.vidocq:vidocq-archrules": {
+      "consumed_by": [
+        {
+          "repo": "Vidocq/foy",
+          "scope": "test"
+        }
+      ],
+      "produced_by": null
     }
   },
-  "generated_at": "2026-11-07T19:09:11Z",
+  "generated_at": "2026-11-08T18:40:08Z",
   "schema_version": 1
 }
