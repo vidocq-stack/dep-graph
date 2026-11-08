@@ -2472,6 +2472,10 @@
     "io.vidocq:vidocq-archrules": {
       "consumed_by": [
         {
+          "repo": "Vidocq/chappe",
+          "scope": "test"
+        },
+        {
           "repo": "Vidocq/foy",
           "scope": "test"
         }
@@ -2479,6 +2483,6 @@
       "produced_by": null
     }
   },
-  "generated_at": "2026-11-08T18:40:08Z",
+  "generated_at": "2026-11-08T18:41:18Z",
   "schema_version": 1
 }
