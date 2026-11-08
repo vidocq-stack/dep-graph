@@ -861,6 +861,10 @@
       ],
       "produced_by": "Vidocq/heisenberg"
     },
+    "io.vidocq.heisenberg:heisenberg-architecture-tests": {
+      "consumed_by": [],
+      "produced_by": "Vidocq/heisenberg"
+    },
     "io.vidocq.heisenberg:heisenberg-bench": {
       "consumed_by": [],
       "produced_by": "Vidocq/heisenberg"
@@ -2500,6 +2504,10 @@
           "scope": "test"
         },
         {
+          "repo": "Vidocq/heisenberg",
+          "scope": "test"
+        },
+        {
           "repo": "Vidocq/knock",
           "scope": "test"
         }
@@ -2507,6 +2515,6 @@
       "produced_by": null
     }
   },
-  "generated_at": "2026-11-08T21:18:58Z",
+  "generated_at": "2026-11-08T21:29:23Z",
   "schema_version": 1
 }

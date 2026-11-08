@@ -2,12 +2,17 @@
   "schema_version": 1,
   "repo": "Vidocq/heisenberg",
   "branch": "main",
-  "commit_sha": "125994e059bd4a88070559589b411985641cd147",
-  "updated_at": "2026-11-02T15:01:37Z",
+  "commit_sha": "7f83deff776363ded4b230db751ecd97ac0a6d5f",
+  "updated_at": "2026-11-08T21:29:22Z",
   "produces": [
     {
       "groupId": "io.vidocq.heisenberg",
       "artifactId": "heisenberg-api",
+      "version": "0.4.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.heisenberg",
+      "artifactId": "heisenberg-architecture-tests",
       "version": "0.4.0-SNAPSHOT"
     },
     {
@@ -67,6 +72,13 @@
     }
   ],
   "consumes": [
+    {
+      "groupId": "io.vidocq",
+      "artifactId": "vidocq-archrules",
+      "version": "0.4.0-SNAPSHOT",
+      "scope": "test",
+      "type": "jar"
+    },
     {
       "groupId": "io.vidocq.dirac",
       "artifactId": "dirac-mp-metrics-api",
