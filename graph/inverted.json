@@ -2128,6 +2128,10 @@
       ],
       "produced_by": "Vidocq/vauban"
     },
+    "io.vidocq.vauban:vauban-architecture-tests": {
+      "consumed_by": [],
+      "produced_by": "Vidocq/vauban"
+    },
     "io.vidocq.vauban:vauban-atinject-tck-runner": {
       "consumed_by": [],
       "produced_by": "Vidocq/vauban"
@@ -2518,11 +2522,15 @@
         {
           "repo": "Vidocq/knock",
           "scope": "test"
+        },
+        {
+          "repo": "Vidocq/vauban",
+          "scope": "test"
         }
       ],
       "produced_by": null
     }
   },
-  "generated_at": "2026-11-08T21:37:48Z",
+  "generated_at": "2026-11-08T21:48:37Z",
   "schema_version": 1
 }

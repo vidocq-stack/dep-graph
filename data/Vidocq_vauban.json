@@ -2,8 +2,8 @@
   "schema_version": 1,
   "repo": "Vidocq/vauban",
   "branch": "main",
-  "commit_sha": "4195ed695879e77f8d928d087c642d33977e728c",
-  "updated_at": "2026-10-22T22:55:58Z",
+  "commit_sha": "fed419c2e2080cd19e4db8b40e73328924e8d772",
+  "updated_at": "2026-11-08T21:48:37Z",
   "produces": [
     {
       "groupId": "io.vidocq.vauban",
@@ -53,6 +53,11 @@
     {
       "groupId": "io.vidocq.vauban",
       "artifactId": "vauban-api",
+      "version": "0.4.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.vauban",
+      "artifactId": "vauban-architecture-tests",
       "version": "0.4.0-SNAPSHOT"
     },
     {
@@ -156,5 +161,13 @@
       "version": "0.4.0-SNAPSHOT"
     }
   ],
-  "consumes": []
+  "consumes": [
+    {
+      "groupId": "io.vidocq",
+      "artifactId": "vidocq-archrules",
+      "version": "0.4.0-SNAPSHOT",
+      "scope": "test",
+      "type": "jar"
+    }
+  ]
 }
