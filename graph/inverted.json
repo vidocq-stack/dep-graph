@@ -53,6 +53,10 @@
       ],
       "produced_by": "Vidocq/cassini"
     },
+    "io.vidocq.cassini:cassini-architecture-tests": {
+      "consumed_by": [],
+      "produced_by": "Vidocq/cassini"
+    },
     "io.vidocq.cassini:cassini-cdi": {
       "consumed_by": [
         {
@@ -434,6 +438,10 @@
         {
           "repo": "Vidocq/cassini",
           "scope": "compile"
+        },
+        {
+          "repo": "Vidocq/cassini",
+          "scope": "test"
         },
         {
           "repo": "Vidocq/foy",
@@ -2277,6 +2285,10 @@
           "scope": "compile"
         },
         {
+          "repo": "Vidocq/cassini",
+          "scope": "test"
+        },
+        {
           "repo": "Vidocq/cervantes",
           "scope": "compile"
         },
@@ -2516,6 +2528,10 @@
     "io.vidocq:vidocq-archrules": {
       "consumed_by": [
         {
+          "repo": "Vidocq/cassini",
+          "scope": "test"
+        },
+        {
           "repo": "Vidocq/cervantes",
           "scope": "test"
         },
@@ -2571,6 +2587,6 @@
       "produced_by": null
     }
   },
-  "generated_at": "2026-11-08T23:25:08Z",
+  "generated_at": "2026-11-08T23:40:47Z",
   "schema_version": 1
 }

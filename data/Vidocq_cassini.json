@@ -2,12 +2,17 @@
   "schema_version": 1,
   "repo": "Vidocq/cassini",
   "branch": "main",
-  "commit_sha": "707287c91727571f424a5aeb2901e9ffdace2b45",
-  "updated_at": "2026-11-07T17:07:34Z",
+  "commit_sha": "27d2898eef69825b29691f0d53b5f220c9cc7839",
+  "updated_at": "2026-11-08T23:40:47Z",
   "produces": [
     {
       "groupId": "io.vidocq.cassini",
       "artifactId": "cassini-api",
+      "version": "0.4.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.cassini",
+      "artifactId": "cassini-architecture-tests",
       "version": "0.4.0-SNAPSHOT"
     },
     {
@@ -98,6 +103,13 @@
   ],
   "consumes": [
     {
+      "groupId": "io.vidocq",
+      "artifactId": "vidocq-archrules",
+      "version": "0.4.0-SNAPSHOT",
+      "scope": "test",
+      "type": "jar"
+    },
+    {
       "groupId": "io.vidocq.champollion",
       "artifactId": "champollion-api",
       "version": "0.4.0-SNAPSHOT",
@@ -137,6 +149,13 @@
       "artifactId": "chappe-api",
       "version": "0.4.0-SNAPSHOT",
       "scope": "compile",
+      "type": "jar"
+    },
+    {
+      "groupId": "io.vidocq.chappe",
+      "artifactId": "chappe-api",
+      "version": "",
+      "scope": "test",
       "type": "jar"
     },
     {
@@ -207,6 +226,13 @@
       "artifactId": "vauban-core",
       "version": "0.4.0-SNAPSHOT",
       "scope": "compile",
+      "type": "jar"
+    },
+    {
+      "groupId": "io.vidocq.vauban",
+      "artifactId": "vauban-core",
+      "version": "",
+      "scope": "test",
       "type": "jar"
     },
     {
