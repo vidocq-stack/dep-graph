@@ -545,6 +545,10 @@
       ],
       "produced_by": "Vidocq/cyrano"
     },
+    "io.vidocq.cyrano:cyrano-architecture-tests": {
+      "consumed_by": [],
+      "produced_by": "Vidocq/cyrano"
+    },
     "io.vidocq.cyrano:cyrano-cdi-vauban": {
       "consumed_by": [
         {
@@ -2512,6 +2516,10 @@
           "scope": "test"
         },
         {
+          "repo": "Vidocq/cyrano",
+          "scope": "test"
+        },
+        {
           "repo": "Vidocq/dirac",
           "scope": "test"
         },
@@ -2539,6 +2547,6 @@
       "produced_by": null
     }
   },
-  "generated_at": "2026-11-08T22:25:46Z",
+  "generated_at": "2026-11-08T22:47:38Z",
   "schema_version": 1
 }
