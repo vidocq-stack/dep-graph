@@ -1474,6 +1474,10 @@
       ],
       "produced_by": "Vidocq/ravel"
     },
+    "io.vidocq.ravel:ravel-architecture-tests": {
+      "consumed_by": [],
+      "produced_by": "Vidocq/ravel"
+    },
     "io.vidocq.ravel:ravel-bench": {
       "consumed_by": [],
       "produced_by": "Vidocq/ravel"
@@ -2524,6 +2528,10 @@
           "scope": "test"
         },
         {
+          "repo": "Vidocq/ravel",
+          "scope": "test"
+        },
+        {
           "repo": "Vidocq/vauban",
           "scope": "test"
         }
@@ -2531,6 +2539,6 @@
       "produced_by": null
     }
   },
-  "generated_at": "2026-11-08T21:48:37Z",
+  "generated_at": "2026-11-08T22:25:46Z",
   "schema_version": 1
 }
