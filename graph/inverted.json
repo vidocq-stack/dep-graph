@@ -814,6 +814,10 @@
       "consumed_by": [],
       "produced_by": "Vidocq/foy"
     },
+    "io.vidocq.grimm:grimm-architecture-tests": {
+      "consumed_by": [],
+      "produced_by": "Vidocq/grimm"
+    },
     "io.vidocq.grimm:grimm-bench": {
       "consumed_by": [],
       "produced_by": "Vidocq/grimm"
@@ -2528,6 +2532,10 @@
           "scope": "test"
         },
         {
+          "repo": "Vidocq/grimm",
+          "scope": "test"
+        },
+        {
           "repo": "Vidocq/heisenberg",
           "scope": "test"
         },
@@ -2547,6 +2555,6 @@
       "produced_by": null
     }
   },
-  "generated_at": "2026-11-08T22:47:38Z",
+  "generated_at": "2026-11-08T22:58:04Z",
   "schema_version": 1
 }
