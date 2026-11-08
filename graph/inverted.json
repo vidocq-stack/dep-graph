@@ -1154,6 +1154,10 @@
       "consumed_by": [],
       "produced_by": "Vidocq/knock"
     },
+    "io.vidocq.mansart:mansart-architecture-tests": {
+      "consumed_by": [],
+      "produced_by": "Vidocq/mansart"
+    },
     "io.vidocq.mansart:mansart-data-cdi": {
       "consumed_by": [
         {
@@ -2544,6 +2548,10 @@
           "scope": "test"
         },
         {
+          "repo": "Vidocq/mansart",
+          "scope": "test"
+        },
+        {
           "repo": "Vidocq/ravel",
           "scope": "test"
         },
@@ -2555,6 +2563,6 @@
       "produced_by": null
     }
   },
-  "generated_at": "2026-11-08T22:58:04Z",
+  "generated_at": "2026-11-08T23:12:45Z",
   "schema_version": 1
 }
