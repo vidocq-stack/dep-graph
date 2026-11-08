@@ -2,12 +2,17 @@
   "schema_version": 1,
   "repo": "Vidocq/humboldt",
   "branch": "main",
-  "commit_sha": "4f80a00a1959bac6f03d6539ea490425a30f22a5",
-  "updated_at": "2026-11-02T15:01:03Z",
+  "commit_sha": "2f31083688d59a8cf524c471e88fd02c5717efbb",
+  "updated_at": "2026-11-08T23:25:08Z",
   "produces": [
     {
       "groupId": "io.vidocq.humboldt",
       "artifactId": "humboldt-api",
+      "version": "0.4.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.humboldt",
+      "artifactId": "humboldt-architecture-tests",
       "version": "0.4.0-SNAPSHOT"
     },
     {
@@ -102,6 +107,13 @@
     }
   ],
   "consumes": [
+    {
+      "groupId": "io.vidocq",
+      "artifactId": "vidocq-archrules",
+      "version": "0.4.0-SNAPSHOT",
+      "scope": "test",
+      "type": "jar"
+    },
     {
       "groupId": "io.vidocq.cassini",
       "artifactId": "cassini-api",

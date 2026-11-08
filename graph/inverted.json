@@ -945,6 +945,10 @@
       "consumed_by": [],
       "produced_by": "Vidocq/humboldt"
     },
+    "io.vidocq.humboldt:humboldt-architecture-tests": {
+      "consumed_by": [],
+      "produced_by": "Vidocq/humboldt"
+    },
     "io.vidocq.humboldt:humboldt-cdi": {
       "consumed_by": [
         {
@@ -2544,6 +2548,10 @@
           "scope": "test"
         },
         {
+          "repo": "Vidocq/humboldt",
+          "scope": "test"
+        },
+        {
           "repo": "Vidocq/knock",
           "scope": "test"
         },
@@ -2563,6 +2571,6 @@
       "produced_by": null
     }
   },
-  "generated_at": "2026-11-08T23:12:45Z",
+  "generated_at": "2026-11-08T23:25:08Z",
   "schema_version": 1
 }
