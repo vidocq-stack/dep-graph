@@ -208,6 +208,10 @@
       ],
       "produced_by": "Vidocq/cervantes"
     },
+    "io.vidocq.cervantes:cervantes-architecture-tests": {
+      "consumed_by": [],
+      "produced_by": "Vidocq/cervantes"
+    },
     "io.vidocq.cervantes:cervantes-bench": {
       "consumed_by": [],
       "produced_by": "Vidocq/cervantes"
@@ -2488,6 +2492,10 @@
     "io.vidocq:vidocq-archrules": {
       "consumed_by": [
         {
+          "repo": "Vidocq/cervantes",
+          "scope": "test"
+        },
+        {
           "repo": "Vidocq/champollion",
           "scope": "test"
         },
@@ -2515,6 +2523,6 @@
       "produced_by": null
     }
   },
-  "generated_at": "2026-11-08T21:29:23Z",
+  "generated_at": "2026-11-08T21:37:48Z",
   "schema_version": 1
 }

@@ -2,12 +2,17 @@
   "schema_version": 1,
   "repo": "Vidocq/cervantes",
   "branch": "main",
-  "commit_sha": "acf357af463a845fada68e9ff7773f9c4b3bad25",
-  "updated_at": "2026-11-02T02:40:09Z",
+  "commit_sha": "0f2359c8c130b7a6b66f8a14e49393836aa9d74d",
+  "updated_at": "2026-11-08T21:37:48Z",
   "produces": [
     {
       "groupId": "io.vidocq.cervantes",
       "artifactId": "cervantes-api",
+      "version": "0.4.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.cervantes",
+      "artifactId": "cervantes-architecture-tests",
       "version": "0.4.0-SNAPSHOT"
     },
     {
@@ -62,6 +67,13 @@
     }
   ],
   "consumes": [
+    {
+      "groupId": "io.vidocq",
+      "artifactId": "vidocq-archrules",
+      "version": "0.4.0-SNAPSHOT",
+      "scope": "test",
+      "type": "jar"
+    },
     {
       "groupId": "io.vidocq.cassini",
       "artifactId": "cassini-api",
