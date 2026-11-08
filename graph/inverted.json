@@ -1084,6 +1084,10 @@
       "consumed_by": [],
       "produced_by": "Vidocq/knock"
     },
+    "io.vidocq.knock:knock-architecture-tests": {
+      "consumed_by": [],
+      "produced_by": "Vidocq/knock"
+    },
     "io.vidocq.knock:knock-cdi-vauban": {
       "consumed_by": [
         {
@@ -2478,11 +2482,15 @@
         {
           "repo": "Vidocq/foy",
           "scope": "test"
+        },
+        {
+          "repo": "Vidocq/knock",
+          "scope": "test"
         }
       ],
       "produced_by": null
     }
   },
-  "generated_at": "2026-11-08T18:41:18Z",
+  "generated_at": "2026-11-08T20:50:50Z",
   "schema_version": 1
 }
