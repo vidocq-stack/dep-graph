@@ -593,6 +593,10 @@
       "consumed_by": [],
       "produced_by": "Vidocq/dirac"
     },
+    "io.vidocq.dirac:dirac-architecture-tests": {
+      "consumed_by": [],
+      "produced_by": "Vidocq/dirac"
+    },
     "io.vidocq.dirac:dirac-bench": {
       "consumed_by": [],
       "produced_by": "Vidocq/dirac"
@@ -2480,6 +2484,10 @@
           "scope": "test"
         },
         {
+          "repo": "Vidocq/dirac",
+          "scope": "test"
+        },
+        {
           "repo": "Vidocq/foy",
           "scope": "test"
         },
@@ -2491,6 +2499,6 @@
       "produced_by": null
     }
   },
-  "generated_at": "2026-11-08T20:50:50Z",
+  "generated_at": "2026-11-08T21:00:41Z",
   "schema_version": 1
 }

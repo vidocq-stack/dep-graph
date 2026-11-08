@@ -2,12 +2,17 @@
   "schema_version": 1,
   "repo": "Vidocq/dirac",
   "branch": "main",
-  "commit_sha": "8c61bea1c955fed035a8435d502d09763aa6274c",
-  "updated_at": "2026-11-02T15:01:14Z",
+  "commit_sha": "34263bdc78382287e8b27169fa76d67fff61347c",
+  "updated_at": "2026-11-08T21:00:38Z",
   "produces": [
     {
       "groupId": "io.vidocq.dirac",
       "artifactId": "dirac-api",
+      "version": "0.4.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.dirac",
+      "artifactId": "dirac-architecture-tests",
       "version": "0.4.0-SNAPSHOT"
     },
     {
@@ -72,6 +77,13 @@
     }
   ],
   "consumes": [
+    {
+      "groupId": "io.vidocq",
+      "artifactId": "vidocq-archrules",
+      "version": "0.4.0-SNAPSHOT",
+      "scope": "test",
+      "type": "jar"
+    },
     {
       "groupId": "io.vidocq.cassini",
       "artifactId": "cassini-api",
