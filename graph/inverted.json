@@ -289,6 +289,10 @@
       ],
       "produced_by": "Vidocq/champollion"
     },
+    "io.vidocq.champollion:champollion-architecture-tests": {
+      "consumed_by": [],
+      "produced_by": "Vidocq/champollion"
+    },
     "io.vidocq.champollion:champollion-bench": {
       "consumed_by": [],
       "produced_by": "Vidocq/champollion"
@@ -2480,6 +2484,10 @@
     "io.vidocq:vidocq-archrules": {
       "consumed_by": [
         {
+          "repo": "Vidocq/champollion",
+          "scope": "test"
+        },
+        {
           "repo": "Vidocq/chappe",
           "scope": "test"
         },
@@ -2499,6 +2507,6 @@
       "produced_by": null
     }
   },
-  "generated_at": "2026-11-08T21:00:41Z",
+  "generated_at": "2026-11-08T21:18:58Z",
   "schema_version": 1
 }
