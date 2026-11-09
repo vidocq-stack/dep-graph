@@ -732,6 +732,10 @@
           "scope": "compile"
         },
         {
+          "repo": "Vidocq/ibarra",
+          "scope": "test"
+        },
+        {
           "repo": "Vidocq/vidocq",
           "scope": "compile"
         }
@@ -1075,6 +1079,10 @@
           "scope": "compile"
         }
       ],
+      "produced_by": "Vidocq/ibarra"
+    },
+    "io.vidocq.ibarra:ibarra-architecture-tests": {
+      "consumed_by": [],
       "produced_by": "Vidocq/ibarra"
     },
     "io.vidocq.ibarra:ibarra-arquillian": {
@@ -2572,6 +2580,10 @@
           "scope": "test"
         },
         {
+          "repo": "Vidocq/ibarra",
+          "scope": "test"
+        },
+        {
           "repo": "Vidocq/knock",
           "scope": "test"
         },
@@ -2595,6 +2607,6 @@
       "produced_by": null
     }
   },
-  "generated_at": "2026-11-08T23:42:17Z",
+  "generated_at": "2026-11-09T00:06:29Z",
   "schema_version": 1
 }
