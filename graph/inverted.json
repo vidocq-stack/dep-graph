@@ -1446,6 +1446,10 @@
       ],
       "produced_by": "Vidocq/peano"
     },
+    "io.vidocq.peano:peano-architecture-tests": {
+      "consumed_by": [],
+      "produced_by": "Vidocq/peano"
+    },
     "io.vidocq.peano:peano-compiler": {
       "consumed_by": [
         {
@@ -2604,6 +2608,10 @@
           "scope": "test"
         },
         {
+          "repo": "Vidocq/peano",
+          "scope": "test"
+        },
+        {
           "repo": "Vidocq/ravel",
           "scope": "test"
         },
@@ -2619,6 +2627,6 @@
       "produced_by": null
     }
   },
-  "generated_at": "2026-11-09T00:14:34Z",
+  "generated_at": "2026-11-09T00:15:04Z",
   "schema_version": 1
 }

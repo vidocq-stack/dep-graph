@@ -2,12 +2,17 @@
   "schema_version": 1,
   "repo": "Vidocq/peano",
   "branch": "main",
-  "commit_sha": "78b8d022815cb1f433eb192918ccfe857ccd0c2a",
-  "updated_at": "2026-10-29T10:33:11Z",
+  "commit_sha": "477cc8189245739d8139c057f6976e64f30768df",
+  "updated_at": "2026-11-09T00:15:03Z",
   "produces": [
     {
       "groupId": "io.vidocq.peano",
       "artifactId": "peano-api",
+      "version": "0.4.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.peano",
+      "artifactId": "peano-architecture-tests",
       "version": "0.4.0-SNAPSHOT"
     },
     {
@@ -31,5 +36,13 @@
       "version": "0.4.0-SNAPSHOT"
     }
   ],
-  "consumes": []
+  "consumes": [
+    {
+      "groupId": "io.vidocq",
+      "artifactId": "vidocq-archrules",
+      "version": "0.4.0-SNAPSHOT",
+      "scope": "test",
+      "type": "jar"
+    }
+  ]
 }
