@@ -5,7 +5,12 @@
       "produced_by": "Vidocq/bodoni"
     },
     "io.vidocq.bodoni:bodoni-core": {
-      "consumed_by": [],
+      "consumed_by": [
+        {
+          "repo": "Vidocq/vidocq",
+          "scope": "compile"
+        }
+      ],
       "produced_by": "Vidocq/bodoni"
     },
     "io.vidocq.bodoni:bodoni-it-openliberty": {
@@ -21,7 +26,12 @@
       "produced_by": "Vidocq/bodoni"
     },
     "io.vidocq.bodoni:bodoni-peano": {
-      "consumed_by": [],
+      "consumed_by": [
+        {
+          "repo": "Vidocq/vidocq",
+          "scope": "compile"
+        }
+      ],
       "produced_by": "Vidocq/bodoni"
     },
     "io.vidocq.cassini:cassini-api": {
@@ -1719,6 +1729,10 @@
       "consumed_by": [],
       "produced_by": "Vidocq/vidocq"
     },
+    "io.vidocq.runtime.extensions.jakartaee.web:vidocq-runtime-bodoni-jstl-extension": {
+      "consumed_by": [],
+      "produced_by": "Vidocq/vidocq"
+    },
     "io.vidocq.runtime.extensions.jakartaee.web:vidocq-runtime-extensions-jakartaee-web": {
       "consumed_by": [],
       "produced_by": "Vidocq/vidocq"
@@ -1960,6 +1974,10 @@
       "produced_by": "Vidocq/vidocq"
     },
     "io.vidocq.runtime:vidocq-runtime-integration-tests": {
+      "consumed_by": [],
+      "produced_by": "Vidocq/vidocq"
+    },
+    "io.vidocq.runtime:vidocq-runtime-it-bodoni-jstl": {
       "consumed_by": [],
       "produced_by": "Vidocq/vidocq"
     },
@@ -2627,6 +2645,6 @@
       "produced_by": null
     }
   },
-  "generated_at": "2026-11-09T00:15:04Z",
+  "generated_at": "2026-11-09T09:49:38Z",
   "schema_version": 1
 }

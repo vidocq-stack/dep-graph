@@ -2,8 +2,8 @@
   "schema_version": 1,
   "repo": "Vidocq/vidocq",
   "branch": "main",
-  "commit_sha": "1698121e86bbfe6679d7d2837ca5ba92689e7038",
-  "updated_at": "2026-11-08T23:42:17Z",
+  "commit_sha": "d04c18ea47f719afe389bced8ac54e95e4d930c3",
+  "updated_at": "2026-11-09T09:49:38Z",
   "produces": [
     {
       "groupId": "io.vidocq.runtime",
@@ -123,6 +123,11 @@
     {
       "groupId": "io.vidocq.runtime",
       "artifactId": "vidocq-runtime-integration-tests",
+      "version": "0.4.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.runtime",
+      "artifactId": "vidocq-runtime-it-bodoni-jstl",
       "version": "0.4.0-SNAPSHOT"
     },
     {
@@ -293,6 +298,11 @@
     {
       "groupId": "io.vidocq.runtime.extensions.jakartaee.core",
       "artifactId": "vidocq-runtime-peano-el-extension-codegen",
+      "version": "0.4.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.runtime.extensions.jakartaee.web",
+      "artifactId": "vidocq-runtime-bodoni-jstl-extension",
       "version": "0.4.0-SNAPSHOT"
     },
     {
@@ -482,6 +492,20 @@
       "artifactId": "vidocq-archrules",
       "version": "0.4.0-SNAPSHOT",
       "scope": "test",
+      "type": "jar"
+    },
+    {
+      "groupId": "io.vidocq.bodoni",
+      "artifactId": "bodoni-core",
+      "version": "0.4.0-SNAPSHOT",
+      "scope": "compile",
+      "type": "jar"
+    },
+    {
+      "groupId": "io.vidocq.bodoni",
+      "artifactId": "bodoni-peano",
+      "version": "0.4.0-SNAPSHOT",
+      "scope": "compile",
       "type": "jar"
     },
     {
