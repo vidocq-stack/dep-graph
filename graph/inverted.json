@@ -1,5 +1,9 @@
 {
   "artifacts": {
+    "io.vidocq.bodoni:bodoni-architecture-tests": {
+      "consumed_by": [],
+      "produced_by": "Vidocq/bodoni"
+    },
     "io.vidocq.bodoni:bodoni-core": {
       "consumed_by": [],
       "produced_by": "Vidocq/bodoni"
@@ -1428,6 +1432,10 @@
           "scope": "compile"
         },
         {
+          "repo": "Vidocq/bodoni",
+          "scope": "test"
+        },
+        {
           "repo": "Vidocq/ibarra",
           "scope": "compile"
         },
@@ -2540,6 +2548,10 @@
     "io.vidocq:vidocq-archrules": {
       "consumed_by": [
         {
+          "repo": "Vidocq/bodoni",
+          "scope": "test"
+        },
+        {
           "repo": "Vidocq/cassini",
           "scope": "test"
         },
@@ -2607,6 +2619,6 @@
       "produced_by": null
     }
   },
-  "generated_at": "2026-11-09T00:06:29Z",
+  "generated_at": "2026-11-09T00:14:34Z",
   "schema_version": 1
 }
