@@ -2,8 +2,8 @@
   "schema_version": 1,
   "repo": "Vidocq/mansart",
   "branch": "main",
-  "commit_sha": "f337497bb9931eb1f6f34f608189ab441f05c281",
-  "updated_at": "2026-11-09T12:56:31Z",
+  "commit_sha": "824bceeb305dd1bbe2c0e0faee63bbf72c9596f0",
+  "updated_at": "2026-11-10T17:43:54Z",
   "produces": [
     {
       "groupId": "io.vidocq.mansart",
