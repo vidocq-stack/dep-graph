@@ -1343,6 +1343,10 @@
     "io.vidocq.mansart:mansart-transactions-cdi": {
       "consumed_by": [
         {
+          "repo": "Vidocq/noether",
+          "scope": "compile"
+        },
+        {
           "repo": "Vidocq/vidocq",
           "scope": "compile"
         }
@@ -2718,6 +2722,6 @@
       "produced_by": null
     }
   },
-  "generated_at": "2026-11-13T11:09:06Z",
+  "generated_at": "2026-11-13T14:23:51Z",
   "schema_version": 1
 }

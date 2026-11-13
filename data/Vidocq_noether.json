@@ -2,8 +2,8 @@
   "schema_version": 1,
   "repo": "Vidocq/noether",
   "branch": "main",
-  "commit_sha": "24a86eac77c37c481695aef6a275cd3042105e1d",
-  "updated_at": "2026-11-13T00:03:21Z",
+  "commit_sha": "dbc9caeede24b283f850e25e5b9d1ae417ed3b45",
+  "updated_at": "2026-11-13T14:23:51Z",
   "produces": [
     {
       "groupId": "io.vidocq.noether",
@@ -130,6 +130,13 @@
     },
     {
       "groupId": "io.vidocq.mansart",
+      "artifactId": "mansart-transactions-cdi",
+      "version": "${mansart.version}",
+      "scope": "compile",
+      "type": "jar"
+    },
+    {
+      "groupId": "io.vidocq.mansart",
       "artifactId": "mansart-transactions-core",
       "version": "${mansart.version}",
       "scope": "compile",
@@ -152,21 +159,21 @@
     {
       "groupId": "io.vidocq.vauban",
       "artifactId": "vauban-classloader-spi",
-      "version": "0.4.0-SNAPSHOT",
+      "version": "${vauban.version}",
       "scope": "runtime",
       "type": "jar"
     },
     {
       "groupId": "io.vidocq.vauban",
       "artifactId": "vauban-core",
-      "version": "0.4.0-SNAPSHOT",
+      "version": "${vauban.version}",
       "scope": "compile",
       "type": "jar"
     },
     {
       "groupId": "io.vidocq.vauban",
       "artifactId": "vauban-processor",
-      "version": "0.4.0-SNAPSHOT",
+      "version": "${vauban.version}",
       "scope": "build",
       "type": "jar"
     }
