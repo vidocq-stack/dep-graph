@@ -2078,6 +2078,10 @@
       "consumed_by": [],
       "produced_by": "Vidocq/vidocq"
     },
+    "io.vidocq.runtime:vidocq-runtime-it-noether-mansart-data": {
+      "consumed_by": [],
+      "produced_by": "Vidocq/vidocq"
+    },
     "io.vidocq.runtime:vidocq-runtime-it-noether-persistence": {
       "consumed_by": [],
       "produced_by": "Vidocq/vidocq"
@@ -2714,6 +2718,6 @@
       "produced_by": null
     }
   },
-  "generated_at": "2026-11-13T09:59:26Z",
+  "generated_at": "2026-11-13T11:09:06Z",
   "schema_version": 1
 }

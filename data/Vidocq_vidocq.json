@@ -2,8 +2,8 @@
   "schema_version": 1,
   "repo": "Vidocq/vidocq",
   "branch": "main",
-  "commit_sha": "75b7d073cb5cb28689532d1b5526e558b0591561",
-  "updated_at": "2026-11-13T09:59:25Z",
+  "commit_sha": "51b80ca90efcabc23c16e03536880c8ca45f7a3d",
+  "updated_at": "2026-11-13T11:09:06Z",
   "produces": [
     {
       "groupId": "io.vidocq.runtime",
@@ -173,6 +173,11 @@
     {
       "groupId": "io.vidocq.runtime",
       "artifactId": "vidocq-runtime-it-naming",
+      "version": "0.4.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.runtime",
+      "artifactId": "vidocq-runtime-it-noether-mansart-data",
       "version": "0.4.0-SNAPSHOT"
     },
     {
