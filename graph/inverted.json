@@ -1260,6 +1260,10 @@
     "io.vidocq.mansart:mansart-data-processor": {
       "consumed_by": [
         {
+          "repo": "Vidocq/noether",
+          "scope": "test"
+        },
+        {
           "repo": "Vidocq/vidocq",
           "scope": "compile"
         },
@@ -1365,6 +1369,10 @@
           "scope": "compile"
         },
         {
+          "repo": "Vidocq/noether",
+          "scope": "test"
+        },
+        {
           "repo": "Vidocq/vidocq",
           "scope": "compile"
         }
@@ -1374,6 +1382,18 @@
     "io.vidocq.mansart:mansart-transactions-tests": {
       "consumed_by": [],
       "produced_by": "Vidocq/mansart"
+    },
+    "io.vidocq.noether:noether-it-openliberty": {
+      "consumed_by": [],
+      "produced_by": "Vidocq/noether"
+    },
+    "io.vidocq.noether:noether-it-other-containers": {
+      "consumed_by": [],
+      "produced_by": "Vidocq/noether"
+    },
+    "io.vidocq.noether:noether-it-quarkus": {
+      "consumed_by": [],
+      "produced_by": "Vidocq/noether"
     },
     "io.vidocq.noether:noether-jpa": {
       "consumed_by": [],
@@ -1407,7 +1427,15 @@
       "consumed_by": [],
       "produced_by": "Vidocq/noether"
     },
+    "io.vidocq.noether:noether-jpa-jta": {
+      "consumed_by": [],
+      "produced_by": "Vidocq/noether"
+    },
     "io.vidocq.noether:noether-jpa-module-it": {
+      "consumed_by": [],
+      "produced_by": "Vidocq/noether"
+    },
+    "io.vidocq.noether:noether-jpa-pool-mansart": {
       "consumed_by": [],
       "produced_by": "Vidocq/noether"
     },
@@ -2516,6 +2544,10 @@
           "scope": "build"
         },
         {
+          "repo": "Vidocq/noether",
+          "scope": "build"
+        },
+        {
           "repo": "Vidocq/ravel",
           "scope": "build"
         },
@@ -2645,6 +2677,6 @@
       "produced_by": null
     }
   },
-  "generated_at": "2026-11-11T19:49:42Z",
+  "generated_at": "2026-11-13T00:03:22Z",
   "schema_version": 1
 }

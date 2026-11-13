@@ -2,9 +2,24 @@
   "schema_version": 1,
   "repo": "Vidocq/noether",
   "branch": "main",
-  "commit_sha": "aa777058512fccf68412dc4f2870212db69a80a0",
-  "updated_at": "2026-10-22T20:50:55Z",
+  "commit_sha": "24a86eac77c37c481695aef6a275cd3042105e1d",
+  "updated_at": "2026-11-13T00:03:21Z",
   "produces": [
+    {
+      "groupId": "io.vidocq.noether",
+      "artifactId": "noether-it-openliberty",
+      "version": "0.4.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.noether",
+      "artifactId": "noether-it-other-containers",
+      "version": "0.4.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.noether",
+      "artifactId": "noether-it-quarkus",
+      "version": "0.4.0-SNAPSHOT"
+    },
     {
       "groupId": "io.vidocq.noether",
       "artifactId": "noether-jpa",
@@ -47,7 +62,17 @@
     },
     {
       "groupId": "io.vidocq.noether",
+      "artifactId": "noether-jpa-jta",
+      "version": "0.4.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.noether",
       "artifactId": "noether-jpa-module-it",
+      "version": "0.4.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.noether",
+      "artifactId": "noether-jpa-pool-mansart",
       "version": "0.4.0-SNAPSHOT"
     },
     {
@@ -91,6 +116,13 @@
     },
     {
       "groupId": "io.vidocq.mansart",
+      "artifactId": "mansart-data-processor",
+      "version": "${mansart.version}",
+      "scope": "test",
+      "type": "jar"
+    },
+    {
+      "groupId": "io.vidocq.mansart",
       "artifactId": "mansart-pool-core",
       "version": "${mansart.version}",
       "scope": "compile",
@@ -111,6 +143,13 @@
       "type": "jar"
     },
     {
+      "groupId": "io.vidocq.mansart",
+      "artifactId": "mansart-transactions-jdbc",
+      "version": "${mansart.version}",
+      "scope": "test",
+      "type": "jar"
+    },
+    {
       "groupId": "io.vidocq.vauban",
       "artifactId": "vauban-classloader-spi",
       "version": "0.4.0-SNAPSHOT",
@@ -122,6 +161,13 @@
       "artifactId": "vauban-core",
       "version": "0.4.0-SNAPSHOT",
       "scope": "compile",
+      "type": "jar"
+    },
+    {
+      "groupId": "io.vidocq.vauban",
+      "artifactId": "vauban-processor",
+      "version": "0.4.0-SNAPSHOT",
+      "scope": "build",
       "type": "jar"
     }
   ]
