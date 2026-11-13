@@ -1918,6 +1918,10 @@
       "consumed_by": [],
       "produced_by": "Vidocq/vidocq"
     },
+    "io.vidocq.runtime.extensions.microprofile:vidocq-runtime-humboldt-telemetry-extension-codegen": {
+      "consumed_by": [],
+      "produced_by": "Vidocq/vidocq"
+    },
     "io.vidocq.runtime.extensions.microprofile:vidocq-runtime-knock-health-extension": {
       "consumed_by": [],
       "produced_by": "Vidocq/vidocq"
@@ -2722,6 +2726,6 @@
       "produced_by": null
     }
   },
-  "generated_at": "2026-11-13T14:47:42Z",
+  "generated_at": "2026-11-13T15:17:39Z",
   "schema_version": 1
 }

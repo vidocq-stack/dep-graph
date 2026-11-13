@@ -2,8 +2,8 @@
   "schema_version": 1,
   "repo": "Vidocq/vidocq",
   "branch": "main",
-  "commit_sha": "94d932e3b62caeda35229a706f74edd98b89fa0b",
-  "updated_at": "2026-11-13T14:47:40Z",
+  "commit_sha": "d006a0192d0d840701035d0e9340a211a218e2fc",
+  "updated_at": "2026-11-13T15:17:39Z",
   "produces": [
     {
       "groupId": "io.vidocq.runtime",
@@ -473,6 +473,11 @@
     {
       "groupId": "io.vidocq.runtime.extensions.microprofile",
       "artifactId": "vidocq-runtime-humboldt-telemetry-extension",
+      "version": "0.4.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.runtime.extensions.microprofile",
+      "artifactId": "vidocq-runtime-humboldt-telemetry-extension-codegen",
       "version": "0.4.0-SNAPSHOT"
     },
     {
