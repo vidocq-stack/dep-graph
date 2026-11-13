@@ -2,8 +2,8 @@
   "schema_version": 1,
   "repo": "Vidocq/vidocq",
   "branch": "main",
-  "commit_sha": "e3ac1b15ed088c00dd3070c9b95c7c367ae4aa7c",
-  "updated_at": "2026-11-11T19:49:42Z",
+  "commit_sha": "75b7d073cb5cb28689532d1b5526e558b0591561",
+  "updated_at": "2026-11-13T09:59:25Z",
   "produces": [
     {
       "groupId": "io.vidocq.runtime",
@@ -173,6 +173,11 @@
     {
       "groupId": "io.vidocq.runtime",
       "artifactId": "vidocq-runtime-it-naming",
+      "version": "0.4.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.runtime",
+      "artifactId": "vidocq-runtime-it-noether-persistence",
       "version": "0.4.0-SNAPSHOT"
     },
     {
@@ -378,6 +383,16 @@
     {
       "groupId": "io.vidocq.runtime.extensions.jakartaee.web",
       "artifactId": "vidocq-runtime-naming-extension",
+      "version": "0.4.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.runtime.extensions.jakartaee.web",
+      "artifactId": "vidocq-runtime-noether-persistence-extension",
+      "version": "0.4.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.runtime.extensions.jakartaee.web",
+      "artifactId": "vidocq-runtime-noether-persistence-extension-codegen",
       "version": "0.4.0-SNAPSHOT"
     },
     {
@@ -988,6 +1003,41 @@
       "groupId": "io.vidocq.mansart",
       "artifactId": "mansart-transactions-jdbc",
       "version": "${mansart.version}",
+      "scope": "compile",
+      "type": "jar"
+    },
+    {
+      "groupId": "io.vidocq.noether",
+      "artifactId": "noether-jpa-cdi",
+      "version": "${noether.version}",
+      "scope": "compile",
+      "type": "jar"
+    },
+    {
+      "groupId": "io.vidocq.noether",
+      "artifactId": "noether-jpa-core",
+      "version": "${noether.version}",
+      "scope": "compile",
+      "type": "jar"
+    },
+    {
+      "groupId": "io.vidocq.noether",
+      "artifactId": "noether-jpa-dialect-h2",
+      "version": "${noether.version}",
+      "scope": "compile",
+      "type": "jar"
+    },
+    {
+      "groupId": "io.vidocq.noether",
+      "artifactId": "noether-jpa-dialect-postgresql",
+      "version": "${noether.version}",
+      "scope": "compile",
+      "type": "jar"
+    },
+    {
+      "groupId": "io.vidocq.noether",
+      "artifactId": "noether-jpa-processor",
+      "version": "${noether.version}",
       "scope": "compile",
       "type": "jar"
     },

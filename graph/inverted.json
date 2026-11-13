@@ -1400,7 +1400,12 @@
       "produced_by": "Vidocq/noether"
     },
     "io.vidocq.noether:noether-jpa-cdi": {
-      "consumed_by": [],
+      "consumed_by": [
+        {
+          "repo": "Vidocq/vidocq",
+          "scope": "compile"
+        }
+      ],
       "produced_by": "Vidocq/noether"
     },
     "io.vidocq.noether:noether-jpa-cdi-module-it": {
@@ -1408,15 +1413,30 @@
       "produced_by": "Vidocq/noether"
     },
     "io.vidocq.noether:noether-jpa-core": {
-      "consumed_by": [],
+      "consumed_by": [
+        {
+          "repo": "Vidocq/vidocq",
+          "scope": "compile"
+        }
+      ],
       "produced_by": "Vidocq/noether"
     },
     "io.vidocq.noether:noether-jpa-dialect-h2": {
-      "consumed_by": [],
+      "consumed_by": [
+        {
+          "repo": "Vidocq/vidocq",
+          "scope": "compile"
+        }
+      ],
       "produced_by": "Vidocq/noether"
     },
     "io.vidocq.noether:noether-jpa-dialect-postgresql": {
-      "consumed_by": [],
+      "consumed_by": [
+        {
+          "repo": "Vidocq/vidocq",
+          "scope": "compile"
+        }
+      ],
       "produced_by": "Vidocq/noether"
     },
     "io.vidocq.noether:noether-jpa-dialect-spi": {
@@ -1440,7 +1460,12 @@
       "produced_by": "Vidocq/noether"
     },
     "io.vidocq.noether:noether-jpa-processor": {
-      "consumed_by": [],
+      "consumed_by": [
+        {
+          "repo": "Vidocq/vidocq",
+          "scope": "compile"
+        }
+      ],
       "produced_by": "Vidocq/noether"
     },
     "io.vidocq.noether:noether-jpa-processor-module-it": {
@@ -1821,6 +1846,14 @@
       "consumed_by": [],
       "produced_by": "Vidocq/vidocq"
     },
+    "io.vidocq.runtime.extensions.jakartaee.web:vidocq-runtime-noether-persistence-extension": {
+      "consumed_by": [],
+      "produced_by": "Vidocq/vidocq"
+    },
+    "io.vidocq.runtime.extensions.jakartaee.web:vidocq-runtime-noether-persistence-extension-codegen": {
+      "consumed_by": [],
+      "produced_by": "Vidocq/vidocq"
+    },
     "io.vidocq.runtime.extensions.jakartaee.web:vidocq-runtime-vaadin-extension": {
       "consumed_by": [],
       "produced_by": "Vidocq/vidocq"
@@ -2042,6 +2075,10 @@
       "produced_by": "Vidocq/vidocq"
     },
     "io.vidocq.runtime:vidocq-runtime-it-naming": {
+      "consumed_by": [],
+      "produced_by": "Vidocq/vidocq"
+    },
+    "io.vidocq.runtime:vidocq-runtime-it-noether-persistence": {
       "consumed_by": [],
       "produced_by": "Vidocq/vidocq"
     },
@@ -2677,6 +2714,6 @@
       "produced_by": null
     }
   },
-  "generated_at": "2026-11-13T00:03:22Z",
+  "generated_at": "2026-11-13T09:59:26Z",
   "schema_version": 1
 }
