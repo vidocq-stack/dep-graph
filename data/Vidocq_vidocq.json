@@ -2,8 +2,8 @@
   "schema_version": 1,
   "repo": "Vidocq/vidocq",
   "branch": "main",
-  "commit_sha": "07d6b10a7c6d22e9a610c6fb478e102ccd70dad6",
-  "updated_at": "2026-11-14T19:31:54Z",
+  "commit_sha": "05c05e605f42527295e98a9e84a93157c6b08eaa",
+  "updated_at": "2026-11-14T21:48:39Z",
   "produces": [
     {
       "groupId": "io.vidocq.runtime",
@@ -148,6 +148,11 @@
     {
       "groupId": "io.vidocq.runtime",
       "artifactId": "vidocq-runtime-it-foy-servlet",
+      "version": "0.4.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.runtime",
+      "artifactId": "vidocq-runtime-it-foy-websocket",
       "version": "0.4.0-SNAPSHOT"
     },
     {
@@ -333,6 +338,11 @@
     {
       "groupId": "io.vidocq.runtime.extensions.jakartaee.web",
       "artifactId": "vidocq-runtime-foy-servlet-extension-dev",
+      "version": "0.4.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.runtime.extensions.jakartaee.web",
+      "artifactId": "vidocq-runtime-foy-websocket-extension",
       "version": "0.4.0-SNAPSHOT"
     },
     {
@@ -793,6 +803,13 @@
     {
       "groupId": "io.vidocq.foy",
       "artifactId": "foy-processor",
+      "version": "0.4.0-SNAPSHOT",
+      "scope": "compile",
+      "type": "jar"
+    },
+    {
+      "groupId": "io.vidocq.foy",
+      "artifactId": "foy-websocket",
       "version": "0.4.0-SNAPSHOT",
       "scope": "compile",
       "type": "jar"

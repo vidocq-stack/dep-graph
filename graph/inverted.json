@@ -842,7 +842,12 @@
       "produced_by": "Vidocq/foy"
     },
     "io.vidocq.foy:foy-websocket": {
-      "consumed_by": [],
+      "consumed_by": [
+        {
+          "repo": "Vidocq/vidocq",
+          "scope": "compile"
+        }
+      ],
       "produced_by": "Vidocq/foy"
     },
     "io.vidocq.foy:foy-zap-target": {
@@ -1831,6 +1836,10 @@
       "consumed_by": [],
       "produced_by": "Vidocq/vidocq"
     },
+    "io.vidocq.runtime.extensions.jakartaee.web:vidocq-runtime-foy-websocket-extension": {
+      "consumed_by": [],
+      "produced_by": "Vidocq/vidocq"
+    },
     "io.vidocq.runtime.extensions.jakartaee.web:vidocq-runtime-ibarra-pages-extension": {
       "consumed_by": [],
       "produced_by": "Vidocq/vidocq"
@@ -2092,6 +2101,10 @@
       "produced_by": "Vidocq/vidocq"
     },
     "io.vidocq.runtime:vidocq-runtime-it-foy-servlet": {
+      "consumed_by": [],
+      "produced_by": "Vidocq/vidocq"
+    },
+    "io.vidocq.runtime:vidocq-runtime-it-foy-websocket": {
       "consumed_by": [],
       "produced_by": "Vidocq/vidocq"
     },
@@ -2767,6 +2780,6 @@
       "produced_by": null
     }
   },
-  "generated_at": "2026-11-14T21:27:39Z",
+  "generated_at": "2026-11-14T21:48:39Z",
   "schema_version": 1
 }
