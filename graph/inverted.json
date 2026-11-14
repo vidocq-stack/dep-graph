@@ -1147,6 +1147,10 @@
       "consumed_by": [],
       "produced_by": "Vidocq/ibarra"
     },
+    "io.vidocq.kerckhoffs:kerckhoffs-cdi": {
+      "consumed_by": [],
+      "produced_by": "Vidocq/kerckhoffs"
+    },
     "io.vidocq.kerckhoffs:kerckhoffs-core": {
       "consumed_by": [],
       "produced_by": "Vidocq/kerckhoffs"
@@ -2372,6 +2376,10 @@
           "scope": "test"
         },
         {
+          "repo": "Vidocq/kerckhoffs",
+          "scope": "test"
+        },
+        {
           "repo": "Vidocq/knock",
           "scope": "compile"
         },
@@ -2475,6 +2483,10 @@
         {
           "repo": "Vidocq/heisenberg",
           "scope": "provided"
+        },
+        {
+          "repo": "Vidocq/kerckhoffs",
+          "scope": "test"
         },
         {
           "repo": "Vidocq/knock",
@@ -2755,6 +2767,6 @@
       "produced_by": null
     }
   },
-  "generated_at": "2026-11-14T20:49:46Z",
+  "generated_at": "2026-11-14T21:27:39Z",
   "schema_version": 1
 }
