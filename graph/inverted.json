@@ -1870,6 +1870,10 @@
       "consumed_by": [],
       "produced_by": "Vidocq/vidocq"
     },
+    "io.vidocq.runtime.extensions.jakartaee.web:vidocq-runtime-noether-persistence-units": {
+      "consumed_by": [],
+      "produced_by": "Vidocq/vidocq"
+    },
     "io.vidocq.runtime.extensions.jakartaee.web:vidocq-runtime-vaadin-extension": {
       "consumed_by": [],
       "produced_by": "Vidocq/vidocq"
@@ -2742,6 +2746,6 @@
       "produced_by": null
     }
   },
-  "generated_at": "2026-11-14T16:19:52Z",
+  "generated_at": "2026-11-14T16:37:20Z",
   "schema_version": 1
 }
