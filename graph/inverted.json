@@ -841,6 +841,10 @@
       ],
       "produced_by": "Vidocq/foy"
     },
+    "io.vidocq.foy:foy-websocket": {
+      "consumed_by": [],
+      "produced_by": "Vidocq/foy"
+    },
     "io.vidocq.foy:foy-zap-target": {
       "consumed_by": [],
       "produced_by": "Vidocq/foy"
@@ -2751,6 +2755,6 @@
       "produced_by": null
     }
   },
-  "generated_at": "2026-11-14T19:31:55Z",
+  "generated_at": "2026-11-14T20:49:46Z",
   "schema_version": 1
 }
