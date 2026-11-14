@@ -1395,6 +1395,10 @@
       "consumed_by": [],
       "produced_by": "Vidocq/mansart"
     },
+    "io.vidocq.noether:noether-architecture-tests": {
+      "consumed_by": [],
+      "produced_by": "Vidocq/noether"
+    },
     "io.vidocq.noether:noether-it-openliberty": {
       "consumed_by": [],
       "produced_by": "Vidocq/noether"
@@ -2715,6 +2719,10 @@
           "scope": "test"
         },
         {
+          "repo": "Vidocq/noether",
+          "scope": "test"
+        },
+        {
           "repo": "Vidocq/peano",
           "scope": "test"
         },
@@ -2734,6 +2742,6 @@
       "produced_by": null
     }
   },
-  "generated_at": "2026-11-14T12:31:05Z",
+  "generated_at": "2026-11-14T16:00:27Z",
   "schema_version": 1
 }
