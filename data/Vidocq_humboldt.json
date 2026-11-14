@@ -2,8 +2,8 @@
   "schema_version": 1,
   "repo": "Vidocq/humboldt",
   "branch": "main",
-  "commit_sha": "2f31083688d59a8cf524c471e88fd02c5717efbb",
-  "updated_at": "2026-11-08T23:25:08Z",
+  "commit_sha": "6924f5a0b2a86b33567e7ace642b50811f92b29f",
+  "updated_at": "2026-11-14T18:42:49Z",
   "produces": [
     {
       "groupId": "io.vidocq.humboldt",
@@ -119,6 +119,13 @@
       "artifactId": "cassini-api",
       "version": "${cassini.version}",
       "scope": "provided",
+      "type": "jar"
+    },
+    {
+      "groupId": "io.vidocq.cassini",
+      "artifactId": "cassini-jdk-http",
+      "version": "${cassini.version}",
+      "scope": "test",
       "type": "jar"
     },
     {

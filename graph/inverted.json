@@ -168,7 +168,12 @@
       "produced_by": "Vidocq/cassini"
     },
     "io.vidocq.cassini:cassini-jdk-http": {
-      "consumed_by": [],
+      "consumed_by": [
+        {
+          "repo": "Vidocq/humboldt",
+          "scope": "test"
+        }
+      ],
       "produced_by": "Vidocq/cassini"
     },
     "io.vidocq.cassini:cassini-maven-plugin": {
@@ -2746,6 +2751,6 @@
       "produced_by": null
     }
   },
-  "generated_at": "2026-11-14T16:37:20Z",
+  "generated_at": "2026-11-14T18:42:49Z",
   "schema_version": 1
 }
