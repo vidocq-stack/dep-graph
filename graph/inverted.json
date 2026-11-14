@@ -1138,6 +1138,14 @@
       "consumed_by": [],
       "produced_by": "Vidocq/ibarra"
     },
+    "io.vidocq.kerckhoffs:kerckhoffs-core": {
+      "consumed_by": [],
+      "produced_by": "Vidocq/kerckhoffs"
+    },
+    "io.vidocq.kerckhoffs:kerckhoffs-parent": {
+      "consumed_by": [],
+      "produced_by": "Vidocq/kerckhoffs"
+    },
     "io.vidocq.knock:knock-api": {
       "consumed_by": [],
       "produced_by": "Vidocq/knock"
@@ -2726,6 +2734,6 @@
       "produced_by": null
     }
   },
-  "generated_at": "2026-11-14T10:53:03Z",
+  "generated_at": "2026-11-14T11:03:52Z",
   "schema_version": 1
 }
