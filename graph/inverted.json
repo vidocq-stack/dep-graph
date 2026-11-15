@@ -755,6 +755,14 @@
           "scope": "test"
         },
         {
+          "repo": "Vidocq/kerckhoffs",
+          "scope": "compile"
+        },
+        {
+          "repo": "Vidocq/kerckhoffs",
+          "scope": "provided"
+        },
+        {
           "repo": "Vidocq/vidocq",
           "scope": "compile"
         }
@@ -1152,11 +1160,19 @@
       "consumed_by": [],
       "produced_by": "Vidocq/ibarra"
     },
+    "io.vidocq.kerckhoffs:kerckhoffs-authentication": {
+      "consumed_by": [],
+      "produced_by": "Vidocq/kerckhoffs"
+    },
     "io.vidocq.kerckhoffs:kerckhoffs-cdi": {
       "consumed_by": [],
       "produced_by": "Vidocq/kerckhoffs"
     },
     "io.vidocq.kerckhoffs:kerckhoffs-core": {
+      "consumed_by": [],
+      "produced_by": "Vidocq/kerckhoffs"
+    },
+    "io.vidocq.kerckhoffs:kerckhoffs-foy": {
       "consumed_by": [],
       "produced_by": "Vidocq/kerckhoffs"
     },
@@ -2780,6 +2796,6 @@
       "produced_by": null
     }
   },
-  "generated_at": "2026-11-15T09:53:13Z",
+  "generated_at": "2026-11-15T11:19:39Z",
   "schema_version": 1
 }
