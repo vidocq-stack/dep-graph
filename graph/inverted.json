@@ -2701,6 +2701,10 @@
       "consumed_by": [
         {
           "repo": "Vidocq/foy",
+          "scope": "build"
+        },
+        {
+          "repo": "Vidocq/foy",
           "scope": "compile"
         },
         {
@@ -2796,6 +2800,6 @@
       "produced_by": null
     }
   },
-  "generated_at": "2026-11-15T17:12:47Z",
+  "generated_at": "2026-11-15T18:02:35Z",
   "schema_version": 1
 }

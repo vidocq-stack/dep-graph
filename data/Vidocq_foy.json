@@ -2,8 +2,8 @@
   "schema_version": 1,
   "repo": "Vidocq/foy",
   "branch": "main",
-  "commit_sha": "869a32379c28b3d097092a0b0970f58f07b82bde",
-  "updated_at": "2026-11-14T20:49:45Z",
+  "commit_sha": "faf187d8b0a1d0554c8db8794dbc8e1203aacfe5",
+  "updated_at": "2026-11-15T18:02:34Z",
   "produces": [
     {
       "groupId": "io.vidocq.foy",
@@ -138,6 +138,13 @@
       "artifactId": "vauban-processor",
       "version": "${vauban.version}",
       "scope": "test",
+      "type": "jar"
+    },
+    {
+      "groupId": "io.vidocq.vauban",
+      "artifactId": "vauban-webcontexts",
+      "version": "${vauban.version}",
+      "scope": "build",
       "type": "jar"
     },
     {
