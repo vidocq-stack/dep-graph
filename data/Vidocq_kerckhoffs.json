@@ -2,8 +2,8 @@
   "schema_version": 1,
   "repo": "Vidocq/kerckhoffs",
   "branch": "main",
-  "commit_sha": "2b3358eb1755a6eb09a1dcbe9ca778ad7224db35",
-  "updated_at": "2026-11-14T21:27:38Z",
+  "commit_sha": "bb1e979fbbd6881199c7a274b70b2eac7b5cba52",
+  "updated_at": "2026-11-15T09:53:13Z",
   "produces": [
     {
       "groupId": "io.vidocq.kerckhoffs",
