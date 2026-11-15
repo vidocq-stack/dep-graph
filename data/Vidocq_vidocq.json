@@ -2,8 +2,8 @@
   "schema_version": 1,
   "repo": "Vidocq/vidocq",
   "branch": "main",
-  "commit_sha": "f3fab66b862739eded0640987cc900272120a90a",
-  "updated_at": "2026-11-15T19:09:15Z",
+  "commit_sha": "3e527933e97628a6478998cfe76ca98f6c6424db",
+  "updated_at": "2026-11-15T21:58:33Z",
   "produces": [
     {
       "groupId": "io.vidocq.runtime",
@@ -168,6 +168,11 @@
     {
       "groupId": "io.vidocq.runtime",
       "artifactId": "vidocq-runtime-it-ibarra-pages",
+      "version": "0.4.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.runtime",
+      "artifactId": "vidocq-runtime-it-kerckhoffs-security",
       "version": "0.4.0-SNAPSHOT"
     },
     {
@@ -348,6 +353,16 @@
     {
       "groupId": "io.vidocq.runtime.extensions.jakartaee.web",
       "artifactId": "vidocq-runtime-ibarra-pages-extension",
+      "version": "0.4.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.runtime.extensions.jakartaee.web",
+      "artifactId": "vidocq-runtime-kerckhoffs-security-extension",
+      "version": "0.4.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.runtime.extensions.jakartaee.web",
+      "artifactId": "vidocq-runtime-kerckhoffs-security-extension-codegen",
       "version": "0.4.0-SNAPSHOT"
     },
     {
@@ -944,6 +959,34 @@
       "groupId": "io.vidocq.ibarra",
       "artifactId": "ibarra-foy",
       "version": "0.4.0-SNAPSHOT",
+      "scope": "compile",
+      "type": "jar"
+    },
+    {
+      "groupId": "io.vidocq.kerckhoffs",
+      "artifactId": "kerckhoffs-authentication",
+      "version": "${kerckhoffs.version}",
+      "scope": "compile",
+      "type": "jar"
+    },
+    {
+      "groupId": "io.vidocq.kerckhoffs",
+      "artifactId": "kerckhoffs-cdi",
+      "version": "${kerckhoffs.version}",
+      "scope": "compile",
+      "type": "jar"
+    },
+    {
+      "groupId": "io.vidocq.kerckhoffs",
+      "artifactId": "kerckhoffs-core",
+      "version": "${kerckhoffs.version}",
+      "scope": "compile",
+      "type": "jar"
+    },
+    {
+      "groupId": "io.vidocq.kerckhoffs",
+      "artifactId": "kerckhoffs-foy",
+      "version": "${kerckhoffs.version}",
       "scope": "compile",
       "type": "jar"
     },

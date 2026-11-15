@@ -1161,19 +1161,39 @@
       "produced_by": "Vidocq/ibarra"
     },
     "io.vidocq.kerckhoffs:kerckhoffs-authentication": {
-      "consumed_by": [],
+      "consumed_by": [
+        {
+          "repo": "Vidocq/vidocq",
+          "scope": "compile"
+        }
+      ],
       "produced_by": "Vidocq/kerckhoffs"
     },
     "io.vidocq.kerckhoffs:kerckhoffs-cdi": {
-      "consumed_by": [],
+      "consumed_by": [
+        {
+          "repo": "Vidocq/vidocq",
+          "scope": "compile"
+        }
+      ],
       "produced_by": "Vidocq/kerckhoffs"
     },
     "io.vidocq.kerckhoffs:kerckhoffs-core": {
-      "consumed_by": [],
+      "consumed_by": [
+        {
+          "repo": "Vidocq/vidocq",
+          "scope": "compile"
+        }
+      ],
       "produced_by": "Vidocq/kerckhoffs"
     },
     "io.vidocq.kerckhoffs:kerckhoffs-foy": {
-      "consumed_by": [],
+      "consumed_by": [
+        {
+          "repo": "Vidocq/vidocq",
+          "scope": "compile"
+        }
+      ],
       "produced_by": "Vidocq/kerckhoffs"
     },
     "io.vidocq.kerckhoffs:kerckhoffs-parent": {
@@ -1860,6 +1880,14 @@
       "consumed_by": [],
       "produced_by": "Vidocq/vidocq"
     },
+    "io.vidocq.runtime.extensions.jakartaee.web:vidocq-runtime-kerckhoffs-security-extension": {
+      "consumed_by": [],
+      "produced_by": "Vidocq/vidocq"
+    },
+    "io.vidocq.runtime.extensions.jakartaee.web:vidocq-runtime-kerckhoffs-security-extension-codegen": {
+      "consumed_by": [],
+      "produced_by": "Vidocq/vidocq"
+    },
     "io.vidocq.runtime.extensions.jakartaee.web:vidocq-runtime-mansart-data-extension": {
       "consumed_by": [],
       "produced_by": "Vidocq/vidocq"
@@ -2133,6 +2161,10 @@
       "produced_by": "Vidocq/vidocq"
     },
     "io.vidocq.runtime:vidocq-runtime-it-ibarra-pages": {
+      "consumed_by": [],
+      "produced_by": "Vidocq/vidocq"
+    },
+    "io.vidocq.runtime:vidocq-runtime-it-kerckhoffs-security": {
       "consumed_by": [],
       "produced_by": "Vidocq/vidocq"
     },
@@ -2800,6 +2832,6 @@
       "produced_by": null
     }
   },
-  "generated_at": "2026-11-15T19:09:15Z",
+  "generated_at": "2026-11-15T21:58:34Z",
   "schema_version": 1
 }
