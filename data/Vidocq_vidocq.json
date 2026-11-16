@@ -2,8 +2,8 @@
   "schema_version": 1,
   "repo": "Vidocq/vidocq",
   "branch": "main",
-  "commit_sha": "a67436f85b718913a7f96a779837eaa6593a5c41",
-  "updated_at": "2026-11-16T13:00:46Z",
+  "commit_sha": "59088b0ffec4600299cc3462cac2eff323937c95",
+  "updated_at": "2026-11-16T16:23:29Z",
   "produces": [
     {
       "groupId": "io.vidocq.runtime",
@@ -965,6 +965,13 @@
     {
       "groupId": "io.vidocq.kerckhoffs",
       "artifactId": "kerckhoffs-authentication",
+      "version": "${kerckhoffs.version}",
+      "scope": "compile",
+      "type": "jar"
+    },
+    {
+      "groupId": "io.vidocq.kerckhoffs",
+      "artifactId": "kerckhoffs-authorization",
       "version": "${kerckhoffs.version}",
       "scope": "compile",
       "type": "jar"

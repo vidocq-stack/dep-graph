@@ -1170,7 +1170,12 @@
       "produced_by": "Vidocq/kerckhoffs"
     },
     "io.vidocq.kerckhoffs:kerckhoffs-authorization": {
-      "consumed_by": [],
+      "consumed_by": [
+        {
+          "repo": "Vidocq/vidocq",
+          "scope": "compile"
+        }
+      ],
       "produced_by": "Vidocq/kerckhoffs"
     },
     "io.vidocq.kerckhoffs:kerckhoffs-cdi": {
@@ -2840,6 +2845,6 @@
       "produced_by": null
     }
   },
-  "generated_at": "2026-11-16T16:03:02Z",
+  "generated_at": "2026-11-16T16:23:30Z",
   "schema_version": 1
 }
