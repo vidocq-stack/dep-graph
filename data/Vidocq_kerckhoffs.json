@@ -2,8 +2,8 @@
   "schema_version": 1,
   "repo": "Vidocq/kerckhoffs",
   "branch": "main",
-  "commit_sha": "033c46306d6e0b34d9ac89e01b5a59f2cd20469a",
-  "updated_at": "2026-11-15T19:09:10Z",
+  "commit_sha": "e731defb409c57b13b48a9dd16bc0b1cf421bc7b",
+  "updated_at": "2026-11-16T04:18:05Z",
   "produces": [
     {
       "groupId": "io.vidocq.kerckhoffs",
@@ -44,6 +44,13 @@
       "artifactId": "foy-api",
       "version": "0.4.0-SNAPSHOT",
       "scope": "provided",
+      "type": "jar"
+    },
+    {
+      "groupId": "io.vidocq.peano",
+      "artifactId": "peano-core",
+      "version": "0.4.0-SNAPSHOT",
+      "scope": "test",
       "type": "jar"
     },
     {
