@@ -2,8 +2,8 @@
   "schema_version": 1,
   "repo": "Vidocq/vidocq",
   "branch": "main",
-  "commit_sha": "59088b0ffec4600299cc3462cac2eff323937c95",
-  "updated_at": "2026-11-16T16:23:29Z",
+  "commit_sha": "20591d4e732034730850013b3b728a4e2f42708c",
+  "updated_at": "2026-11-16T19:35:15Z",
   "produces": [
     {
       "groupId": "io.vidocq.runtime",
@@ -423,6 +423,11 @@
     {
       "groupId": "io.vidocq.runtime.extensions.jakartaee.web",
       "artifactId": "vidocq-runtime-noether-persistence-extension-codegen",
+      "version": "0.4.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.runtime.extensions.jakartaee.web",
+      "artifactId": "vidocq-runtime-noether-persistence-extension-dev",
       "version": "0.4.0-SNAPSHOT"
     },
     {
