@@ -2,8 +2,8 @@
   "schema_version": 1,
   "repo": "Vidocq/cassini",
   "branch": "main",
-  "commit_sha": "27d2898eef69825b29691f0d53b5f220c9cc7839",
-  "updated_at": "2026-11-08T23:40:47Z",
+  "commit_sha": "28927cf928cbea6c4c5f7a08e6bf27217a89eea9",
+  "updated_at": "2026-11-16T21:51:32Z",
   "produces": [
     {
       "groupId": "io.vidocq.cassini",
@@ -93,6 +93,11 @@
     {
       "groupId": "io.vidocq.cassini",
       "artifactId": "cassini-processor",
+      "version": "0.4.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.cassini",
+      "artifactId": "cassini-servlet",
       "version": "0.4.0-SNAPSHOT"
     },
     {

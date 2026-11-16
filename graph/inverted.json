@@ -218,6 +218,10 @@
       ],
       "produced_by": "Vidocq/cassini"
     },
+    "io.vidocq.cassini:cassini-servlet": {
+      "consumed_by": [],
+      "produced_by": "Vidocq/cassini"
+    },
     "io.vidocq.cassini:cassini-testing": {
       "consumed_by": [],
       "produced_by": "Vidocq/cassini"
@@ -2853,6 +2857,6 @@
       "produced_by": null
     }
   },
-  "generated_at": "2026-11-16T21:36:01Z",
+  "generated_at": "2026-11-16T21:51:33Z",
   "schema_version": 1
 }
