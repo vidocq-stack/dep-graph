@@ -2,8 +2,8 @@
   "schema_version": 1,
   "repo": "Vidocq/vidocq",
   "branch": "main",
-  "commit_sha": "d59fbac7b37b488859f49e977ebdc20ff7df9600",
-  "updated_at": "2026-11-16T21:36:01Z",
+  "commit_sha": "d58d4b8311662f7db44a5a8a70a953405518175f",
+  "updated_at": "2026-11-16T22:24:54Z",
   "produces": [
     {
       "groupId": "io.vidocq.runtime",
@@ -446,6 +446,11 @@
       "version": "0.4.0-SNAPSHOT"
     },
     {
+      "groupId": "io.vidocq.runtime.extensions.jakartaee.web",
+      "artifactId": "vidocq-runtime-vaadin-extension-dev",
+      "version": "0.4.0-SNAPSHOT"
+    },
+    {
       "groupId": "io.vidocq.runtime.extensions.microprofile",
       "artifactId": "vidocq-runtime-cervantes-jwt-extension",
       "version": "0.4.0-SNAPSHOT"
@@ -788,6 +793,13 @@
       "artifactId": "foy-api",
       "version": "0.4.0-SNAPSHOT",
       "scope": "compile",
+      "type": "jar"
+    },
+    {
+      "groupId": "io.vidocq.foy",
+      "artifactId": "foy-api",
+      "version": "",
+      "scope": "provided",
       "type": "jar"
     },
     {
