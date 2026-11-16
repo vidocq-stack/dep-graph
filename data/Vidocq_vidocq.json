@@ -2,8 +2,8 @@
   "schema_version": 1,
   "repo": "Vidocq/vidocq",
   "branch": "main",
-  "commit_sha": "20591d4e732034730850013b3b728a4e2f42708c",
-  "updated_at": "2026-11-16T19:35:15Z",
+  "commit_sha": "0d806d0635c6436c4512973b2347906d76450208",
+  "updated_at": "2026-11-16T20:13:16Z",
   "produces": [
     {
       "groupId": "io.vidocq.runtime",
@@ -58,6 +58,11 @@
     {
       "groupId": "io.vidocq.runtime",
       "artifactId": "vidocq-runtime-cyrano-rest-client-example",
+      "version": "0.4.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.runtime",
+      "artifactId": "vidocq-runtime-dev-agent",
       "version": "0.4.0-SNAPSHOT"
     },
     {
