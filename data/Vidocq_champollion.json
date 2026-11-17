@@ -2,8 +2,8 @@
   "schema_version": 1,
   "repo": "Vidocq/champollion",
   "branch": "main",
-  "commit_sha": "ffc33be0cce18b0458c0be0e3088008d2172dbef",
-  "updated_at": "2026-11-08T21:18:57Z",
+  "commit_sha": "c2f9b4cdf4aaa8ef1941779b2e616a65a801ed28",
+  "updated_at": "2026-11-17T23:07:44Z",
   "produces": [
     {
       "groupId": "io.vidocq.champollion",
