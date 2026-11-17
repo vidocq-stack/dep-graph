@@ -2,8 +2,8 @@
   "schema_version": 1,
   "repo": "Vidocq/mansart",
   "branch": "main",
-  "commit_sha": "824bceeb305dd1bbe2c0e0faee63bbf72c9596f0",
-  "updated_at": "2026-11-10T17:43:54Z",
+  "commit_sha": "00102899d16d8bd7d9897f6f87076fe7c91e470b",
+  "updated_at": "2026-11-17T21:44:21Z",
   "produces": [
     {
       "groupId": "io.vidocq.mansart",
@@ -63,6 +63,11 @@
     {
       "groupId": "io.vidocq.mansart",
       "artifactId": "mansart-data-tests",
+      "version": "0.4.0-SNAPSHOT"
+    },
+    {
+      "groupId": "io.vidocq.mansart",
+      "artifactId": "mansart-data-vauban-it",
       "version": "0.4.0-SNAPSHOT"
     },
     {

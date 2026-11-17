@@ -1366,6 +1366,10 @@
       "consumed_by": [],
       "produced_by": "Vidocq/mansart"
     },
+    "io.vidocq.mansart:mansart-data-vauban-it": {
+      "consumed_by": [],
+      "produced_by": "Vidocq/mansart"
+    },
     "io.vidocq.mansart:mansart-it-openliberty": {
       "consumed_by": [],
       "produced_by": "Vidocq/mansart"
@@ -2874,6 +2878,6 @@
       "produced_by": null
     }
   },
-  "generated_at": "2026-11-17T15:44:23Z",
+  "generated_at": "2026-11-17T21:44:21Z",
   "schema_version": 1
 }
