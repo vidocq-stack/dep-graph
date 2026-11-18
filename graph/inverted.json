@@ -400,6 +400,10 @@
       ],
       "produced_by": "Vidocq/champollion"
     },
+    "io.vidocq.champollion:champollion-jsonb-cdi-vauban": {
+      "consumed_by": [],
+      "produced_by": "Vidocq/champollion"
+    },
     "io.vidocq.champollion:champollion-jsonp": {
       "consumed_by": [
         {
@@ -2447,6 +2451,10 @@
           "scope": "test"
         },
         {
+          "repo": "Vidocq/champollion",
+          "scope": "test"
+        },
+        {
           "repo": "Vidocq/cyrano",
           "scope": "compile"
         },
@@ -2553,6 +2561,10 @@
         },
         {
           "repo": "Vidocq/cervantes",
+          "scope": "test"
+        },
+        {
+          "repo": "Vidocq/champollion",
           "scope": "test"
         },
         {
@@ -2694,10 +2706,6 @@
         },
         {
           "repo": "Vidocq/cervantes",
-          "scope": "build"
-        },
-        {
-          "repo": "Vidocq/champollion",
           "scope": "build"
         },
         {
@@ -2878,6 +2886,6 @@
       "produced_by": null
     }
   },
-  "generated_at": "2026-11-18T00:37:52Z",
+  "generated_at": "2026-11-18T01:52:45Z",
   "schema_version": 1
 }
