@@ -401,7 +401,12 @@
       "produced_by": "Vidocq/champollion"
     },
     "io.vidocq.champollion:champollion-jsonb-cdi-vauban": {
-      "consumed_by": [],
+      "consumed_by": [
+        {
+          "repo": "Vidocq/vidocq",
+          "scope": "compile"
+        }
+      ],
       "produced_by": "Vidocq/champollion"
     },
     "io.vidocq.champollion:champollion-jsonp": {
@@ -2886,6 +2891,6 @@
       "produced_by": null
     }
   },
-  "generated_at": "2026-11-18T01:52:45Z",
+  "generated_at": "2026-11-18T02:11:05Z",
   "schema_version": 1
 }
