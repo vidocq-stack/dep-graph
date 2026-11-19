@@ -2,8 +2,8 @@
   "schema_version": 1,
   "repo": "Vidocq/kerckhoffs",
   "branch": "main",
-  "commit_sha": "78404bdd68728663312793f92b8071f814066cf3",
-  "updated_at": "2026-11-18T06:52:40Z",
+  "commit_sha": "81062ea2bd0ba2eeb3a6f9fd9c0e519a53f0ddc4",
+  "updated_at": "2026-11-19T10:56:52Z",
   "produces": [
     {
       "groupId": "io.vidocq.kerckhoffs",
@@ -37,6 +37,13 @@
     }
   ],
   "consumes": [
+    {
+      "groupId": "io.vidocq.champollion",
+      "artifactId": "champollion-jsonp",
+      "version": "0.4.0-SNAPSHOT",
+      "scope": "test",
+      "type": "jar"
+    },
     {
       "groupId": "io.vidocq.foy",
       "artifactId": "foy-api",

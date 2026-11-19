@@ -440,6 +440,10 @@
           "scope": "compile"
         },
         {
+          "repo": "Vidocq/kerckhoffs",
+          "scope": "test"
+        },
+        {
           "repo": "Vidocq/knock",
           "scope": "compile"
         },
@@ -2896,6 +2900,6 @@
       "produced_by": null
     }
   },
-  "generated_at": "2026-11-19T05:01:42Z",
+  "generated_at": "2026-11-19T10:56:52Z",
   "schema_version": 1
 }
