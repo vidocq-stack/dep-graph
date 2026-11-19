@@ -2785,7 +2785,12 @@
       "produced_by": "Vidocq/vauban"
     },
     "io.vidocq.vauban:vauban-weaver": {
-      "consumed_by": [],
+      "consumed_by": [
+        {
+          "repo": "Vidocq/vidocq",
+          "scope": "compile"
+        }
+      ],
       "produced_by": "Vidocq/vauban"
     },
     "io.vidocq.vauban:vauban-webcontexts": {
@@ -2891,6 +2896,6 @@
       "produced_by": null
     }
   },
-  "generated_at": "2026-11-19T02:11:02Z",
+  "generated_at": "2026-11-19T04:38:39Z",
   "schema_version": 1
 }
